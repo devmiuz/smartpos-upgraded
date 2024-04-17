@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_user_cashier_apay_input_hint_card_number">Karta raqami</string>
+    <string name="fragment_feature_user_cashier_apay_input_hint_card_expiry_date">Kartaning amal qilish muddati</string>
+    <string name="fragment_feature_user_cashier_apay_check_card_button_title">Kartani tekshirish</string>
+    <string name="fragment_feature_user_cashier_sale_main_check_pay_uzcard_title">To\'lovni tekshirish</string>
+    <string name="core_presentation_common_checking_btn">Tasdiqlash</string>
+
+</resources>

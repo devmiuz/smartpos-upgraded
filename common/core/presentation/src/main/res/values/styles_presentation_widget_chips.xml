@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Presentation.Widget.Chips.Entry" parent="Widget.MaterialComponents.Chip.Entry">
+        <item name="android:clickable">false</item>
+        <item name="android:checkable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:minHeight">@dimen/core_presentation_widget_chips_text_size</item>
+        <item name="android:textAppearance">@style/Presentation.TextAppearance.Regular</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="closeIcon">@drawable/core_presentation_vector_drawable_close</item>
+        <item name="closeIconTint">?colorAccent</item>
+        <item name="chipBackgroundColor">@android:color/white</item>
+        <item name="chipStrokeColor">?colorAccent</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+</resources>

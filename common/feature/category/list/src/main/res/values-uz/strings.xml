@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_category_list_title">Mening katalogim</string>
+    <string name="fragment_feature_category_list_alert_delete_category_title">Katalogni o\'chirish</string>
+    <string name="fragment_feature_category_list_alert_delete_category_message">Siz haqiqatdan ham \"%1$s\" kategoriyani o\'chirmoqchimisiz?\n\n- Ushbu kategoriyadagi hamma mahsulotlar o\'chirilgandan keyin mavjud bo\'lmaydi \n - Siz \"Umumiy katalog\" ekranida kategoriya va unga biriktirilgan tovarlarni qaytarishingiz mumkin</string>
+    <string name="fragment_feature_category_list_alert_menu_item_add_child_category">Guruhga qo\'shish</string>
+    <string name="fragment_feature_category_list_alert_menu_item_delete_category">Kategoriyani o\'chirish</string>
+    <string name="menu_category_list_add_category_title">Kategoriya qo\'shish</string>
+</resources>

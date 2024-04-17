@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_data_change_title">Shaxsiy ma\'lumotlar</string>
+    <string name="fragment_feature_user_data_change_surname_hint">Familiya</string>
+    <string name="fragment_feature_user_data_change_name_hint">Ismi</string>
+    <string name="fragment_feature_user_data_change_last_name_hint">Sharifi</string>
+    <string name="fragment_feature_user_data_change_last_name_empty_error">Sharifini kiriting</string>
+    <string name="fragment_feature_user_data_change_name_empty_error">Ismini kiriting</string>
+    <string name="fragment_feature_user_data_change_surname_empty_error">Familiyani kiriting</string>
+    <string name="fragment_feature_user_data_change_save_button_title">Saqlash</string>
+</resources>

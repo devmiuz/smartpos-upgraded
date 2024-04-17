@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="Presentation.Widget.Divider.Stroke">
+        <item name="android:src">@drawable/drawable_feature_user_cashier_cash_operations_vector_drawable_divider</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:layerType">software</item>
+    </style>
+</resources>

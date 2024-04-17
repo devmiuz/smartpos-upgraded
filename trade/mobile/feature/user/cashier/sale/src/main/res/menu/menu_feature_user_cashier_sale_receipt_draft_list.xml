@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/search_receipt_drafts_menu_item"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/menu_feature_user_cashier_sale_receipt_draft_list_refresh_title"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/refresh_receipt_drafts_menu_item"
+        android:icon="@drawable/drawable_feature_user_cashier_sale_vector_drawable_refresh"
+        android:title="@string/menu_feature_user_cashier_sale_receipt_draft_list_refresh_title"
+        app:showAsAction="always" />
+
+</menu>

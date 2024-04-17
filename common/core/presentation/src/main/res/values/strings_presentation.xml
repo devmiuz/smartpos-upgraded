@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="core_presentation_common_cancel">Cancel</string>
+    <string name="core_presentation_common_close">Close</string>
+    <string name="core_presentation_common_continue">Continue</string>
+    <string name="core_presentation_common_loading">Please wait…</string>
+    <string name="core_presentation_common_ok" translatable="false">OK</string>
+    <string name="core_presentation_common_save">Save</string>
+    <string name="core_presentation_common_warning">Attention!</string>
+
+    <string name="core_presentation_common_answer_no">No</string>
+    <string name="core_presentation_common_answer_yes">Yes</string>
+
+    <string name="core_presentation_common_location_address">Address</string>
+    <string name="core_presentation_common_location_city">City/District</string>
+    <string name="core_presentation_common_location_region">Region</string>
+
+    <string name="core_presentation_common_user_logout">Logout</string>
+    <string name="core_presentation_common_user_notifications">Notifications</string>
+    <string name="core_presentation_common_user_settings">Settings</string>
+    <string name="core_presentation_common_user_sync">Synchronization</string>
+
+    <string name="core_presentation_common_payment_type_card">QR receipt</string>
+    <string name="core_presentation_common_payment_type_cash">Cash</string>
+    <string name="core_presentation_common_payment_type_other">Other</string>
+
+    <string name="core_presentation_common_password">Password</string>
+
+    <string name="core_presentation_common_user_role_auditor">Auditor</string>
+    <string name="core_presentation_common_user_role_branch_admin">Branch Admin</string>
+    <string name="core_presentation_common_user_role_cashier">Cashier</string>
+    <string name="core_presentation_common_user_role_intern">Intern</string>
+    <string name="core_presentation_common_user_role_owner">Owner</string>
+    <string name="core_presentation_common_user_role_warehouse_manager">Warehouse Manager</string>
+
+    <string name="core_presentation_common_alert">Alert</string>
+    <string name="core_presentation_common_error">Error</string>
+    <string name="core_presentation_common_error_connection_message">There was an error in connecting to server. Please, try again.</string>
+    <string name="core_presentation_common_error_unknown_message">There was an unknown error. Please, try again later.</string>
+    <string name="core_presentation_common_retry">Retry</string>
+
+    <string name="core_presentation_common_amount_currency_uzs">%1$s sum</string>
+    <string name="core_presentation_common_percent" translatable="false">%1$s%</string>
+    <string name="core_presentation_common_vat_amount_currency_uzs">VAT: %1$s sum</string>
+
+    <string name="core_presentation_common_amount_currency_none"> </string>
+
+    <string name="core_presentation_layout_error_dialog_type">Type: %1$s</string>
+    <string name="core_presentation_layout_error_dialog_details">Details: %1$s</string>
+    <string name="core_presentation_layout_error_dialog_code">Code: %1$s</string>
+
+    <string name="core_presentation_crm_app_version">Online CRM version %1$s</string>
+    <string name="core_presentation_app_version">Version: %1$s</string>
+    <string name="core_presentation_os_version">System: %1$s</string>
+
+    <string name="data_source_unknown_error">There was an unknown error. Please, try again later</string>
+</resources>

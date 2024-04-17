@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_company_saving_title">Компания</string>
+    <string name="fragment_feature_company_saving_greetings_title">Добро пожаловать в\n%1$s</string>
+    <string name="fragment_feature_company_saving_greetings_message">Пожалуйста, заполните данные о своей компании</string>
+    <string name="fragment_feature_company_saving_required_data_title">Обязательная информация</string>
+    <string name="fragment_feature_company_saving_activity_type_selection_title">+ Добавить сферу деятельности</string>
+    <string name="fragment_feature_company_saving_surname_input_hint">Фамилия</string>
+    <string name="fragment_feature_company_saving_name_input_hint">Имя</string>
+    <string name="fragment_feature_company_saving_middle_name_input_hint">Отчество</string>
+    <string name="fragment_feature_company_saving_company_business_type_hint">Тип</string>
+    <string name="fragment_feature_company_saving_company_name_input_hint">Название компании</string>
+    <string name="fragment_feature_company_saving_additional_title">Дополнительная информация</string>
+    <string name="fragment_feature_company_saving_address_input_hint">Адрес</string>
+    <string name="fragment_feature_company_saving_tin_input_hint">ИНН</string>
+
+    <string name="fragment_feature_company_saving_vat_title">НДС</string>
+    <string name="fragment_feature_company_saving_vat_percent_title">Является налогоплательщиком</string>
+    <string name="fragment_feature_company_saving_vat_percent_value">Налог НДС: %1$s%%</string>
+    <string name="fragment_feature_company_saving_vat_percent_change_button_title">Изменить</string>
+
+    <string name="fragment_feature_company_saving_error_activity_type_selection">Пожалуйста, выберите сферу деятельности</string>
+    <string name="fragment_feature_company_saving_error_surname_input">Введите фамилию</string>
+    <string name="fragment_feature_company_saving_error_name_input">Введите имя</string>
+    <string name="fragment_feature_company_saving_error_middle_name_input">Введите отчество</string>
+    <string name="fragment_feature_company_saving_error_business_type_input">Выберите тип</string>
+    <string name="fragment_feature_company_saving_error_company_name_input">Введите название компании</string>
+    <string name="fragment_feature_company_saving_error_region_selection">Выберите область</string>
+    <string name="fragment_feature_company_saving_error_city_selection">Выберите город</string>
+    <string name="fragment_feature_company_saving_error_address_input">Введите адрес</string>
+</resources>

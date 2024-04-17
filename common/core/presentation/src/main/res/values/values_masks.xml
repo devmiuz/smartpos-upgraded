@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="core_presentation_phone_number_mask_value" translatable="false">xX1234567890+()\u0020</string>
+
+</resources>

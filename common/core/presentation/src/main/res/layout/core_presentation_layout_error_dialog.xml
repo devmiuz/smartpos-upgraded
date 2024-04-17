@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="?dialogPreferredPadding"
+    android:paddingTop="6dp"
+    tools:paddingHorizontal="16dp"
+    tools:paddingVertical="12dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textStyle="normal"
+        tools:layout_marginTop="8dp"
+        tools:text="Can't connect to server, please check network connection and try again" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="@android:color/darker_gray"
+        tools:layout_marginTop="6dp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_1sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/_9sdp"
+        tools:text="Type: Connection" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_1sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/_9sdp"
+        tools:text="Detail: Connection exception occured" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_1sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/_9sdp"
+        tools:text="Code: 404" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_1sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/_9sdp"
+        tools:text="Version: 2.1.1" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        style="@style/TextAppearance.AppCompat.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_1sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/_9sdp"
+        tools:text="Firmware: 5.1.1" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_branch_delete_title">Deleting branch</string>
+
+    <string name="fragment_feature_branch_delete_confirmation_code">Confirmation code</string>
+    <string name="fragment_feature_branch_delete_confirmation_code_sent_to_your_phone">An SMS with a verification code has been sent to your phone number</string>
+    <string name="fragment_feature_branch_delete_delete_reason">Reason for deleting a branch</string>
+    <string name="fragment_feature_branch_delete_delete_info">The branch and all settings for the branch will be deleted</string>
+
+    <string name="fragment_feature_branch_delete_error_confirmation_code_not_valid">Please, input confirmation code</string>
+    <string name="fragment_feature_branch_delete_error_delete_reason_not_inputted">Please, input a reason for deleting</string>
+    <string name="fragment_feature_branch_delete_error_wrong_confirmation_code">Invalid confirmation code</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_category_type_title">Каталог</string>
+
+    <string name="view_holder_feature_category_type_list_title">Мой каталог</string>
+    <string name="view_holder_feature_category_type_main_title">Единый каталог</string>
+</resources>

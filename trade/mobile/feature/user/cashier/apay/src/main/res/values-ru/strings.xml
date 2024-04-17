@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_user_cashier_apay_input_hint_card_number">Номер карты</string>
+    <string name="fragment_feature_user_cashier_apay_input_hint_card_expiry_date">Дата истечения срока действия карты</string>
+    <string name="fragment_feature_user_cashier_apay_check_card_button_title">Проверь карту</string>
+    <string name="fragment_feature_user_cashier_sale_main_check_pay_uzcard_title">Проверить оплату</string>
+    <string name="core_presentation_common_checking_btn">Tasdiqlash</string>
+</resources>

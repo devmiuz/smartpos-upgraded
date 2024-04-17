@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_product_list_delete_alert_title">Maxsulotni o\'chirish</string>
+    <string name="fragment_feature_product_list_delete_alert_message">Siz haqiqatdan ham  \"%1$s\"  ni o\'chirmoqchimisiz?</string>
+    <string name="menu_feature_product_list_title">Maxsulot</string>
+    <string name="menu_feature_product_list_add_product_title">Maxsulot qo\'shish</string>
+    <string name="menu_feature_product_list_update_products_title">Maxsulotlarni yangilash</string>
+    <string name="view_holder_feature_product_list_price_input_hint">Narxi</string>
+    <string name="view_holder_feature_product_pagination_prev_page_title">Oldingi</string>
+    <string name="view_holder_feature_product_pagination_next_page_title">Keyingi</string>
+
+    <string name="warning_message">Согласно ПКМ 255 каждая позиция в онлайн-ККМ должна иметь свой ИКПУ. В данный момент мы проводим интеграцию с базой tasnif.soliq.uz
+Добавление новых товаров временно возможно только через персональный кабинет. Обратитесь в call - center +99871 200-30-50 и воспользуйтесь услугой  SmartHelp</string>
+</resources>

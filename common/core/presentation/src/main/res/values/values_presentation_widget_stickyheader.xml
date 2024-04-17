@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="core_presentation_widget_sticky_header_default_elevation">5dp</dimen>
+    <item name="core_presentation_widget_sticky_header_view_id" type="id" />
+
+</resources>

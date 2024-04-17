@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_user_cashier_sale_main_pause_shift_alert_title">Пауза смены</string>
+    <string name="fragment_feature_user_cashier_sale_main_pause_shift_alert_message">Вы уверены, что хотите приостановить смену?</string>
+    <string name="fragment_feature_user_cashier_sale_main_user_logout_alert_title">Выход</string>
+    <string name="fragment_feature_user_cashier_sale_main_user_logout_alert_message">Вы уверены, что хотите выйти и закрыть смену?</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_free_price_title">Свободная цена</string>
+    <string name="fragment_feature_user_cashier_sale_main_free_price_description_input">Цена</string>
+    <string name="fragment_feature_user_cashier_sale_main_free_price_error_not_inputted">Пожалуйста, введите сумму</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_scanner_error_product_by_barcode_not_found">Товар не найден</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_shopping_bag_title">Продажа</string>
+
+    <string name="fragment_feature_user_cashier_sale_payment_confirmation_alert_title">Подтверждение</string>
+    <string name="fragment_feature_user_cashier_sale_payment_confirmation_alert_message">Вы действительно подтверждаете платеж?</string>
+    <string name="fragment_feature_user_cashier_sale_payment_clear_credit_advance_dialog_message">При переходе в предыдущее окно первый платеж отменяется. Вы согласны с этим?</string>
+
+
+
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_title">Отложенные чеки</string>
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_restore_with_creation_message">Хотите ли Вы отложить чек с текущими товарами?</string>
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_delete_title">Удаление чека</string>
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_delete_message">Вы уверены, что хотите удалить чек \"%1$s\"?</string>
+
+    <string name="fragment_feature_user_cashier_sale_cart_product_change_alert_title">Редактирование продажи</string>
+    <string name="fragment_feature_user_cashier_sale_cart_product_change_alert_update_message">Общая сумма товаров не должна быть меньше суммы принятых денежных средств и скидки</string>
+    <string name="fragment_feature_user_cashier_sale_cart_product_change_alert_delete_message">Общая сумма товаров не должна быть меньше суммы принятых денежных средств и скидки</string>
+
+    <string name="credit_advance_payment_dialog_title">Вход</string>
+
+    <string name="credit_advance_payment_amount_not_entered_error">Сумма платежа не указана</string>
+
+
+    <string name="credit_advance_payment_amount_text">Сумма к оплате</string>
+    <string name="credit_advance_confirm_text">Подтверждать</string>
+    <string name="credit_advance_cancel_text">Отмена</string>
+
+    <string name="credit_advance_receipt_type_dialog_title">Выберите тип чеки</string>
+    <string name="credit_advance_receipt_type_dialog_positive_button_text">Аванс</string>
+    <string name="credit_advance_receipt_type_dialog_negative_button_text">Продажа</string>
+
+
+    <string name="credit_advance_receipt_receipt_verification_dialog_title">Сообщение</string>
+    <string name="credit_advance_receipt_receipt_verification_dialog_message">Эта продажа уже завершена</string>
+
+    <string name="credit_advance_search_receipt_dialog_title">Поиск</string>
+
+    <string name="credit_advance_customer_name_hint">Имя покупателя</string>
+    <string name="credit_advance_customer_phone_hint">Телефон покупателя</string>
+
+    <string name="credit_advance_first_payment_dialog_title">Первый взнос</string>
+
+    <string name="credit_Advance_payment_amount_not_valid">Первоначальный взнос не должен превышать общую стоимость продукции</string>
+
+
+
+    <string name="fragment_feature_user_cashier_sale_cart_finish_shift_alert_title">Завершение смены</string>
+    <string name="fragment_feature_user_cashier_sale_cart_finish_shift_alert_message">Пожалуйста, завершите смену</string>
+
+    <string name="fragment_feature_user_cashier_sale_cashier_card_type_title">Тип карты</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_services_title">Сервисы</string>
+
+    <string name="fragment_feature_user_cashier_sale_payment_details_title">Оплата</string>
+    <string name="fragment_feature_user_cashier_sale_payment_details_to_pay_title">К оплате</string>
+    <string name="fragment_feature_user_cashier_sale_payment_details_left_to_pay_title">Остаток</string>
+    <string name="fragment_feature_user_cashier_sale_payment_details_pay_via_cash_button_title">Наличные</string>
+    <string name="fragment_feature_user_cashier_sale_payment_details_pay_via_card_button_title">Карта</string>
+    <string name="fragment_feature_user_cashier_sale_payment_sale_finish_alert_message">Пожалуйста, завершите текущую продажу</string>
+    <string name="fragment_feature_user_cashier_sale_payment_sale_finish_alert_title">Завершение продажи</string>
+
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_title">Отложить чек</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_input_hint">Название чека</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_name_template">Чек (%1$d товаров)</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_shopping_bag_items_count_description">Количество товаров: %1$d</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_payment_amount_description">Сумма: %1$s</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_payment_proceed_button_title">Отложить</string>
+
+    <string name="fragment_feature_user_cashier_sale_sale_payment_process_print_check_description_text">Печать кассового чека</string>
+    <string name="fragment_feature_user_cashier_sale_sale_payment_process_change_amount_disclaimer_text">Сдача от принятых\n%1$s</string>
+
+    <string name="fragment_feature_user_cashier_sale_sale_payment_process_credit_receipt">Кредитный чек</string>
+    <string name="fragment_feature_user_cashier_sale_sale_payment_process_advance_receipt">Авансовый чек</string>
+
+    <string name="fragment_feature_user_cashier_sale_sync_successfully_finished">Синхронизация успешно завершена</string>
+
+    <string name="layout_feature_user_cashier_sale_main_shopping_bag_payment_details_amount_description">К оплате</string>
+
+    <string name="layout_feature_user_cashier_sale_drawerlayout_pause_shift_title">Пауза смены</string>
+    <string name="layout_feature_user_cashier_sale_drawerlayout_close_shift_title">Выйти и закрыть смену</string>
+
+    <string name="menu_feature_user_cashier_sale_main_barcode_scanner_menuitem_title">Сканер штрих-кодов</string>
+    <string name="menu_feature_user_cashier_sale_receipt_draft_list_refresh_title">Обновить</string>
+    <string name="menu_feature_user_cashier_sale_main_free_price_menuitem_title">Свободная цена</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_product_selection_empty_searched_products_message">По вашему запросу ничего не нашлось</string>
+    <string name="viewholder_feature_user_cashier_sale_main_product_selection_empty_favorite_products_message">Нет избранных товаров</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_shopping_bag_empty_state_title">Отсканируйте товар или добавьте из каталога</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_receipt_draft_items_count_value">%1$d товаров</string>
+    <string name="viewholder_feature_user_cashier_sale_main_receipt_draft_external_name">Чек от %1$s</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_services_apps">Приложения</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_calculator">Калькулятор</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_receipt_draft">Отложенные чеки</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_cash_operations">Кассовые операции</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_expense">Расход</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_gtpos">Терминал</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_refund">Возврат</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_phone">Телефон</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_product_search">Поиск товаров</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_profit">Приход</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_stocks">Акции</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_credit_advance">Кредит-Аванс</string>
+
+
+    <string name="viewholder_feature_user_cashier_sale_main_shopping_bag_item_free_price_title">Свободная цена</string>
+
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_app">Приложение</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_discount">Скидка</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_receipt_check">Отложить</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_send_check">Отправить чек</string>
+
+    <string name="viewholder_feature_user_cashier_sale_payment_details_payment_discount_title">Скидка</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_payment_payment_title">Оплата</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_input_hint_customer_name">Клиент</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_input_hint_customer_contact">Контакт</string>
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_search_hint">Поиск...</string>
+
+    <string name="fragment_feature_user_cashier_sale_payment_apay_request_message">Отсканируйте QR-код из приложения Apay для оплаты</string>
+    <string name="fragment_feature_user_cashier_sale_payment_apay_request_scan">Сканировать</string>
+    <string name="fragment_feature_user_cashier_sale_payment_apay_request_title">Оплатить через APay</string>
+    <string name="fragment_feature_user_cashier_sale_main_synchronization">Сделайте принудительную синхронизацию в фискальном приложении</string>
+    <string name="fragment_feature_user_cashier_sale_main_sam_module_exception">SAM Module broken</string>
+    <string name="fragment_feature_user_cashier_sale_payment_apay_not_connect_alert_title">Вы не подключены к системе А-рау!</string>
+    <string name="fragment_feature_user_cashier_sale_payment_apay_not_connect_alert_message">Для подключения к системе А-рау обратитесь по номеру телефона +998 (55) 500-11-10. Или Синхронизируйте систему.</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_advance">Аванс</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_credit">Кредит</string>
+
+</resources>

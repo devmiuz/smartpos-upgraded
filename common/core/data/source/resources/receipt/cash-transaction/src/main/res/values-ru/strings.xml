@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_user_cashier_cash_operations_operation_added_cash">Внесение наличности</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_consumption">Расход</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_encashment">Инкассация</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_paid">Продажа</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_returned">Возврат</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_returned_added_cash">Возврат внесения</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_returned_consumption">Возврат расхода</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_unknown">Неизвестный</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_credit">Кредит</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_advance">Аванс</string>
+
+</resources>

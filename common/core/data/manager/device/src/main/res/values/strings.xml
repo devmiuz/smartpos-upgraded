@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_source_device_info_manager_error_location_gps_is_turning_off">GPS is disabled. Please enable GPS</string>
+    <string name="data_source_device_info_manager_error_location_bad_network">Not able to get accurate location. Please, try again</string>
+    <string name="data_source_device_info_manager_error_location_not_found">Location not found</string>
+    <string name="data_source_device_info_manager_error_app_not_defined">Please contact our support team to install the application</string>
+    <string name="data_source_device_info_manager_error_unsupported_device">This device is not supported</string>
+    <string name="data_source_device_info_manager_error_version_not_actual">Please contact our support team to install the latest version of the application</string>
+    <string name="data_source_device_info_manager_error_unknown">An error has occurred. Please, try again later</string>
+</resources>

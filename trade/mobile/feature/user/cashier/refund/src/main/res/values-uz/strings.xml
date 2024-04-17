@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_cashier_refund_payment_title">Qaytarish</string>
+    <string name="fragment_feature_user_cashier_refund_payment_total_products_title">Jami mahsulotlar</string>
+    <string name="fragment_feature_user_cashier_refund_payment_total_refund_products_title">Qaytariladigan mahsulotlar soni</string>
+    <string name="fragment_feature_user_cashier_refund_payment_receipt_total_cost_title">Chek summasi</string>
+    <string name="fragment_feature_user_cashier_refund_payment_refund_receipt_amount_title">Qaytarish</string>
+    <string name="fragment_feature_user_cashier_refund_payment_card_payment_type_button_title">Karta</string>
+    <string name="fragment_feature_user_cashier_refund_payment_cash_payment_type_button_title">Naqd</string>
+
+    <string name="fragment_feature_user_cashier_refund_payment_refund_finish_alert_message">Iltimos, hozirgi qaytarishni tugating</string>
+    <string name="fragment_feature_user_cashier_refund_payment_refund_finish_alert_title">Qaytarishni yakunlash</string>
+
+    <string name="fragment_feature_user_cashier_refund_payment_refund_warning_alert_title">Ogohlantirish</string>
+    <string name="fragment_feature_user_cashier_refund_payment_refund_payment_type_warning_cash_alert_message">Bu chekni naqd pul bilan qaytara olmaysiz.</string>
+    <string name="fragment_feature_user_cashier_refund_payment_refund_payment_type_warning_card_alert_message">Siz bu chekni bank kartasi bilan qaytara olmaysiz.</string>
+
+
+
+    <string name="fragment_feature_user_cashier_refund_product_list_title">Qaytarish</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_receipt_number">№ %1$s</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_proceed_button_title">Qaytarish</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_available_cash_in_current_shift_info">Qaytarish uchun kassada yetarli mablag\' mavjud emas</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_exit_alert_title">Chiqish</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_request_marking_alert_title">Markirovka</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_request_marking_alert_message">Bu mahsulotni qaytarish uchun markirovka kodini skannerlash kerak. Hamma markirovkani skannerlaysizmi?</string>
+
+    <string name="fragment_feature_user_cashier_refund_product_list_exit_alert_message">Chiqishni hohlasizmi? Siz qilgan o`zgarishlar saqlanmaydi</string>
+
+    <string name="fragment_feature_user_cashier_refund_receipt_search_title">Qaytarish</string>
+    <string name="fragment_feature_user_cashier_refund_receipt_search_description">Skaner qiling yoki ma`lumot kiriting</string>
+    <string name="fragment_feature_user_cashier_refund_receipt_search_receipt_not_found_alert_message">Ushbu unikal chek raqami bilan chek topilmadi</string>
+    <string name="fragment_feature_user_cashier_refund_receipt_search_receipt_not_allowed_for_refund_alert_message">To`lovni qaytarib berish uchun xarid kvitansiyasini tanlang</string>
+    <string name="fragment_feature_user_cashier_refund_receipt_search_uid_hint">Unikal chek raqami</string>
+
+    <string name="fragment_feature_user_cashier_refund_payment_process_print_check_description_text">Kassa chekini chop etish</string>
+    <string name="fragment_feature_user_cashier_refund_payment_process_change_amount_disclaimer_text">Qabul qilingan miqdordan qaytim\n%1$s</string>
+
+    <string name="menu_feature_user_cashier_refund_main_barcode_scanner_menuitem_title">Shtrix-kodlarni skanerlash</string>
+
+    <string name="menu_feature_user_cashier_refund_cart_select_all_menu_item">Hammasini tanlash</string>
+    <string name="menu_feature_user_cashier_refund_cart_clear_all_menu_item">Hammasini tozalash</string>
+
+    <string name="viewholder_feature_user_cashier_refund_receipt_payment_title">Qaytarish</string>
+</resources>

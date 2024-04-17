@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+    <string name="data_source_fiscal_error_acknowledge_wrong_length">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_acknowledge_signature_invalid">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_acknowledge_terminal_id_mismatch">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_app_not_defined">Please contact our support team to install the application for working with this device</string>
+
+    <string name="data_source_fiscal_error_close_z_report_time_past">Correct date and time on device and try again</string>
+    <string name="data_source_fiscal_error_current_time_format_invalid">Correct date and time on device and try again</string>
+    <string name="data_source_fiscal_error_current_z_report_is_empty">"Current z-report is empty "</string>
+
+    <string name="data_source_fiscal_error_data_size_not_supported">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_different_data">Open the fiscal app, log in to your account and restart device</string>
+
+    <string name="data_source_fiscal_error_exchange">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_extra_data_passed">An error has occurred. Please, Please contact our support team to solve this problem</string>
+
+    <string name="data_source_fiscal_error_last_transaction_time_format_invalid">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_lock_challenge_invalid">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_locked_forever">An error has occurred. Please, Please contact our support team to solve this problem</string>
+
+    <string name="data_source_fiscal_error_receipt_count_zero">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_receipt_index_out_of_bounds">"Invalid check receipt index "</string>
+    <string name="data_source_fiscal_error_receipt_not_found">Receipt is not found</string>
+    <string name="data_source_fiscal_error_receipt_already_closed">Receipt is already closed</string>
+    <string name="data_source_fiscal_error_receipt_is_not_closed">Receipt is not closed</string>
+    <string name="data_source_fiscal_error_receipt_format_invalid">Receipt format is invalid</string>
+    <string name="data_source_fiscal_error_receipt_total_price_overflow">Total  price in receipt  is overflowed</string>
+    <string name="data_source_fiscal_error_receipt_total_price_mismatch">Total price in receipt is mismatched</string>
+    <string name="data_source_fiscal_error_receipt_price_overflow">Receipt price is overflowed</string>
+    <string name="data_source_fiscal_error_receipt_vat_overflow">VAT is overflowed</string>
+    <string name="data_source_fiscal_error_receipt_seq_overflow">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_receipt_cash_overflow">Receipt cash is overflowed</string>
+    <string name="data_source_fiscal_error_receipt_card_overflow">The current z-report is full of operations. Close and open z-report and try again</string>
+    <string name="data_source_fiscal_error_receipt_memory_full">Receipt memory is full</string>
+    <string name="data_source_fiscal_error_receipt_time_past">Receipt time is passed</string>
+    <string name="data_source_fiscal_error_receipt_store_days_limit_exceeded">Receipt strore days  limit exceeded</string>
+    <string name="data_source_fiscal_error_receipt_transaction_time_format_invalid">Receipt transaction time format is invalid</string>
+    <string name="data_source_fiscal_error_receipt_total_price_zero">Receipt total price is zero</string>
+    <string name="data_source_fiscal_error_receipt_partition_invalid">Receipt partition is invalid</string>
+    <string name="data_source_fiscal_error_first_receipt_transaction_time_format_invalid">First transaction time format is invalid</string>
+    <string name="data_source_fiscal_error_maintenance_required">Maintenance required. Please contact our support team</string>
+
+    <string name="data_source_fiscal_error_open_close_z_report_wrong_length">Opening and closing Z-Report  length is wrong</string>
+    <string name="data_source_fiscal_error_open_z_report_time_past">Z report   time is passed</string>
+
+    <string name="data_source_fiscal_error_sale_refund_count_overflow">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_sam_module_not_found">Fiscal module not found</string>
+    <string name="data_source_fiscal_error_sam_module_not_responding">Please contact our support team</string>
+    <string name="data_source_fiscal_error_sam_module_error">Fiscal module error occurred</string>
+
+    <string name="data_source_fiscal_error_not_enough_cash_for_refund">Not enough cash for refund</string>
+    <string name="data_source_fiscal_error_not_enough_card_for_refund">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_not_enough_vat_for_refund">Not enough VAT for refund</string>
+    <string name="data_source_fiscal_error_not_activated">Fiscal module is not activated</string>
+    <string name="data_source_fiscal_error_not_applet_init">Fiscal module applet not initialized</string>
+    <string name="data_source_fiscal_error_not_fiscalized">Device is not fiscalized. Please try again later</string>
+
+    <string name="data_source_fiscal_error_unknown">Please contact our support team to resolve the error</string>
+    <string name="data_source_fiscal_error_version_not_actual">Please contact our support team to install the latest version of the application to work with this device</string>
+
+    <string name="data_source_fiscal_error_z_report_partition_invalid">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_z_report_space_is_full">Report-Z space is full</string>
+    <string name="data_source_fiscal_error_z_report_index_of_bounds">"Invalid check report-z  index "</string>
+    <string name="data_source_fiscal_error_z_report_is_not_open">Z report is not open</string>
+    <string name="data_source_fiscal_error_z_report_open_time_format_invalid">Z report opening time format is invalid</string>
+    <string name="data_source_fiscal_error_z_report_is_already_open">Z report  is already open</string>
+    <string name="data_source_fiscal_error_z_report_number_is_invalid">Report-z number is invalid</string>
+    <string name="data_source_fiscal_error_configure_wrong_length">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_configure_signature_invalid">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_error_configure_unlock_key_invalid">An error has occurred. Please, Please contact our support team to solve this problem</string>
+    <string name="data_source_fiscal_sam_module_broken">SAM module is broken</string>
+    <string name="data_source_fiscal_force_sync_needed">Make fore synchronization</string>
+</resources>

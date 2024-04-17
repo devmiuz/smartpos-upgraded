@@ -1,0 +1,2 @@
+include 'common:feature:helper:payment:amount'
+include 'common:feature:helper:payment:discount'

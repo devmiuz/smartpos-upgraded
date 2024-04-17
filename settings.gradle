@@ -1,0 +1,2 @@
+apply from: 'common/settings.gradle'
+apply from: 'trade/settings.gradle'

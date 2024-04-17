@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorAccent"
+    tools:background="@android:color/holo_green_dark">
+
+    <FrameLayout
+        android:id="@+id/cash_operations_process_re_output_payment_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?selectableItemBackground" />
+
+    <LinearLayout
+        android:id="@+id/cash_operations_process_title_container_linear_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/_28sdp"
+        android:paddingTop="@dimen/_14sdp"
+        android:paddingBottom="@dimen/_14sdp"
+        app:layout_constraintBottom_toTopOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_margin="@dimen/_14sdp"
+            app:srcCompat="@drawable/drawable_feature_user_cashier_cash_operations_vector_drawable_print_check" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/fragment_feature_user_cashier_cash_operations_process_print_check_description_text"
+            android:textAppearance="@style/Presentation.TextAppearance.Title"
+            android:textColor="@android:color/white" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/cash_operations_process_type_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_86sdp"
+            android:gravity="center"
+            android:textAppearance="@style/Presentation.TextAppearance.Title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_28sdp"
+            tools:text="Внесение наличности" />
+
+    </LinearLayout>
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/cash_operations_process_progress_bar"
+        android:layout_width="@dimen/_56sdp"
+        android:layout_height="@dimen/_56sdp"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:indeterminate="true"
+        app:layout_constraintBottom_toBottomOf="@id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:mpb_indeterminateTint="@android:color/white"
+        app:mpb_progressTint="@android:color/white" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.64" />
+
+    <LinearLayout
+        android:id="@+id/cash_operations_process_amount_container_linear_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_20sdp">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/cash_operations_process_total_cash_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fragment_feature_user_cashier_cash_operations_process_allowed_amount"
+                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/cash_operations_process_total_cash_value_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/cash_operations_process_total_cash_text_view"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                tools:text="= 1 000 200 400 000,0 " />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/cash_operations_process_operation_sum_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cash_operations_process_total_cash_value_text_view"
+                android:text="@string/fragment_feature_user_cashier_cash_operations_process_cash_amount"
+                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/cash_operations_process_operation_sum_value_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/cash_operations_process_operation_sum_text_view"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                tools:text="= 1 000 200 400 000,0 " />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/cash_operations_process_total_amount_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cash_operations_process_operation_sum_value_text_view"
+                android:text="@string/fragment_feature_user_cashier_cash_operations_process_total_amount"
+                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/cash_operations_process_total_amount_value_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/cash_operations_process_total_amount_text_view"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                tools:text="= 1 000 200 400 000,0 " />
+
+        </RelativeLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cash_operations_process_retry_button"
+            style="@style/Presentation.Widget.Button.RoundedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_22sdp"
+            android:layout_marginVertical="@dimen/_16sdp"
+            android:text="@string/core_presentation_common_retry"
+            android:textColor="?colorAccent"
+            android:visibility="gone"
+            app:backgroundTint="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:visibility="visible" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cash_operations_process_dismiss_button"
+            style="@style/Presentation.Widget.Button.RoundedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_22sdp"
+            android:layout_marginVertical="@dimen/_16sdp"
+            android:text="@string/core_presentation_common_close"
+            android:textColor="?colorAccent"
+            android:visibility="invisible"
+            app:backgroundTint="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:visibility="visible" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_user_cashier_sale_main_pause_shift_alert_title">Pause shift</string>
+    <string name="fragment_feature_user_cashier_sale_main_pause_shift_alert_message">Are you sure you want to pause the shift?</string>
+    <string name="fragment_feature_user_cashier_sale_main_user_logout_alert_title">Logout</string>
+    <string name="fragment_feature_user_cashier_sale_main_user_logout_alert_message">Are you sure you want to exit and close the shift?</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_free_price_title">Free price</string>
+    <string name="fragment_feature_user_cashier_sale_main_free_price_description_input">Price</string>
+    <string name="fragment_feature_user_cashier_sale_main_free_price_error_not_inputted">Please, input amount</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_scanner_error_product_by_barcode_not_found">Product not found</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_shopping_bag_title">Payment</string>
+
+    <string name="fragment_feature_user_cashier_sale_payment_confirmation_alert_title">Confirmation</string>
+    <string name="fragment_feature_user_cashier_sale_payment_confirmation_alert_message">Do you really confirm the payment?</string>
+
+    <string name="fragment_feature_user_cashier_sale_payment_clear_credit_advance_dialog_message">When you go to the previous window, the first payment is canceled. Do you agree with this?</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_title">Postpone receipts</string>
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_restore_with_creation_message">Do you want to postpone the receipt with current products?</string>
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_delete_title">Delete receipt</string>
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_delete_message">Are you sure you want to delete the \"%1$s\" receipt?</string>
+
+    <string name="fragment_feature_user_cashier_sale_cart_product_change_alert_title">Edit sale</string>
+    <string name="fragment_feature_user_cashier_sale_cart_product_change_alert_update_message">The total amount of goods must not be less than the amount of payment received</string>
+    <string name="fragment_feature_user_cashier_sale_cart_product_change_alert_delete_message">The total amount of goods must not be less than the amount of payment received</string>
+    
+    <string name="credit_advance_payment_dialog_title">Input</string>
+    <string name="credit_advance_payment_amount_text">Payment amount</string>
+
+    <string name="credit_advance_confirm_text">Confirm</string>
+    <string name="credit_advance_cancel_text">Cancel</string>
+
+    <string name="credit_advance_receipt_type_dialog_title">Select the receipt type</string>
+    <string name="credit_advance_receipt_type_dialog_positive_button_text">Advance</string>
+    <string name="credit_advance_receipt_type_dialog_negative_button_text">Sale</string>
+
+    <string name="credit_advance_receipt_receipt_verification_dialog_title">Message</string>
+    <string name="credit_advance_receipt_receipt_verification_dialog_message">This sale has already been completed</string>
+
+    <string name="credit_advance_search_receipt_dialog_title">Search</string>
+
+    <string name="credit_advance_customer_name_hint">Customer name</string>
+    <string name="credit_advance_customer_phone_hint">Customer phone</string>
+
+    <string name="credit_advance_first_payment_dialog_title">First payment</string>
+
+    <string name="credit_advance_payment_amount_not_entered_error">Payment amount not entered</string>
+    <string name="credit_Advance_payment_amount_not_valid">The initial payment should not exceed the total price of the products</string>
+
+
+    <string name="fragment_feature_user_cashier_sale_cart_finish_shift_alert_title">Finish shift</string>
+    <string name="fragment_feature_user_cashier_sale_cart_finish_shift_alert_message">Please finish current shift</string>
+
+    <string name="fragment_feature_user_cashier_sale_cashier_card_type_title">Card type</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_services_title">Services</string>
+
+    <string name="fragment_feature_user_cashier_sale_payment_details_title">Payment</string>
+    <string name="fragment_feature_user_cashier_sale_payment_details_to_pay_title">To pay</string>
+    <string name="fragment_feature_user_cashier_sale_payment_details_left_to_pay_title">Left to pay</string>
+    <string name="fragment_feature_user_cashier_sale_payment_details_pay_via_cash_button_title">Cash</string>
+    <string name="fragment_feature_user_cashier_sale_payment_details_pay_via_card_button_title">Card</string>
+    <string name="fragment_feature_user_cashier_sale_payment_sale_finish_alert_message">Please complete the current sale</string>
+    <string name="fragment_feature_user_cashier_sale_payment_sale_finish_alert_title">Sale completion</string>
+
+    <string name="fragment_feature_user_cashier_sale_sale_payment_process_print_check_description_text">Print check</string>
+    <string name="fragment_feature_user_cashier_sale_sale_payment_process_change_amount_disclaimer_text">Change of accepted\n%1$s</string>
+
+    <string name="fragment_feature_user_cashier_sale_sale_payment_process_credit_receipt">Credit receipt</string>
+    <string name="fragment_feature_user_cashier_sale_sale_payment_process_advance_receipt">Advance receipt</string>
+
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_title">Postpone receipt</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_input_hint">Receipt name</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_input_hint_customer_name">Customer</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_input_hint_customer_contact">Contact</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_name_template">Receipt (%1$d items)</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_shopping_bag_items_count_description">Items count: %1$d</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_payment_amount_description">Amount: %1$s</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_payment_proceed_button_title">Postpone</string>
+
+    <string name="fragment_feature_user_cashier_sale_sync_successfully_finished">Sync completed successfully</string>
+
+    <string name="layout_feature_user_cashier_sale_main_shopping_bag_payment_details_amount_description">To pay</string>
+
+    <string name="layout_feature_user_cashier_sale_drawerlayout_pause_shift_title">Pause shift</string>
+    <string name="layout_feature_user_cashier_sale_drawerlayout_close_shift_title">Logout and close shift</string>
+
+    <string name="menu_feature_user_cashier_sale_main_barcode_scanner_menuitem_title">Barcode scanner</string>
+    <string name="menu_feature_user_cashier_sale_receipt_draft_list_refresh_title">Refresh</string>
+    <string name="menu_feature_user_cashier_sale_main_free_price_menuitem_title">Free price</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_product_selection_empty_searched_products_message">Nothing found</string>
+    <string name="viewholder_feature_user_cashier_sale_main_product_selection_empty_favorite_products_message">No favorite products</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_shopping_bag_empty_state_title">Scan the item or add from the catalog</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_receipt_draft_items_count_value">%1$d products</string>
+    <string name="viewholder_feature_user_cashier_sale_main_receipt_draft_external_name">Receipt from %1$s</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_services_apps">Apps</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_calculator">Calculator</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_cash_operations">Cash operations</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_expense">Expense</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_gtpos">Terminal</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_refund">Return</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_phone">Phone</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_product_search">Products search</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_receipt_draft">Postpone receipts</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_profit">Profit</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_stocks">Stocks</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_credit_advance">Credit-Advance</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_shopping_bag_item_free_price_title">Free Price</string>
+
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_app">App</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_discount">Discount</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_receipt_check">Postpone receipt</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_send_check">Send check</string>
+
+    <string name="viewholder_feature_user_process_cashier_payment_details_payment_discount_value" translatable="false">%1$s (%2$s%%)</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_payment_discount_title">Discount</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_payment_payment_title">Payment</string>
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_search_hint">Поиск...</string>
+
+    <string name="fragment_feature_user_cashier_sale_payment_apay_request_message">Scan QR Code from Apay App for Payment</string>
+    <string name="fragment_feature_user_cashier_sale_payment_apay_request_scan">Scan</string>
+    <string name="fragment_feature_user_cashier_sale_payment_apay_request_title">Pay via APay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_feature_user_cashier_sale_main_synchronization">Make a synchronization</string>
+    <string name="fragment_feature_user_cashier_sale_main_sam_module_exception">SAM Module broken</string>
+    <string name="fragment_feature_user_cashier_sale_payment_apay_not_connect_alert_title">You are not connected to the A-pay system!</string>
+    <string name="fragment_feature_user_cashier_sale_payment_apay_not_connect_alert_message">To connect to the A-pay system, call +998 (55) 500-11-10. Or Sync the system.</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_advance">Advance</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_credit">Credit</string>
+
+</resources>

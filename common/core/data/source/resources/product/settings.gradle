@@ -1,0 +1,3 @@
+include 'common:core:data:source:resources:product:package_type'
+include 'common:core:data:source:resources:product:product'
+include 'common:core:data:source:resources:product:unit'

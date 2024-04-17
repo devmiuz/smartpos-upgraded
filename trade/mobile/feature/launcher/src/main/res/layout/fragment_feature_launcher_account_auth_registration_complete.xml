@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uz.uzkassa.smartpos.feature.launcher.presentation.widget.LauncherBackgroundLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="@string/fragment_feature_account_auth_registration_complete_text">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_14sdp"
+        android:paddingRight="@dimen/_14sdp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/continue_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_feature_account_auth_registration_complete_continue_button_title"
+            style="@style/Presentation.Launcher.Widget.RoundedButton" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/print_data_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:text="@string/fragment_feature_account_auth_registration_complete_print_data_button_title"
+            style="@style/Presentation.Launcher.Widget.RoundedButton" />
+
+    </LinearLayout>
+
+</uz.uzkassa.smartpos.feature.launcher.presentation.widget.LauncherBackgroundLayout>

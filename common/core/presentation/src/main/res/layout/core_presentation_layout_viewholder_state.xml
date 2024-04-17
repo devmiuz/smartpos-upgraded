@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uz.uzkassa.smartpos.core.presentation.widget.statelayout.StateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@android:id/content"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:error_title_visible="true"
+    app:error_message_visible="true"
+    app:error_button_style="rectangle"
+    app:error_round_icon_background_tint="@android:color/white" />

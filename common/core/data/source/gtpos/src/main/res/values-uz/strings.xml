@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_source_gtpos_error_app_not_defined">GTPOS o‘rnatilmagan. Iltimos, dasturni o`rnatish uchun qo`llab-quvvatlash guruhimizga murojaat qiling</string>
+    <string name="data_source_gtpos_error_unknown">GTPOS ish paytida noma`lum xato yuz berdi</string>
+    <string name="data_source_gtpos_error_update_required">Iltimos, GTPOS ilovasini yangilash uchun texnik qo`llab-quvvatlash xizmatimiz bilan bog`laning.</string>
+    <string name="data_source_gtpos_error_gtpos_result_error">Xato yuz berdi: "%1$s" (kod: %2$s)</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="core_presentation_widget_chips_text_size">36dp</dimen>
+    <dimen name="core_presentation_widget_materialbutton_height">64dp</dimen>
+    <dimen name="core_presentation_widget_textview_regular_height">16sp</dimen>
+    <dimen name="core_presentation_widget_textview_small_height">14sp</dimen>
+    <dimen name="core_presentation_widget_preference_preferencecategorylayout_height">48dp</dimen>
+    <dimen name="core_presentation_widget_preference_preferencecategorylayout_title_size">16sp
+    </dimen>
+
+    <dimen name="core_presentation_widget_state_layout_common_horizontal_padding">12dp</dimen>
+    <dimen name="core_presentation_widget_state_layout_common_margin">5dp</dimen>
+    <dimen name="core_presentation_widget_state_layout_horizontal_progressbar_size">45dp</dimen>
+    <dimen name="core_presentation_widget_state_layout_vertical_progressbar_size">55dp</dimen>
+    <dimen name="core_presentation_widget_state_layout_vertical_common_imageview_size">65dp</dimen>
+    <dimen name="core_presentation_widget_state_layout_vertical_error_message_horizontal_margin">
+        35dp
+    </dimen>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_account_registration_new_password_title">Password</string>
+    <string name="fragment_feature_account_registration_new_password_hint_contains_uppercase_title">Upper\ncase</string>
+    <string name="fragment_feature_account_registration_new_password_hint_contains_lowercase_title">Lower\ncase</string>
+    <string name="fragment_feature_account_registration_new_password_hint_contains_eight_length_title">More than\n8 chars</string>
+    <string name="fragment_feature_account_registration_new_password_input_hint">Password</string>
+    <string name="fragment_feature_account_registration_new_password_input_confirmation_hint">Password confirmation</string>
+    <string name="fragment_feature_account_registration_new_password_error_password_not_inputted_title">Password not inputted</string>
+    <string name="fragment_feature_account_registration_new_password_error_password_not_confirmed_title">Password not confirmed</string>
+
+    <string name="fragment_feature_account_registration_terms_of_use_input_hint">Phone number</string>
+    <string name="fragment_feature_account_registration_terms_of_use_alert_title">I\'ve read and agree with Terms of Use</string>
+
+    <string name="fragment_feature_account_registration_confirmation_code_title">Registration</string>
+    <string name="fragment_feature_account_registration_confirmation_code_disclaimer_text">To the specified number %1$s sent an SMS with a confirmation code.</string>
+    <string name="fragment_feature_account_registration_confirmation_code_input_hint">Authentication code</string>
+    <string name="fragment_feature_account_registration_confirmation_code_resend_title">Resend</string>
+    <string name="fragment_feature_account_registration_confirmation_code_error_user_is_already_registered_message">User with this phone number is already registered</string>
+    <string name="fragment_feature_account_registration_confirmation_code_available_resend_count_text">You can get a new code %1$d more times</string>
+    <string name="fragment_feature_account_registration_confirmation_code_error_wrong_confirmation_code_title">Wrong activation code</string>
+
+    <string name="fragment_feature_account_registration_terms_of_use_title">Registration</string>
+    <string name="fragment_feature_account_registration_terms_of_use_confirmation_alert_title">Attention!</string>
+    <string name="fragment_feature_account_registration_terms_of_use_confirmation_alert_message">An SMS with an authentication code will be sent to the number you specified</string>
+    <string name="fragment_feature_account_registration_terms_of_use_confirmation_alert_positive_button_title">Send</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uz.uzkassa.smartpos.feature.launcher.presentation.widget.LauncherBackgroundLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="@string/fragment_feature_launcher_account_auth_title"
+    app:use_layout_hierarchy="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingLeft="@dimen/_14sdp"
+        android:paddingRight="@dimen/_14sdp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_feature_launcher_account_auth_login_button_title"
+            style="@style/Presentation.Launcher.Widget.RoundedButton" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/registration_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:text="@string/fragment_feature_launcher_account_auth_registration_button_title"
+            style="@style/Presentation.Launcher.Widget.RoundedButton" />
+
+    </LinearLayout>
+
+</uz.uzkassa.smartpos.feature.launcher.presentation.widget.LauncherBackgroundLayout>

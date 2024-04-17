@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_company_vat_selection_title">VAT percent</string>
+    <string name="fragment_feature_company_vat_selection_value">%1$s percent</string>
+    <string name="fragment_feature_company_vat_selection_manual_value">Manual…</string>
+    <string name="fragment_feature_company_vat_selection_input_hint">From 0 to 100</string>
+</resources>

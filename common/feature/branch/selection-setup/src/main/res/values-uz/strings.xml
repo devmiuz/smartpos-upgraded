@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_branch_selection_setup_title">Filialni tanlash</string>
+    <string name="fragment_feature_branch_selection_setup_branch_creation_button_title">Yaratish</string>
+    <string name="fragment_feature_branch_selection_setup_error_branch_not_selected">Iltimos, filialni tanlang</string>
+    <string name="fragment_feature_branch_selection_setup_error_terminal_not_associated">Terminal tanlangan filial bilan bog\'lanmagan</string>
+</resources>

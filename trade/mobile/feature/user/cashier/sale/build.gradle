@@ -1,0 +1,106 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion versions.android.compileSdk
+    namespace "uz.uzkassa.smartpos.feature.user.cashier.sale"
+
+    defaultConfig {
+        minSdkVersion versions.android.minSdk
+        targetSdkVersion versions.android.targetSdk
+        versionCode 1
+        versionName "1.0"
+
+        consumerProguardFiles 'consumer-rules.pro'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [
+                        disableEmptyStrategyCheck: 'true',
+                        enableEmptyStrategyHelper: 'true',
+                        defaultMoxyStrategy      : 'moxy.viewstate.strategy.AddToEndSingleStrategy'
+                ]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    kotlinOptions { jvmTarget = "1.8" }
+
+    buildFeatures { viewBinding = true }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.sqlite:sqlite-ktx:2.1.0'
+    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.androidx.testEspresso"
+    androidTestImplementation "androidx.test.ext:junit:$versions.androidx.testExtJunit"
+    androidTestImplementation "androidx.test:runner:$versions.androidx.testRunner"
+    testImplementation "junit:junit:$versions.junit.junit"
+
+    api project(':common:core:data:manager:coroutine')
+    api project(':common:core:data:manager:device')
+    api project(':common:core:data:manager:scanner')
+    api project(':common:core:data:manager:printer')
+    api project(':common:core:data:source:gtpos')
+    api project(':common:core:data:source:fiscal')
+    api project(':common:core:data:source:preference')
+    api project(':common:core:data:source:resources:auth:user')
+    api project(':common:core:data:source:resources:branch')
+    api project(':common:core:data:source:resources:category')
+    api project(':common:core:data:source:resources:card')
+    api project(':common:core:data:source:resources:company:company')
+    api project(':common:core:data:source:resources:customer')
+    api project(':common:core:data:source:resources:product:product')
+    api project(':common:core:data:source:resources:receipt:cash-transaction')
+    api project(':common:core:data:source:resources:receipt:draft')
+    api project(':common:core:data:source:resources:receipt:template')
+    api project(':common:core:data:source:resources:terminal')
+    api project(':common:core:data:source:resources:shift:report')
+    api project(':common:core:data:source:resources:shift:shift')
+    api project(':common:core:data:source:resources:user:user')
+    api project(':common:core:data:utils:vat')
+    api project(":common:core:presentation")
+
+    api project(":trade:mobile:feature:camera")
+    api project(":trade:mobile:feature:product-marking")
+    implementation project(":trade:mobile:feature:sync:common")
+
+    implementation "com.google.dagger:dagger:$versions.google.dagger"
+    kapt "com.google.dagger:dagger-compiler:$versions.google.dagger"
+
+    implementation "com.github.moxy-community:moxy:$versions.moxy_community.moxy"
+    implementation "com.github.moxy-community:moxy-androidx:$versions.moxy_community.moxy"
+    implementation "com.github.moxy-community:moxy-ktx:$versions.moxy_community.moxy"
+    kapt "com.github.moxy-community:moxy-compiler:$versions.moxy_community.moxy"
+
+//    implementation "org.java-websocket:Java-WebSocket:1.5.1"
+    implementation "com.squareup.okhttp3:okhttp:4.9.1"
+//    implementation 'tech.gusavila92:java-android-websocket-client:1.2.2'
+
+    implementation "ru.terrakok.cicerone:cicerone:$versions.terrakok.cicerone"
+
+    implementation "org.permissionsdispatcher:permissionsdispatcher:$versions.hotchemi.permissionsdispatcher"
+    kapt "org.permissionsdispatcher:permissionsdispatcher-processor:$versions.hotchemi.permissionsdispatcher"
+
+    compileOnly "com.squareup.retrofit2:retrofit:$versions.square.retrofit"
+
+
+    implementation 'com.github.NaikSoftware:StompProtocolAndroid:1.6.6'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.5'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+}

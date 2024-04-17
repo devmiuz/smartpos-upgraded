@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uz.uzkassa.smartpos.core.presentation.widget.easyswipemenulayout.EasySwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/easy_swipe_menu_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_85sdp"
+    app:contentView="@id/constraint_layout"
+    app:rightMenuView="@id/menu_linear_layout"
+    tools:ignore="PrivateResource">
+
+    <LinearLayout
+        android:id="@+id/menu_linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="?selectableItemBackground"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_85sdp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_dark"
+            android:padding="@dimen/_28sdp"
+            app:srcCompat="@drawable/core_presentation_vector_drawable_trash"
+            app:tint="@android:color/white" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?selectableItemBackground"
+        android:padding="@dimen/_14sdp"
+        tools:ignore="PrivateResource">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@id/guideline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/name_text_view"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                android:textSize="@dimen/_12sdp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/quantity_text_view"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:layout_weight="2"
+                android:ellipsize="end"
+                android:gravity="center_vertical|end"
+                android:singleLine="true"
+                android:textColor="?colorAccent"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/count_and_unit_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="1.5"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textSize="@dimen/_8sdp"
+                android:textAppearance="@style/Presentation.TextAppearance.Small"
+                android:textColor="@android:color/black" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/sales_price_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="3"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:singleLine="true"
+                android:textAppearance="@style/Presentation.TextAppearance.Title"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</uz.uzkassa.smartpos.core.presentation.widget.easyswipemenulayout.EasySwipeMenuLayout>

@@ -1,0 +1,76 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdkVersion versions.android.compileSdk
+    buildToolsVersion "30.0.2"
+    namespace "uz.uzkassa.smartpos.feature.product_marking"
+
+    defaultConfig {
+        minSdkVersion versions.android.minSdk
+        targetSdkVersion versions.android.targetSdk
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [
+                        disableEmptyStrategyCheck: 'true',
+                        enableEmptyStrategyHelper: 'true',
+                        defaultMoxyStrategy      : 'moxy.viewstate.strategy.AddToEndSingleStrategy'
+                ]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions { jvmTarget = '1.8' }
+
+    buildFeatures { viewBinding = true }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.androidx.testEspresso"
+    androidTestImplementation "androidx.test.ext:junit:$versions.androidx.testExtJunit"
+    androidTestImplementation "androidx.test:runner:$versions.androidx.testRunner"
+    testImplementation "junit:junit:$versions.junit.junit"
+
+    api project(':common:core:data:manager:coroutine')
+    api project(':common:core:data:manager:scanner')
+    api project(':common:core:presentation')
+    api project(':common:core:data:source:resources:product:marking')
+    api project(':common:core:data:source:resources:product:product')
+
+    api project(":trade:mobile:feature:camera")
+
+    implementation "com.google.dagger:dagger:$versions.google.dagger"
+    kapt "com.google.dagger:dagger-compiler:$versions.google.dagger"
+
+    implementation "com.github.moxy-community:moxy:$versions.moxy_community.moxy"
+    implementation "com.github.moxy-community:moxy-androidx:$versions.moxy_community.moxy"
+    implementation "com.github.moxy-community:moxy-ktx:$versions.moxy_community.moxy"
+    kapt "com.github.moxy-community:moxy-compiler:$versions.moxy_community.moxy"
+
+    implementation "ru.terrakok.cicerone:cicerone:$versions.terrakok.cicerone"
+
+    implementation "org.permissionsdispatcher:permissionsdispatcher:$versions.hotchemi.permissionsdispatcher"
+    kapt "org.permissionsdispatcher:permissionsdispatcher-processor:$versions.hotchemi.permissionsdispatcher"
+
+    implementation files('libs/nexgo-smartpos-sdk-v3.02.001_20201030.aar')
+}

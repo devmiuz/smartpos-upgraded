@@ -1,0 +1,48 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlinx-serialization'
+
+android {
+    compileSdkVersion versions.android.compileSdk
+    namespace "uz.uzkassa.smartpos.core.data.source.resource.account"
+
+    defaultConfig {
+        minSdkVersion versions.android.minSdk
+        targetSdkVersion versions.android.targetSdk
+        versionCode 1
+        versionName "1.0"
+
+        consumerProguardFiles 'consumer-rules.pro'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    kotlinOptions { jvmTarget = "1.8" }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.androidx.testEspresso"
+    androidTestImplementation "androidx.test.ext:junit:$versions.androidx.testExtJunit"
+    androidTestImplementation "androidx.test:runner:$versions.androidx.testRunner"
+    testImplementation "junit:junit:$versions.junit.junit"
+
+    api project (':common:core:utils')
+    api project (':common:core:data:source:resource')
+    api project (':common:core:data:source:resources:fullname')
+    api project (':common:core:data:source:resources:user:role')
+
+    compileOnly "androidx.room:room-runtime:$versions.androidx.room"
+    compileOnly "com.squareup.retrofit2:retrofit:$versions.square.retrofit"
+}

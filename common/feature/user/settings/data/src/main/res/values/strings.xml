@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_data_change_title">Personal data</string>
+    <string name="fragment_feature_user_data_change_surname_hint">Surname</string>
+    <string name="fragment_feature_user_data_change_name_hint">Name</string>+
+    <string name="fragment_feature_user_data_change_last_name_hint">Last Name</string>
+    <string name="fragment_feature_user_data_change_last_name_empty_error">Last name is empty</string>
+    <string name="fragment_feature_user_data_change_name_empty_error">Name is empty</string>
+    <string name="fragment_feature_user_data_change_surname_empty_error">Surname is empty</string>
+    <string name="fragment_feature_user_data_change_save_button_title">Save</string>
+</resources>

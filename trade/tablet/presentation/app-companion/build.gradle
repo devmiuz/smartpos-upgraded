@@ -1,0 +1,116 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdkVersion versions.android.compileSdk
+
+    defaultConfig {
+        applicationId "uz.uzkassa.smartpos.trade.companion"
+        minSdkVersion versions.android.minSdk
+        targetSdkVersion versions.android.targetSdk
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "long", "BUILD_DATE", System.currentTimeMillis() + "L"
+
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude("META-INF/*.kotlin_module")
+    }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+    kotlinOptions {jvmTarget = '1.8'}
+
+    buildFeatures { viewBinding = true }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.androidx.testEspresso"
+    androidTestImplementation "androidx.test.ext:junit:$versions.androidx.testExtJunit"
+    androidTestImplementation "androidx.test:runner:$versions.androidx.testRunner"
+    testImplementation "junit:junit:$versions.junit.junit"
+
+    api project(':common:core:data:source:resources:auth:refresh')
+    api project(':common:core:data:source:resources:receipt:draft')
+    api project(':common:core:data:source:resources:receipt:template')
+
+    api project(':common:feature:account:auth')
+    api project(':common:feature:account:auth')
+    api project(':common:feature:account:recovery-password')
+    api project(':common:feature:account:registration')
+    api project(':common:feature:activity-type:selection')
+    api project(':common:feature:branch:delete')
+    api project(':common:feature:branch:list')
+    api project(':common:feature:branch:saving')
+    api project(':common:feature:branch:selection-setup')
+    api project(':common:feature:browser')
+    api project(':common:feature:category:list')
+    api project(':common:feature:category:main')
+    api project(':common:feature:category:saving')
+    api project(':common:feature:category:selection')
+    api project(':common:feature:category:selection-setup')
+    api project(':common:feature:category:type')
+    api project(':common:feature:company:saving')
+    api project(':common:feature:company:vat-selection')
+    api project(':common:feature:helper:payment:amount')
+    api project(':common:feature:helper:payment:discount')
+    api project(':common:feature:helper:product:quantity')
+    api project(':common:feature:product:list')
+    api project(':common:feature:product:saving')
+    api project(':common:feature:receipt:sync')
+    api project(':common:feature:region-city:selection')
+    api project(':common:feature:user:auth')
+    api project(':common:feature:user:confirmation')
+    api project(':common:feature:user:list')
+    api project(':common:feature:user:saving')
+    api project(':common:feature:user:settings:data')
+    api project(':common:feature:user:settings:language')
+    api project(':common:feature:user:settings:password')
+    api project(':common:feature:user:settings:phone-number')
+    api project(':common:feature:users:setup')
+
+    api project(':trade:tablet:feature:auth')
+
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-reactive:$versions.kotlin.coroutines"
+
+    implementation "androidx.multidex:multidex:$versions.androidx.multidex"
+
+    implementation "androidx.room:room-runtime:$versions.androidx.room"
+    implementation "androidx.room:room-ktx:$versions.androidx.room"
+    kapt "androidx.room:room-compiler:$versions.androidx.room"
+
+    implementation "com.google.dagger:dagger:$versions.google.dagger"
+    kapt "com.google.dagger:dagger-compiler:$versions.google.dagger"
+
+    implementation "com.github.moxy-community:moxy:$versions.moxy_community.moxy"
+    implementation "com.github.moxy-community:moxy-androidx:$versions.moxy_community.moxy"
+    implementation "com.github.moxy-community:moxy-ktx:$versions.moxy_community.moxy"
+    kapt "com.github.moxy-community:moxy-compiler:$versions.moxy_community.moxy"
+
+    implementation "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:$versions.jake_wharton.retrofit2_kotlinx_serialization_converter"
+
+    implementation "com.squareup.okhttp3:logging-interceptor:$versions.square.okhttp"
+    implementation "com.squareup.okio:okio:$versions.square.okio"
+    implementation "com.squareup.retrofit2:retrofit:$versions.square.retrofit"
+
+    implementation "ru.terrakok.cicerone:cicerone:$versions.terrakok.cicerone"
+}

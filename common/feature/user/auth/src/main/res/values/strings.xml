@@ -1,0 +1,18 @@
+<resources>
+    <string name="smartpos" translatable="false">SMARTPOS</string>
+
+    <string name="fragment_feature_user_auth_common_title">Login</string>
+
+    <string name="fragment_feature_user_auth_admin_disclaimer_message">Please input your password</string>
+    <string name="fragment_feature_user_auth_admin_password_input_hint">Password</string>
+    <string name="fragment_feature_user_auth_admin_password_recovery_button_title">Forget password?</string>
+    <string name="fragment_feature_user_auth_admin_login_button_title">Login</string>
+    <string name="fragment_feature_user_auth_supervisor_error_password_not_inputted_message">Input your password</string>
+    <string name="fragment_feature_user_auth_supervisor_error_incorrect_password_message">Incorrect password</string>
+
+    <string name="fragment_feature_user_auth_cashier_disclaimer_message">Please input your PIN code</string>
+    <string name="fragment_feature_user_auth_cashier_request_new_pin_code_button_title">Send PIN code again?</string>
+    <string name="fragment_feature_user_auth_cashier_request_new_pin_code_alert_message_title">An SMS message with a new PIN code will be sent to your number</string>
+    <string name="fragment_feature_user_auth_cashier_error_incorrect_pin_code_message">Incorrect PIN code</string>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_source_fiscal_error_acknowledge_wrong_length">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_acknowledge_signature_invalid">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_acknowledge_terminal_id_mismatch">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_app_not_defined">Пожалуйста, свяжитесь с нашей службой поддержки, чтобы получить приложение для работы с этим устройством</string>
+
+    <string name="data_source_fiscal_error_configure_unlock_key_invalid">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_configure_wrong_length">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_configure_signature_invalid">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_close_z_report_time_past">"Исправить дату и время на устройстве и повторите попытку "</string>
+    <string name="data_source_fiscal_error_current_z_report_is_empty">Текущий z-отчет пуст</string>
+    <string name="data_source_fiscal_error_current_time_format_invalid">"Исправить дату и время на устройстве и повторите попытку "</string>
+
+    <string name="data_source_fiscal_error_data_size_not_supported">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_different_data">Откройте фискальное приложение, войдите в свой аккаунт и перезагрузите устройство</string>
+
+    <string name="data_source_fiscal_error_exchange">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_extra_data_passed">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+
+    <string name="data_source_fiscal_error_last_transaction_time_format_invalid">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_lock_challenge_invalid">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_locked_forever">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+
+    <string name="data_source_fiscal_error_receipt_already_closed">Чек  уже закрыт</string>
+    <string name="data_source_fiscal_error_receipt_card_overflow">Текущий z-отчет переполнен операциями . Закройте и откройте z-отчет  и повторите попытку</string>
+    <string name="data_source_fiscal_error_receipt_cash_overflow">Чек наличными переполнен</string>
+    <string name="data_source_fiscal_error_receipt_count_zero">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_receipt_format_invalid">Неверный формат чека</string>
+    <string name="data_source_fiscal_error_receipt_is_not_closed">Чек не закрыт</string>
+    <string name="data_source_fiscal_error_receipt_memory_full">Чек память заполнена</string>
+    <string name="data_source_fiscal_error_receipt_not_found">Чек не найден</string>
+    <string name="data_source_fiscal_error_receipt_price_overflow">Цена чека переполнена</string>
+    <string name="data_source_fiscal_error_receipt_seq_overflow">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_receipt_store_days_limit_exceeded">Превышен лимит дней магазина чека</string>
+    <string name="data_source_fiscal_error_receipt_index_out_of_bounds">Неверный индекс для получения чека</string>
+    <string name="data_source_fiscal_error_receipt_partition_invalid">Раздел чека недействителен</string>
+    <string name="data_source_fiscal_error_receipt_time_past">Время чека прошло</string>
+    <string name="data_source_fiscal_error_receipt_total_price_mismatch">Общая цена в чеке не соответствует</string>
+    <string name="data_source_fiscal_error_receipt_total_price_overflow">Общая цена в чеке переполнена</string>
+    <string name="data_source_fiscal_error_receipt_total_price_zero">Общая стоимость чека равна нулю</string>
+    <string name="data_source_fiscal_error_receipt_transaction_time_format_invalid">Неверный формат времени чек транзакции</string>
+    <string name="data_source_fiscal_error_receipt_vat_overflow">НДС переполнен</string>
+
+    <string name="data_source_fiscal_error_first_receipt_transaction_time_format_invalid">Неверный формат времени первой транзакции</string>
+
+    <string name="data_source_fiscal_error_maintenance_required">Требуется техническое обслуживание. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+
+    <string name="data_source_fiscal_error_not_enough_cash_for_refund">Недостаточно денег для возврата</string>
+
+    <string name="data_source_fiscal_error_open_close_z_report_wrong_length">Открытие и закрытие z-отчета длина неверна</string>
+    <string name="data_source_fiscal_error_open_z_report_time_past">Время Z-отчета прошло</string>
+
+    <string name="data_source_fiscal_error_sale_refund_count_overflow">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_sam_module_error">Произошла ошибка фискального модуля</string>
+    <string name="data_source_fiscal_error_sam_module_not_found">Фискальный модуль не найден</string>
+    <string name="data_source_fiscal_error_sam_module_not_responding">Пожалуйста, свяжитесь с нашей службой поддержки</string>
+
+    <string name="data_source_fiscal_error_not_activated">Фискальный модуль не активирован</string>
+    <string name="data_source_fiscal_error_not_applet_init">Апплет фискального модуля не инициализирован</string>
+    <string name="data_source_fiscal_error_not_enough_card_for_refund">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_not_enough_vat_for_refund">Недостаточно НДС для возврата </string>
+    <string name="data_source_fiscal_error_not_fiscalized">Устройство не фискально.Пожалуйста, попробуйте позже</string>
+
+    <string name="data_source_fiscal_error_unknown">Пожалуйста, свяжитесь с нашей службой поддержки, чтобы устранить ошибку фискального модуля</string>
+
+    <string name="data_source_fiscal_error_version_not_actual">Пожалуйста, свяжитесь с нашей службой поддержки, чтобы получить последнюю версию приложения для работы с этим устройством</string>
+
+    <string name="data_source_fiscal_error_z_report_is_already_open">Z-отчет уже открыт</string>
+    <string name="data_source_fiscal_error_z_report_is_not_open">Z-отчет не открыт</string>
+    <string name="data_source_fiscal_error_z_report_index_of_bounds">Неверный индекс для получения z-отчета</string>
+    <string name="data_source_fiscal_error_z_report_number_is_invalid">Номер z-отчета недействителен</string>
+    <string name="data_source_fiscal_error_z_report_open_time_format_invalid">Неверный формат времени открытия Z-отчета</string>
+    <string name="data_source_fiscal_error_z_report_partition_invalid">Произошла ошибка. Пожалуйста, свяжитесь с нашей службой поддержки</string>
+    <string name="data_source_fiscal_error_z_report_space_is_full">Z-отчет заполнен</string>
+    <string name="data_source_fiscal_sam_module_broken">SAM module is broken</string>
+    <string name="data_source_fiscal_force_sync_needed">Make fore synchronization</string>
+</resources>

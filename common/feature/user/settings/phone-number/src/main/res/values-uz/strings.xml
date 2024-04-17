@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_settings_phone_number_change_button_title">O\'zgartirish</string>
+    <string name="fragment_feature_user_settings_phone_number_change_title">Telefon raqamining o\'zgarishi</string>
+    <string name="fragment_feature_user_settings_phone_number_change_hint">Telefon raqami</string>
+    <string name="fragment_feature_user_settings_phone_number_change_error">Iltimos, telefon raqamini kiriting</string>
+    <string name="fragment_feature_user_settings_phone_number_change_error_cause_user_exists">Ushbu raqam foydalanuvchisi mavjud</string>
+</resources>

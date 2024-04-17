@@ -1,0 +1,57 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlinx-serialization'
+
+android {
+    compileSdkVersion versions.android.compileSdk
+    namespace "uz.uzkassa.smartpos.core.data.source.resource"
+
+    defaultConfig {
+        minSdkVersion versions.android.minSdk
+        targetSdkVersion versions.android.targetSdk
+        versionCode 1
+        versionName "1.0"
+
+        consumerProguardFiles 'consumer-rules.pro'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    kotlinOptions { jvmTarget = "1.8" }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.androidx.testEspresso"
+    androidTestImplementation "androidx.test.ext:junit:$versions.androidx.testExtJunit"
+    androidTestImplementation "androidx.test:runner:$versions.androidx.testRunner"
+    testImplementation "junit:junit:$versions.junit.junit"
+
+    api project(':common:core:utils')
+    api project(':common:core:data:manager:network:state')
+
+    compileOnly "androidx.room:room-runtime:$versions.androidx.room"
+
+    api ("com.dropbox.mobile.store:store4:4.0.0-alpha07") {
+        exclude group: "org.jetbrains.kotlin", module: "kotlin-reflect"
+        exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib"
+        exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-common"
+        exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-jdk8"
+        exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-jdk8"
+        exclude group: "org.jetbrains.kotlinx", module: "kotlinx-coroutines-core"
+        exclude group: 'org.jetbrains.kotlinx', module: "kotlinx-coroutines-core-jvm"
+    }
+
+    compileOnly "com.github.Tinder.Scarlet:scarlet:$versions.tinder.scarlet"
+}

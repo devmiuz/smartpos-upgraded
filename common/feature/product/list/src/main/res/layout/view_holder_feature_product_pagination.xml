@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_52sdp"
+    android:background="?selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/previous_page_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/_24sdp"
+        android:paddingEnd="@dimen/_12sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_4sdp"
+            app:srcCompat="@drawable/drawable_feature_product_list_vector_drawable_chevron_left" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="@string/view_holder_feature_product_pagination_prev_page_title"
+            android:textAppearance="@style/Presentation.TextAppearance.Regular" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/next_page_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?selectableItemBackground"
+        android:gravity="end|center_vertical"
+        android:paddingStart="@dimen/_12sdp"
+        android:paddingEnd="@dimen/_24sdp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="@string/view_holder_feature_product_pagination_next_page_title"
+            android:textAppearance="@style/Presentation.TextAppearance.Regular" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_4sdp"
+            app:srcCompat="@drawable/drawable_feature_product_list_vector_drawable_chevron_right" />
+
+    </LinearLayout>
+
+</LinearLayout>

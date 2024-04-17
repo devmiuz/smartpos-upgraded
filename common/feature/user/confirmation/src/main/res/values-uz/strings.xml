@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_confirmation_common_title">Tasdiqlash</string>
+    <string name="fragment_feature_user_confirmation_error_password_not_inputted">Iltimos, parolni kiriting</string>
+    <string name="fragment_feature_user_confirmation_error_password_not_valid">Iltimos, parol to\'g\'ri kiritilganini tekshiring</string>
+    <string name="fragment_feature_user_confirmation_error_authentication">Kirish uchun noto\'g\'ri ma\'lumotlar</string>
+
+    <string name="fragment_feature_user_confirmation_owner_disclaimer_message">Iltimos, egasining parolini kiriting</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_category_manage_category_main_title">Umumiy katalog</string>
+    <string name="fragment_feature_category_manage_category_selection_title">Katalog</string>
+    <string name="fragment_feature_product_manage_category_create_title">Katalog yaratish</string>
+    <string name="fragment_feature_product_manage_category_create_category_name_input_hint">Katalog nomi</string>
+    <string name="fragment_feature_product_manage_category_create_category_name_error_hint">Iltimos, Kategoriya nomini yozing</string>
+    <string name="fragment_feature_product_manage_category_list_title">Mening katalogim</string>
+    <string name="fragment_feature_product_manage_category_list_alert_delete_category_title">Kategoriyani o\'chirish</string>
+    <string name="fragment_feature_product_manage_category_list_alert_delete_category_message">Siz haqiqatdan ham \"%1$s\" kategoriyasini o\'chirmoqchimisiz?- Ushbu kategoriyadagi hamma mahsulotlar o\'chirilgandan keyin mavjud bo\'lmaydi \n - Siz \"Umumiy katalog\" ekranida kategoriya va unga biriktirilgan tovarlarni qaytarishingiz mumkin</string>
+    <string name="fragment_feature_product_manage_category_list_alert_menu_item_add_child_category">Guruxga qo\'shish</string>
+    <string name="fragment_feature_product_manage_category_list_alert_menu_item_delete_category">Kategoriyani o\'chirish</string>
+    <string name="menu_category_manage_category_list_add_category_title">Kategoriyaga qo\'shish</string>
+    <string name="view_holder_feature_product_manage_category_selection_category_type_name_list_title">Mening Katalogim</string>
+    <string name="view_holder_feature_product_manage_category_selection_category_type_name_main_title">Umumiy katalog</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_region_city_city_selection_title">Выберите город/район</string>
+    <string name="fragment_feature_region_city_region_selection_title">Выберите область</string>
+</resources>

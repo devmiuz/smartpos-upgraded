@@ -1,0 +1,30 @@
+<resources>
+    <string name="fragment_feature_product_create_title">Создание товара</string>
+
+    <string name="fragment_feature_product_saving_category_input_hint">Категория</string>
+    <string name="fragment_feature_product_saving_product_name_input_hint">Название</string>
+    <string name="fragment_feature_product_saving_product_barcode_input_hint">Штрих-код</string>
+    <string name="fragment_feature_product_saving_product_type_input_hint">Тип/модель</string>
+    <string name="fragment_feature_product_saving_product_value_input_hint">Объем/размер</string>
+    <string name="fragment_feature_product_saving_product_weight_input_hint">Вес</string>
+    <string name="fragment_feature_product_saving_product_unit_input_hint">Ед. изм.</string>
+    <string name="fragment_feature_product_saving_product_size_input_hint">Размер</string>
+    <string name="fragment_feature_product_saving_product_package_type_input_hint">Тип упаковки</string>
+    <string name="fragment_feature_product_saving_product_price_input_hint">Цена продажи</string>
+    <string name="fragment_feature_company_saving_vat_title">НДС</string>
+    <string name="fragment_feature_product_saving_vat_rate_value">Налог НДС: %1$s%%</string>
+    <string name="fragment_feature_product_saving_vat_rate_change_button_title">Изменить</string>
+
+    <string name="fragment_feature_product_saving_error_category_not_defined">Выберите категорию</string>
+    <string name="fragment_feature_product_saving_error_product_barcode_not_defined">Введите штрих-код товара</string>
+    <string name="fragment_feature_product_saving_error_product_name_not_defined">Введите название товара</string>
+    <string name="fragment_feature_product_saving_error_product_price_not_defined">Введите цену товара</string>
+    <string name="fragment_feature_product_saving_error_product_unit_not_defined">Выберете ед. изм.</string>
+
+
+
+    <string name="fragment_feature_product_saving_product_select">Добавить</string>
+    <string name="fragment_feature_product_saving_mark">Маркировка</string>
+    <string name="fragment_feature_product_saving_product_vat_barcode_input_hint">ИКПУ</string>
+    <string name="fragment_feature_product_saving_product_commintent_tin_input_hint">ИНН Комиссионера</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_user_cashier_refund_payment_title">Возврат</string>
+    <string name="fragment_feature_user_cashier_refund_payment_total_products_title">Всего товаров</string>
+    <string name="fragment_feature_user_cashier_refund_payment_total_refund_products_title">Кол-во возвращаемых товаров</string>
+    <string name="fragment_feature_user_cashier_refund_payment_receipt_total_cost_title">Сумма чека</string>
+    <string name="fragment_feature_user_cashier_refund_payment_refund_receipt_amount_title">Возврат</string>
+    <string name="fragment_feature_user_cashier_refund_payment_card_payment_type_button_title">Карта</string>
+    <string name="fragment_feature_user_cashier_refund_payment_cash_payment_type_button_title">Наличные</string>
+
+    <string name="fragment_feature_user_cashier_refund_payment_refund_finish_alert_message">Пожалуйста, завершите текущий возврат</string>
+    <string name="fragment_feature_user_cashier_refund_payment_refund_finish_alert_title">Завершение возврата</string>
+
+    <string name="fragment_feature_user_cashier_refund_payment_refund_warning_alert_title">Предупреждение</string>
+    <string name="fragment_feature_user_cashier_refund_payment_refund_payment_type_warning_cash_alert_message">Вы не можете вернуть этот чек наличными.</string>
+    <string name="fragment_feature_user_cashier_refund_payment_refund_payment_type_warning_card_alert_message">Вы не можете вернуть этот чек с помощью дебетовой карты.</string>
+
+
+
+    <string name="fragment_feature_user_cashier_refund_product_list_title">Возврат</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_receipt_number">№ %1$s</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_proceed_button_title">Возврат</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_available_cash_in_current_shift_info">В кассе недостаточно денег, чтобы возврат</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_exit_alert_title">Выход</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_exit_alert_message">Вы уверены, что хотите выйти? Ваши изменения не сохранятся</string>
+
+    <string name="fragment_feature_user_cashier_refund_product_list_request_marking_alert_title">Маркировка</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_request_marking_alert_message">Вам нужно будет отсканировать код маркировки, чтобы вернуть этот продукт. Вы сканируете все маркировки?</string>
+
+    <string name="fragment_feature_user_cashier_refund_receipt_search_title">Возврат</string>
+    <string name="fragment_feature_user_cashier_refund_receipt_search_description">Сканируйте чек либо введите данные вручную</string>
+    <string name="fragment_feature_user_cashier_refund_receipt_search_receipt_not_found_alert_message">Чек с таким уникальным номером не найден</string>
+    <string name="fragment_feature_user_cashier_refund_receipt_search_receipt_not_allowed_for_refund_alert_message">Пожалуйста выберите продажный чек для возврата</string>
+    <string name="fragment_feature_user_cashier_refund_receipt_search_uid_hint">Уникальный номер чека</string>
+
+
+    <string name="fragment_feature_user_cashier_refund_payment_process_print_check_description_text">Печать кассового чека</string>
+    <string name="fragment_feature_user_cashier_refund_payment_process_change_amount_disclaimer_text">Сдача от принятых\n%1$s</string>
+
+    <string name="menu_feature_user_cashier_refund_main_barcode_scanner_menuitem_title">Сканер штрих-кодов</string>
+
+    <string name="menu_feature_user_cashier_refund_cart_select_all_menu_item">Выбрать все</string>
+    <string name="menu_feature_user_cashier_refund_cart_clear_all_menu_item">Очистить все</string>
+
+    <string name="viewholder_feature_user_cashier_refund_receipt_payment_title">Возврат</string>
+</resources>

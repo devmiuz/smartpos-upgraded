@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="core_presentation_common_cancel">Bekor qilish</string>
+    <string name="core_presentation_common_close">Yopish</string>
+    <string name="core_presentation_common_continue">Davom ettirish</string>
+    <string name="core_presentation_common_loading">Kuting…</string>
+    <string name="core_presentation_common_save">Saqlash</string>
+    <string name="core_presentation_common_warning">Diqqat!</string>
+
+    <string name="core_presentation_common_answer_no">Yo\'q</string>
+    <string name="core_presentation_common_answer_yes">Ha</string>
+
+    <string name="core_presentation_common_location_address">Manzil</string>
+    <string name="core_presentation_common_location_city">Shahar/Tuman</string>
+    <string name="core_presentation_common_location_region">Viloyat</string>
+
+    <string name="core_presentation_common_user_logout">Chiqish</string>
+    <string name="core_presentation_common_user_notifications">Xabarlar</string>
+    <string name="core_presentation_common_user_settings">Sozlamalar</string>
+    <string name="core_presentation_common_user_sync">Sinxronlash</string>
+
+    <string name="core_presentation_common_payment_type_card">QR chek</string>
+    <string name="core_presentation_common_payment_type_cash">Naqd pullar</string>
+    <string name="core_presentation_common_payment_type_other">Boshqa</string>
+
+    <string name="core_presentation_common_password">Parol</string>
+
+    <string name="core_presentation_common_user_role_auditor">Аuditor</string>
+    <string name="core_presentation_common_user_role_branch_admin">Filial Ma\'muri</string>
+    <string name="core_presentation_common_user_role_cashier">Kassir</string>
+    <string name="core_presentation_common_user_role_intern">Stajer</string>
+    <string name="core_presentation_common_user_role_owner">Egasi</string>
+    <string name="core_presentation_common_user_role_warehouse_manager">Omborxona menejeri</string>
+
+    <string name="core_presentation_common_alert">Ogohlantirish</string>
+    <string name="core_presentation_common_error">Xato</string>
+    <string name="core_presentation_common_error_connection_message">Internet bilan muammo mavjud. Iltimos, qaytadan urinib ko\'ring.</string>
+    <string name="core_presentation_common_error_unknown_message">Noma\'lum xato yuz berdi. Iltimos, keyinroq qayta urinib ko\'ring.</string>
+    <string name="core_presentation_common_retry">Qaytarish</string>
+
+    <string name="core_presentation_common_amount_currency_uzs">%1$s so\'m</string>
+    <string name="core_presentation_common_vat_amount_currency_uzs">QQS: %1$s so\'m</string>
+    <string name="core_presentation_common_amount_currency_none"> </string>
+
+
+    <string name="core_presentation_layout_error_dialog_type">Turi: %1$s</string>
+    <string name="core_presentation_layout_error_dialog_details">Tafsilotlar: %1$s</string>
+    <string name="core_presentation_layout_error_dialog_code">Kod: %1$s</string>
+
+    <string name="core_presentation_crm_app_version">Onlayn NKM versiya %1$s</string>
+    <string name="core_presentation_app_version">Versiya: %1$s</string>
+    <string name="core_presentation_os_version">Sistema: %1$s</string>
+
+    <string name="data_source_unknown_error">Noma\'lum xato yuz berdi. Keyinroq qayta urinib ko\‘ring</string>
+</resources>

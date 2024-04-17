@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_auth_common_title">Kirish</string>
+
+    <string name="fragment_feature_user_auth_admin_disclaimer_message">Iltimos, parolingizni kiriting</string>
+    <string name="fragment_feature_user_auth_admin_password_input_hint">Parol</string>
+    <string name="fragment_feature_user_auth_admin_password_recovery_button_title">Parolni unutdingizmi?</string>
+    <string name="fragment_feature_user_auth_admin_login_button_title">Kirish</string>
+    <string name="fragment_feature_user_auth_supervisor_error_password_not_inputted_message">Iltimos, parolingizni kiriting</string>
+    <string name="fragment_feature_user_auth_supervisor_error_incorrect_password_message">Noto\'g\'ri parol</string>
+
+    <string name="fragment_feature_user_auth_cashier_disclaimer_message">Iltimos, PIN-kodingizni kiriting</string>
+    <string name="fragment_feature_user_auth_cashier_request_new_pin_code_button_title">PIN-kodni yana yuborish kerakmi?</string>
+    <string name="fragment_feature_user_auth_cashier_request_new_pin_code_alert_message_title">Raqamingizga yangi PIN-kod SMS xabar orqali yuboriladi</string>
+    <string name="fragment_feature_user_auth_cashier_error_incorrect_pin_code_message">Noto\'g\'ri PIN-kod</string>
+</resources>

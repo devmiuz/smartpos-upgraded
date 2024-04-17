@@ -1,0 +1,23 @@
+apply from: "$rootProject.projectDir/common/settings.gradle"
+
+/// CORE
+include 'trade:mobile:core:data:source:resources:receipt:remote'
+
+/// FEATURES
+include 'trade:mobile:feature:camera'
+include 'trade:mobile:feature:product-marking'
+include 'trade:mobile:feature:launcher'
+include 'trade:mobile:feature:receipt:remote'
+include 'trade:mobile:feature:sync:common'
+include 'trade:mobile:feature:sync:worker'
+include 'trade:mobile:feature:user:cashier:cash-transaction:operation'
+include 'trade:mobile:feature:user:cashier:cash-transaction:sync'
+include 'trade:mobile:feature:user:cashier:refund'
+include 'trade:mobile:feature:user:cashier:sale'
+include 'trade:mobile:feature:user:cashier:apay'
+include 'trade:mobile:feature:user:settings'
+include ':trade:mobile:feature:user:autoprint'
+include 'trade:mobile:feature:user:supervisor:dashboard'
+
+/// APP
+include 'trade:mobile:presentation:app-terminal'

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="layout_supervisor_drawer_layout_user_branch_manage_title">Filiallar</string>
+    <string name="layout_supervisor_drawer_layout_user_manage_list_title">Xodimlar</string>
+    <string name="layout_supervisor_drawer_layout_product_manage_category_selection_title">Katalog</string>
+
+    <string name="fragment_dynamics_filter_by_days">Kun</string>
+    <string name="fragment_dynamics_filter_by_weeks">Hafta</string>
+    <string name="fragment_dynamics_filter_by_months">Oy</string>
+    <string name="fragment_dynamics_screen_title">Savdo</string>
+    <string name="fragment_dynamics_title_vat">QQS</string>
+    <string name="fragment_dynamics_title_discounts">Chegirma</string>
+    <string name="fragment_dynamics_title_card">Karta</string>
+    <string name="fragment_dynamics_title_cash">Naqd</string>
+    <string name="fragment_dynamics_title_receipts">Cheklar</string>
+    <string name="fragment_dynamics_title_refunds">Qaytarishlar</string>
+    <string name="fragment_dynamics_title_sales">Savdo</string>
+
+    <string name="fragment_feature_supervisor_dashboard_sync_successfully_finished">Sinxronlash muvaffaqiyatli yakunlandi</string>
+    <string name="kassa_chekini_chiqarish">Kassa chekini chiqarish</string>
+</resources>

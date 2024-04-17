@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Presentation.Widget.MaterialSpinner.OutlinedBox" parent="Presentation.TextInputLayout.OutlinedBox">
+        <item name="android:descendantFocusability">beforeDescendants</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+</resources>

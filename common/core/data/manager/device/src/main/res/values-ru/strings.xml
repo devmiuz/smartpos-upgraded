@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_source_device_info_manager_error_location_gps_is_turning_off">GPS отключен. Пожалуйста, включите GPS</string>
+    <string name="data_source_device_info_manager_error_location_bad_network">Не удалось получить точное местоположение. Пожалуйста, попробуйте еще раз</string>
+    <string name="data_source_device_info_manager_error_location_not_found">Местоположение не найдено</string>
+    <string name="data_source_device_info_manager_error_app_not_defined">Пожалуйста, свяжитесь с нашей службой поддержки, чтобы получить приложение для работы с этим устройством</string>
+    <string name="data_source_device_info_manager_error_unsupported_device">Это устройство не поддерживается</string>
+    <string name="data_source_device_info_manager_error_version_not_actual">Пожалуйста, свяжитесь с нашей службой поддержки, чтобы получить последнюю версию приложения</string>
+    <string name="data_source_device_info_manager_error_unknown">Произошла ошибка. Пожалуйста, попробуйте позже</string>
+</resources>

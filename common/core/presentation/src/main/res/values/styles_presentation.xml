@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Presentation" />
+
+    <style name="Presentation.Theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar" />
+
+    <style name="Presentation.Theme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Presentation.Theme.AppBarOverlay" parent="ThemeOverlay.AppCompat.DayNight.ActionBar">
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="Presentation.Theme.PopupOverlay" parent="ThemeOverlay.AppCompat.DayNight" />
+
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:theme="@style/Presentation.Theme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:navigationIcon="@drawable/core_presentation_vector_drawable_arrow_left"
+            app:popupTheme="@style/Presentation.Theme.PopupOverlay"
+            app:title="@string/fragment_feature_branch_saving_creation_title" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scroll_view"
+        style="@style/Presentation.Widget.NestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadeScrollbars="false"
+        android:scrollbars="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/_22sdp"
+            android:paddingRight="@dimen/_22sdp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <uz.uzkassa.smartpos.core.presentation.widget.preference.PreferenceCategoryLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_1sdp"
+                app:preference_category_title="@string/fragment_feature_branch_saving_required_data_title"
+                app:preference_category_title_tint="@android:color/black">
+
+                <uz.uzkassa.smartpos.core.presentation.widget.chip.ChipEntryGroup
+                    android:id="@+id/activity_type_chip_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginBottom="@dimen/_6sdp"
+                    app:chipSpacing="@dimen/_6sdp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/activity_type_selection_button"
+                    style="@style/Presentation.Widget.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:minHeight="0dp"
+                    android:text="@string/fragment_feature_branch_saving_activity_type_selection_title" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/name_text_input_layout"
+                    style="@style/Presentation.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:layout_marginBottom="@dimen/_1sdp"
+                    app:errorEnabled="true"
+                    app:hintEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/name_text_input_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/fragment_feature_branch_saving_branch_name_input_hint"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </uz.uzkassa.smartpos.core.presentation.widget.preference.PreferenceCategoryLayout>
+
+            <uz.uzkassa.smartpos.core.presentation.widget.preference.PreferenceCategoryLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:preference_category_title="@string/fragment_feature_branch_saving_additional_title"
+                app:preference_category_title_tint="@android:color/black">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <uz.uzkassa.smartpos.core.presentation.widget.materialtextfiled.MaterialTextField
+                        android:id="@+id/region_text_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:layout_marginEnd="@dimen/_1sdp"
+                        android:layout_marginBottom="@dimen/_1sdp"
+                        android:layout_weight="1"
+                        android:hint="@string/core_presentation_common_location_region" />
+
+                    <uz.uzkassa.smartpos.core.presentation.widget.materialtextfiled.MaterialTextField
+                        android:id="@+id/city_text_field"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_1sdp"
+                        android:layout_marginTop="@dimen/_1sdp"
+                        android:layout_marginBottom="@dimen/_1sdp"
+                        android:layout_weight="1"
+                        android:hint="@string/core_presentation_common_location_city" />
+
+                </LinearLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/address_text_input_layout"
+                    style="@style/Presentation.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_1sdp"
+                    android:layout_marginBottom="@dimen/_1sdp"
+                    app:errorEnabled="true"
+                    app:hintEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/address_text_input_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/fragment_feature_branch_saving_address_input_hint"
+                        android:imeOptions="actionNext"
+                        android:inputType="textNoSuggestions" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </uz.uzkassa.smartpos.core.presentation.widget.preference.PreferenceCategoryLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

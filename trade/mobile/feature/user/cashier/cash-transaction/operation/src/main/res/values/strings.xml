@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_cashier_cash_operations_creation_title">Cash operations</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_title">Report</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_details_last_encashment">4. Total encashment</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_cash">5. Current amount of cash</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_cash_info">At cash before starting of the shift</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_cash_title">1. Total cash</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_refund_title">Total refunds</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_refund_cash">In cash</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_sale_title">2. Total sales</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_sale_cash">Cash</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_adding_cash">3. Total added cash</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_returned_adding_cash">Return of cash</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_expense">4. Total expenses</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_returned_expense">Return of expense</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_allowed_amount">Allowed amount %1$s</string>
+    <string name="fragment_feature_user_cashier_cash_operations_having_cash">Having cash %1$s</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_amount_input_hint">Sum</string>
+    <string name="fragment_feature_user_cashier_cash_operations_info_input_hint">Info</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_input_hint">Choose an operation</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_error_amount_not_valid">Enter the correct amount</string>
+    <string name="fragment_feature_user_cashier_cash_operations_error_operation_not_defined">Choose an operation</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_process_allowed_amount">Allowed amount</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_having_cash">Having cash</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_cash_amount_disclaimer_text">The amount of the cash operation from having cash\n%1$s</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_cash_amount">Operation amount</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_print_check_description_text">Print check</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_total_amount">Left</string>
+</resources>

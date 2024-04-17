@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_cashier_cash_operations_creation_title">Kassa operatsiyalari</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_title">Xisobot</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_details_last_encashment">5. Umumiy inkassatsiya</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_cash">6. Mavjud naqd \n pul miqdori</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_cash_info">Smena boshlanish paytida</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_cash_title">1. Umumiy naqd pul</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_refund_title">Возвраты итого</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_refund_cash">Naqd pulda</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_sale_title">2. Umumiy savdo</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_sale_cash">Naqd pul</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_adding_cash">3. Umimiy qo`shilgan\nnaqd pul</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_returned_adding_cash">Qaytarilgan naqd pul</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_expense">4. Umumiy xarajat</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_returned_expense">Qaytarilgan xarajat</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_allowed_amount">Ruxsat berilgan summa %1$s</string>
+    <string name="fragment_feature_user_cashier_cash_operations_having_cash">Mavjud naqd pul %1$s</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_amount_input_hint">Summa</string>
+    <string name="fragment_feature_user_cashier_cash_operations_info_input_hint">Ma`lumot</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_input_hint">Operatsiyani tanlang</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_error_amount_not_valid">To`g`ri summani kiriting</string>
+    <string name="fragment_feature_user_cashier_cash_operations_error_operation_not_defined">Operatsiyani tanlang</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_process_allowed_amount">Ruxsat berilgan summa</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_having_cash">Mavjud naqd pul</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_cash_amount_disclaimer_text">Kassa operatsiyasi summasi mavjud naqd puldan\n%1$s</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_cash_amount">Summa operatsiya</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_print_check_description_text">Kassa chekini chop etish</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_total_amount">Qoldi</string>
+</resources>

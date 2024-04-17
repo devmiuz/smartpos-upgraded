@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="Presentation.Widget.Divider.Line">
+        <item name="android:background">@color/color_feature_user_cashier_cash_operations_divider</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+</resources>

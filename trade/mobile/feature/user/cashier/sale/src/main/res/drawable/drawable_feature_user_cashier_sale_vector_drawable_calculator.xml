@@ -1,0 +1,61 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportHeight="50"
+    android:viewportWidth="50">
+
+    <path
+        android:pathData="M9,1L41,1A2,2 0,0 1,43 3L43,47A2,2 0,0 1,41 49L9,49A2,2 0,0 1,7 47L7,3A2,2 0,0 1,9 1z"
+        android:strokeColor="?colorAccent"
+        android:strokeWidth="2" />
+
+    <path
+        android:pathData="M14,6L36,6A2,2 0,0 1,38 8L38,11A2,2 0,0 1,36 13L14,13A2,2 0,0 1,12 11L12,8A2,2 0,0 1,14 6z"
+        android:strokeColor="?colorAccent"
+        android:strokeWidth="2" />
+
+    <path
+        android:pathData="M14,18L16,18A2,2 0,0 1,18 20L18,22A2,2 0,0 1,16 24L14,24A2,2 0,0 1,12 22L12,20A2,2 0,0 1,14 18z"
+        android:strokeColor="?colorAccent"
+        android:strokeWidth="2" />
+
+    <path
+        android:pathData="M24,18L26,18A2,2 0,0 1,28 20L28,22A2,2 0,0 1,26 24L24,24A2,2 0,0 1,22 22L22,20A2,2 0,0 1,24 18z"
+        android:strokeColor="?colorAccent"
+        android:strokeWidth="2" />
+
+    <path
+        android:pathData="M34,18L36,18A2,2 0,0 1,38 20L38,22A2,2 0,0 1,36 24L34,24A2,2 0,0 1,32 22L32,20A2,2 0,0 1,34 18z"
+        android:strokeColor="?colorAccent"
+        android:strokeWidth="2" />
+
+    <path
+        android:pathData="M14,28L16,28A2,2 0,0 1,18 30L18,32A2,2 0,0 1,16 34L14,34A2,2 0,0 1,12 32L12,30A2,2 0,0 1,14 28z"
+        android:strokeColor="?colorAccent"
+        android:strokeWidth="2" />
+
+    <path
+        android:pathData="M24,28L26,28A2,2 0,0 1,28 30L28,32A2,2 0,0 1,26 34L24,34A2,2 0,0 1,22 32L22,30A2,2 0,0 1,24 28z"
+        android:strokeColor="?colorAccent"
+        android:strokeWidth="2" />
+
+    <path
+        android:pathData="M34,29L36,29A2,2 0,0 1,38 31L38,33A2,2 0,0 1,36 35L34,35A2,2 0,0 1,32 33L32,31A2,2 0,0 1,34 29z"
+        android:strokeColor="?colorAccent"
+        android:strokeWidth="2" />
+
+    <path
+        android:pathData="M14,38L16,38A2,2 0,0 1,18 40L18,42A2,2 0,0 1,16 44L14,44A2,2 0,0 1,12 42L12,40A2,2 0,0 1,14 38z"
+        android:strokeColor="?colorAccent"
+        android:strokeWidth="2" />
+
+    <path
+        android:pathData="M24,38L26,38A2,2 0,0 1,28 40L28,42A2,2 0,0 1,26 44L24,44A2,2 0,0 1,22 42L22,40A2,2 0,0 1,24 38z"
+        android:strokeColor="?colorAccent"
+        android:strokeWidth="2" />
+
+    <path
+        android:pathData="M34,38L36,38A2,2 0,0 1,38 40L38,42A2,2 0,0 1,36 44L34,44A2,2 0,0 1,32 42L32,40A2,2 0,0 1,34 38z"
+        android:strokeColor="?colorAccent"
+        android:strokeWidth="2" />
+</vector>

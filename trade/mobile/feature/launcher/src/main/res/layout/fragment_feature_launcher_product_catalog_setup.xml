@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uz.uzkassa.smartpos.feature.launcher.presentation.widget.LauncherBackgroundLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="@string/fragment_feature_launcher_product_catalog_setup_text">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/_14sdp"
+        android:paddingRight="@dimen/_14sdp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/add_products_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_feature_launcher_product_catalog_setup_add_products_button_title"
+            style="@style/Presentation.Launcher.Widget.RoundedButton" />
+
+    </LinearLayout>
+
+</uz.uzkassa.smartpos.feature.launcher.presentation.widget.LauncherBackgroundLayout>

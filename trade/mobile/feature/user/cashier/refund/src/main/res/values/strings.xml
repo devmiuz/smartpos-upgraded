@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_user_cashier_refund_payment_process_print_check_description_text">Print check</string>
+    <string name="fragment_feature_user_cashier_refund_payment_process_change_amount_disclaimer_text">Change of accepted\n%1$s</string>
+
+    <string name="fragment_feature_user_cashier_refund_payment_title">Refund</string>
+    <string name="fragment_feature_user_cashier_refund_payment_total_products_title">Total products</string>
+    <string name="fragment_feature_user_cashier_refund_payment_total_refund_products_title">Refund products count</string>
+    <string name="fragment_feature_user_cashier_refund_payment_receipt_total_cost_title">Receipt total cost</string>
+    <string name="fragment_feature_user_cashier_refund_payment_refund_receipt_amount_title">Refund total cost</string>
+    <string name="fragment_feature_user_cashier_refund_payment_card_payment_type_button_title">Card</string>
+    <string name="fragment_feature_user_cashier_refund_payment_cash_payment_type_button_title">Cash</string>
+
+    <string name="fragment_feature_user_cashier_refund_payment_refund_finish_alert_message">Please complete the current refund</string>
+    <string name="fragment_feature_user_cashier_refund_payment_refund_finish_alert_title">Refund completion</string>
+
+    <string name="fragment_feature_user_cashier_refund_payment_refund_warning_alert_title">Warning</string>
+    <string name="fragment_feature_user_cashier_refund_payment_refund_payment_type_warning_cash_alert_message">You cannot return this check in cash.</string>
+    <string name="fragment_feature_user_cashier_refund_payment_refund_payment_type_warning_card_alert_message">You cannot return this check with a debit card.</string>
+
+
+    <string name="fragment_feature_user_cashier_refund_product_list_title">Refund</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_receipt_number">№ %1$s</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_proceed_button_title">Refund</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_available_cash_in_current_shift_info">There is not enough money in the current shift to return</string>
+
+    <string name="fragment_feature_user_cashier_refund_product_list_exit_alert_title">Exit</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_exit_alert_message">Are you sure you want to exit? Your changes will not be saved</string>
+
+
+    <string name="fragment_feature_user_cashier_refund_product_list_request_marking_alert_title">Marking</string>
+    <string name="fragment_feature_user_cashier_refund_product_list_request_marking_alert_message">You will need to scan the marking code to return this product. Do you scan all the markings?</string>
+
+    <string name="fragment_feature_user_cashier_refund_receipt_search_title">Refund</string>
+    <string name="fragment_feature_user_cashier_refund_receipt_search_description">Scan a receipt QR-code or enter data manually</string>
+    <string name="fragment_feature_user_cashier_refund_receipt_search_receipt_not_found_alert_message">A receipt with such a unique number was not found</string>
+    <string name="fragment_feature_user_cashier_refund_receipt_search_receipt_not_allowed_for_refund_alert_message">Please select a sales receipt for refund</string>
+    <string name="fragment_feature_user_cashier_refund_receipt_search_uid_hint">Receipt UID</string>
+
+    <string name="menu_feature_user_cashier_refund_main_barcode_scanner_menuitem_title">Barcode scanner</string>
+
+    <string name="menu_feature_user_cashier_refund_cart_select_all_menu_item">Select all</string>
+    <string name="menu_feature_user_cashier_refund_cart_clear_all_menu_item">Clear all</string>
+
+    <string name="viewholder_feature_user_cashier_refund_receipt_payment_title">Refund</string>
+
+</resources>

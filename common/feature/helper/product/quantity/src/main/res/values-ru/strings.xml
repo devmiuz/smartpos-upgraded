@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_helper_product_quantity_main_change_count_title">Изменение количества</string>
+    <string name="fragment_feature_helper_product_quantity_main_change_count_description_title">Количество</string>
+    <string name="fragment_feature_helper_product_quantity_main_change_count_amount_description_title">Сумма</string>
+    <string name="fragment_feature_helper_product_quantity_main_change_count_error_not_inputted">Пожалуйста, введите количество</string>
+
+</resources>

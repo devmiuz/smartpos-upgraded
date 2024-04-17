@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Presentation.TextAppearance.Title" parent="TextAppearance.AppCompat.Title" />
+
+    <style name="TextAppearance.Medium" parent="TextAppearance.AppCompat.Medium" />
+
+    <style name="Presentation.TextAppearance.Regular" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/core_presentation_widget_textview_regular_height</item>
+    </style>
+
+    <style name="Presentation.TextAppearance.Small" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/core_presentation_widget_textview_small_height</item>
+    </style>
+
+</resources>

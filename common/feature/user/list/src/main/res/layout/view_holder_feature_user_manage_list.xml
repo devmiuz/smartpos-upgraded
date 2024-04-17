@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uz.uzkassa.smartpos.core.presentation.widget.easyswipemenulayout.EasySwipeMenuLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/easy_swipe_menu_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_70sdp"
+    app:contentView="@id/constraint_layout"
+    app:rightMenuView="@id/menu_linear_layout"
+    tools:ignore="PrivateResource">
+
+    <LinearLayout
+        android:id="@+id/menu_linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="?selectableItemBackground">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_dark"
+            android:padding="@dimen/_28sdp"
+            app:tint="@android:color/white"
+            app:srcCompat="@drawable/core_presentation_vector_drawable_trash" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/_4sdp"
+        android:paddingBottom="@dimen/_4sdp"
+        android:paddingStart="@dimen/_16sdp"
+        android:paddingEnd="@dimen/_16sdp"
+        android:background="?selectableItemBackground">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/state_image_view">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/user_name_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:textAppearance="@style/Presentation.TextAppearance.Title" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/user_role_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:textColor="@android:color/darker_gray"
+                android:textAppearance="@style/Presentation.TextAppearance.Regular" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/phone_number_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@android:color/darker_gray"
+                android:textAppearance="@style/Presentation.TextAppearance.Regular" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/state_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/core_presentation_vector_drawable_chevron_right"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</uz.uzkassa.smartpos.core.presentation.widget.easyswipemenulayout.EasySwipeMenuLayout>

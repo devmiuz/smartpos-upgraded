@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_user_cashier_cash_operations_operation_added_cash">Pul qo`shish</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_consumption">Xarajat</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_encashment">Inkassatsiya</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_paid">Savdo</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_returned">Qaytarish</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_returned_added_cash">Pul qaytarish</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_returned_consumption">Xarajatni qaytarish</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_unknown">Noma\'lum</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_credit">Kredit</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_advance">Avans</string>
+
+</resources>

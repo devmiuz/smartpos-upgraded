@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_user_cashier_cash_operations_operation_added_cash">Add cash</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_consumption">Consumption</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_encashment">Encashment</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_paid">Sale</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_returned">Return</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_returned_added_cash">Return cash</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_returned_consumption">Return consumption</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_unknown">Unknown</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_credit">Credit</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_advance">Advance</string>
+
+</resources>

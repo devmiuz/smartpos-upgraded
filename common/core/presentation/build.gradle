@@ -1,0 +1,71 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    namespace "uz.uzkassa.smartpos.core.presentation"
+    compileSdk versions.android.compileSdk
+
+    defaultConfig {
+        minSdk versions.android.minSdk
+        targetSdk versions.android.targetSdk
+        versionCode 1
+        versionName "1.0"
+
+        consumerProguardFiles 'consumer-rules.pro'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    kotlinOptions { jvmTarget = "1.8" }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.androidx.testEspresso"
+    androidTestImplementation "androidx.test.ext:junit:$versions.androidx.testExtJunit"
+    androidTestImplementation "androidx.test:runner:$versions.androidx.testRunner"
+    testImplementation "junit:junit:$versions.junit.junit"
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$versions.kotlin.stdlib"
+
+    compileOnly project(':common:core:data:manager:device')
+    compileOnly project(':common:core:data:manager:printer')
+    compileOnly project(':common:core:data:source:fiscal')
+    compileOnly project(':common:core:data:source:gtpos')
+    compileOnly project(':common:core:data:source:resource')
+    compileOnly project(':common:core:data:source:resources:language')
+
+    api("androidx.appcompat:appcompat:$versions.androidx.appcompat") {
+        exclude group: 'androidx.activity', module: 'activity'
+        exclude group: 'androidx.fragment', module: 'fragment'
+        exclude group: 'androidx.recyclerview', module: 'recyclerview'
+    }
+
+    api "androidx.activity:activity-ktx:$versions.androidx.activity"
+    api "androidx.constraintlayout:constraintlayout:$versions.androidx.constraintlayout"
+    api "androidx.core:core-ktx:$versions.androidx.core_ktx"
+    api "androidx.fragment:fragment-ktx:$versions.androidx.fragment"
+    api "androidx.recyclerview:recyclerview:$versions.androidx.recyclerview"
+    api "androidx.swiperefreshlayout:swiperefreshlayout:$versions.androidx.swiperefreshlayout"
+
+    api "com.google.zxing:core:$versions.google.zxing.core"
+
+    api "com.brandongogetap:stickyheaders:$versions.brandongogetap.stickyheaders"
+    api "com.google.android.material:material:$versions.google.android_material"
+    api "com.github.kirich1409:ViewBindingPropertyDelegate:$versions.kirich1409.viewbindingpropertydelegate"
+    api "com.github.tiper:MaterialSpinner:$versions.tiper.materialspinner"
+    api "com.intuit.sdp:sdp-android:$versions.intuit.sdp"
+    api "com.redmadrobot:inputmask:$versions.redmadrobot.inputmask"
+    api "me.zhanghai.android.materialprogressbar:library:$versions.zhanghai.materialprogressbar"
+}

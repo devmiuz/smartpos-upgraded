@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_product_unit_creation_unit_input_hint">Birlikni tanlang</string>
+    <string name="fragment_feature_product_unit_creation_product_count_input_hint">Miqdori</string>
+    <string name="fragment_feature_product_unit_creation_product_units">Birliklar</string>
+    <string name="fragment_feature_product_unit_creation_product_units_first_item">Asosiy birlik - %1$s</string>
+    <string name="fragment_feature_product_unit_creation_error_unit_count_not_defined">Iltimos, birliklar sonini kiriting</string>
+    <string name="fragment_feature_product_unit_creation_error_unit_not_selected">Iltimos, birlikni tanlang</string>
+</resources>

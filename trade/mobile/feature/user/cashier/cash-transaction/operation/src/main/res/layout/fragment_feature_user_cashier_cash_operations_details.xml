@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_feature_user_cashier_cash_operations_receipt_background">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:theme="@style/Presentation.Theme.AppBarOverlay"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:navigationIcon="@drawable/core_presentation_vector_drawable_arrow_left"
+            app:popupTheme="@style/Presentation.Theme.PopupOverlay"
+            app:title="@string/fragment_feature_user_cashier_cash_operations_details_title" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <uz.uzkassa.smartpos.core.presentation.widget.statelayout.StateLayout
+        android:id="@+id/state_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_anchor="@id/cash_operation_details_bottom_gradient"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintBottom_toTopOf="@id/cash_operation_details_bottom_gradient"
+        app:layout_constraintTop_toBottomOf="@id/app_bar_layout">
+
+        <androidx.core.widget.NestedScrollView
+            style="@style/Presentation.Widget.NestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="false"
+            android:scrollbars="vertical"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ir.beigirad.zigzagview.ZigzagView
+                    android:id="@+id/receipt_zigzag_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    app:zigzagBackgroundColor="@android:color/white"
+                    app:zigzagElevation="4dp"
+                    app:zigzagHeight="12dp"
+                    app:zigzagPadding="16dp"
+                    app:zigzagPaddingContent="12dp"
+                    app:zigzagShadowAlpha="0.9"
+                    app:zigzagSides="top|bottom"
+                    tools:minHeight="220dp"
+                    tools:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/cash_operations_detail_company_name_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                            android:textColor="@android:color/black"
+                            android:textSize="15sp"
+                            tools:text="OOO 'Компания'"
+                            tools:visibility="visible" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/cash_operations_detail_company_branch_name_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                            android:textColor="@android:color/black"
+                            tools:text="Филиал № 1"
+                            tools:visibility="visible" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:id="@+id/cash_operations_detail_company_address_text_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                            android:textColor="@android:color/black"
+                            tools:text="ул. Бобура 77а"
+                            tools:visibility="visible" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            style="@style/Presentation.Widget.Divider.Stroke"
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginBottom="4dp" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_cash_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/fragment_feature_user_cashier_cash_operations_details_total_cash_title"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_cash_info_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/cash_operations_details_total_cash_text_view"
+                                android:layout_marginStart="@dimen/_16sdp"
+                                android:text="@string/fragment_feature_user_cashier_cash_operations_details_total_cash_info"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_cash_value_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@id/cash_operations_details_total_cash_text_view"
+                                android:layout_alignParentEnd="true"
+                                android:gravity="end"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                tools:text="= 1 000 200 400 000,0 " />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_sale_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/cash_operations_details_total_cash_info_text_view"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:text="@string/fragment_feature_user_cashier_cash_operations_details_total_sale_title"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_sale_value_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@id/cash_operations_details_total_sale_text_view"
+                                android:layout_alignParentEnd="true"
+                                android:gravity="end"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                tools:text="= 420 000 000 000,0" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_sale_cash_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/cash_operations_details_total_sale_text_view"
+                                android:layout_marginStart="@dimen/_16sdp"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:text="@string/fragment_feature_user_cashier_cash_operations_details_total_sale_cash"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:visibility="gone"
+                                tools:visibility="gone" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_sale_cash_value_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@id/cash_operations_details_total_sale_cash_text_view"
+                                android:layout_alignParentEnd="true"
+                                android:gravity="end"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:visibility="gone"
+                                tools:text="‭322 000 000 200,5"
+                                tools:visibility="gone" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_refund_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/cash_operations_details_total_sale_value_text_view"
+                                android:layout_marginStart="@dimen/_16sdp"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:text="@string/fragment_feature_user_cashier_cash_operations_details_total_refund_title"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_refund_value_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@id/cash_operations_details_total_refund_text_view"
+                                android:layout_alignParentEnd="true"
+                                android:gravity="end"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                tools:text="42 000 000 200,5" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_refund_cash_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/cash_operations_details_total_refund_text_view"
+                                android:layout_marginStart="@dimen/_32sdp"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:text="@string/fragment_feature_user_cashier_cash_operations_details_total_refund_cash"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:visibility="gone"
+                                tools:visibility="gone" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_refund_cash_value_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@id/cash_operations_details_total_refund_cash_text_view"
+                                android:layout_alignParentEnd="true"
+                                android:gravity="end"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:visibility="gone"
+                                tools:text="42 200,5"
+                                tools:visibility="gone" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_added_cash_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/cash_operations_details_total_refund_text_view"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:text="@string/fragment_feature_user_cashier_cash_operations_details_total_adding_cash"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_added_cash_value_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@id/cash_operations_details_total_added_cash_text_view"
+                                android:layout_alignParentEnd="true"
+                                android:gravity="end"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                tools:text="= 420 000 000 000,0" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_returned_added_cash_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/cash_operations_details_total_added_cash_text_view"
+                                android:layout_marginStart="@dimen/_16sdp"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:text="@string/fragment_feature_user_cashier_cash_operations_operation_returned_added_cash"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_returned_added_cashvalue_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@id/cash_operations_details_total_returned_added_cash_text_view"
+                                android:layout_alignParentEnd="true"
+                                android:gravity="end"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                tools:text="‭322 000 000 200,5" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_expense_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/cash_operations_details_total_returned_added_cashvalue_text_view"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:text="@string/fragment_feature_user_cashier_cash_operations_details_total_expense"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_expense_value_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@id/cash_operations_details_total_expense_text_view"
+                                android:layout_alignParentEnd="true"
+                                android:gravity="end"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                tools:text="= 420 000 000 000,0" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_returned_expense_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/cash_operations_details_total_expense_value_text_view"
+                                android:layout_marginStart="@dimen/_16sdp"
+                                android:layout_marginTop="@dimen/_4sdp"
+                                android:text="@string/fragment_feature_user_cashier_cash_operations_details_total_returned_expense"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_total_returned_expense_value_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@id/cash_operations_details_total_returned_expense_text_view"
+                                android:layout_alignParentEnd="true"
+                                android:gravity="end"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                tools:text="‭322 000 000 200,5" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_last_encashment_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/cash_operations_details_total_returned_expense_value_text_view"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:text="@string/fragment_feature_user_cashier_cash_operations_details_last_encashment"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_last_encashment_value_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@id/cash_operations_details_last_encashment_text_view"
+                                android:layout_alignParentEnd="true"
+                                android:gravity="end"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                tools:text="= ‭100 000 000 000,0" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_cash_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/cash_operations_details_last_encashment_text_view"
+                                android:layout_marginTop="@dimen/_2sdp"
+                                android:text="@string/fragment_feature_user_cashier_cash_operations_details_total_cash"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/cash_operations_details_cash_value_text_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignTop="@id/cash_operations_details_cash_text_view"
+                                android:layout_alignParentEnd="true"
+                                android:gravity="end"
+                                android:textAppearance="@style/Presentation.TextAppearance.Regular"
+                                android:textColor="@android:color/black"
+                                android:textStyle="bold"
+                                tools:text="= ‭138 000 000 199,5‬" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </ir.beigirad.zigzagview.ZigzagView>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </uz.uzkassa.smartpos.core.presentation.widget.statelayout.StateLayout>
+
+    <View
+        android:id="@+id/cash_operation_details_bottom_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/gradient_feature_user_cashier_cash_operations_details"
+        app:layout_anchor="@id/cash_operation_details_bottom_layout"
+        app:layout_constraintBottom_toTopOf="@+id/cash_operation_details_bottom_layout" />
+
+    <LinearLayout
+        android:id="@+id/cash_operation_details_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cash_operation_details_next_button"
+            style="@style/Presentation.Widget.Button.RoundedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/_16sdp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:text="@string/core_presentation_common_continue" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

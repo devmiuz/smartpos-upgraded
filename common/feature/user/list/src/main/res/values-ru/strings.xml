@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_list_title">Сотрудники</string>
+
+    <string name="fragment_feature_user_list_delete_alert_message">Вы действительно хотите уволить %1$s?</string>
+    <string name="fragment_feature_user_list_delete_alert_title">Увольнение сотрудника</string>
+
+    <string name="menu_feature_user_list_creation_title">Новый сотрудник</string>
+</resources>

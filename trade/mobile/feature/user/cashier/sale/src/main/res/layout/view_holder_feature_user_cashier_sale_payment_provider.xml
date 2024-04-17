@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_64sdp"
+    android:background="?selectableItemBackground"
+    android:padding="@dimen/_10sdp"
+    tools:ignore="PrivateResource">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/payment_provider_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="2"
+        android:paddingStart="@dimen/_16sdp"
+        android:textAppearance="@style/Presentation.TextAppearance.Regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Humo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

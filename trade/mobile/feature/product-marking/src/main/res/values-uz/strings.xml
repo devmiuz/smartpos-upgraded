@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_product_marking_duplicate_marking_exception">Ikki nusxadagi mahsulot yorlig\'i aniqlandi</string>
+    <string name="feature_product_marking_not_found_marking_exception">Mahsulot yorlig\'i topilmadi</string>
+    <string name="feature_product_marking_undefined_error">Noma\'lum xatolik</string>
+    <string name="feature_product_marking_scanner_fragment_skip">O\'TKAZISH</string>
+    <string name="fragment_feature_product_marking_product_marking_scanning_method">Skanerlash uslubi</string>
+    <string name="fragment_feature_product_marking_camera_scanner">Kamera</string>
+    <string name="fragment_feature_product_marking_camera_scanner_title">Markirovka</string>
+    <string name="fragment_feature_product_marking_camera_scanner_scan">Mahsulotni markirovka kodini skanerlang</string>
+    <string name="fragment_feature_product_marking_scanner">Skaner</string>
+    <string name="fragment_feature_product_marking_scanner_marked_quantity">Belgilandi %1$d/%2$d</string>
+</resources>

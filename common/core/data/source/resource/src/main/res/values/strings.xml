@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_source_http_error_bad_request">Failed to process request due to syntax error</string>
+    <string name="data_source_http_error_connection">There was an error in connecting to server. Please, try again</string>
+    <string name="data_source_http_error_forbidden">Insufficient permissions to access the resource</string>
+    <string name="data_source_http_error_internal_server_error">An exception occurred on the server side</string>
+    <string name="data_source_http_error_not_found">No resources found</string>
+    <string name="data_source_http_error_payment_required">This code is reserved for future use.</string>
+    <string name="data_source_http_error_service_unavailable">The server cannot process the request due to temporary overload or technical work</string>
+    <string name="data_source_http_error_unauthorized">Request requires user authentication</string>
+    <string name="data_source_http_error_unknown">Unknown network error</string>
+</resources>

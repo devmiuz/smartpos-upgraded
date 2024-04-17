@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feature_product_marking_duplicate_marking_exception">Обнаружена повторяющаяся маркировка товара</string>
+    <string name="feature_product_marking_not_found_marking_exception">Маркировка продукта не найдена</string>
+    <string name="feature_product_marking_undefined_error">Неопределенная ошибка</string>
+    <string name="feature_product_marking_scanner_fragment_skip">ПРОПУСТИТЬ</string>
+    <string name="fragment_feature_product_marking_product_marking_scanning_method">Тип сканирования</string>
+    <string name="fragment_feature_product_marking_camera_scanner">Камера</string>
+    <string name="fragment_feature_product_marking_camera_scanner_title">Маркировка</string>
+    <string name="fragment_feature_product_marking_camera_scanner_scan">Отсканируйте маркировочный код товара</string>
+    <string name="fragment_feature_product_marking_scanner">Сканнер</string>
+    <string name="fragment_feature_product_marking_scanner_marked_quantity">Маркировано %1$d/%2$d</string>
+</resources>

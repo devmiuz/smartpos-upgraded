@@ -1,0 +1,3 @@
+package uz.uzkassa.smartpos.feature.receipt.remote.dependencies
+
+interface ReceiptRemoteFeatureArgs

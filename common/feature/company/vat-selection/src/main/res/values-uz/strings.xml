@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_company_vat_selection_title">QQS foizi</string>
+    <string name="fragment_feature_company_vat_selection_value">%1$s foiz</string>
+    <string name="fragment_feature_company_vat_selection_manual_value">Qo\'lda…</string>
+    <string name="fragment_feature_company_vat_selection_input_hint">0 dan 100 gacha</string>
+</resources>

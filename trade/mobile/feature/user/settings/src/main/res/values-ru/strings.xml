@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_user_settings_common_change_title">Изменить</string>
+    <string name="fragment_feature_user_settings_common_surname_hint">Фамилия</string>
+    <string name="fragment_feature_user_settings_common_name_hint">Имя</string>
+    <string name="fragment_feature_user_settings_common_last_name_hint">Отчество</string>
+    <string name="fragment_feature_user_settings_common_phone_number_hint">Номер телефона</string>
+
+    <string name="fragment_feature_user_settings_language_change_title">Изменение языка</string>
+
+    <string name="fragment_feature_user_settings_details_title">Настройки</string>
+    <string name="fragment_feature_user_settings_details_user_change_personal_data_button_title">Изменить личные данные</string>
+    <string name="fragment_feature_user_settings_details_user_change_phone_number_button_title">Изменить номер телефона</string>
+    <string name="fragment_feature_user_settings_details_user_change_password_button_title">Изменить пароль</string>
+    <string name="fragment_feature_user_settings_details_user_change_pin_code_button_title">Изменить ПИН-код</string>
+    <string name="fragment_feature_user_settings_details_user_change_language_button_title">Изменить язык</string>
+
+    <string name="fragment_feature_user_settings_details_personal_data_change_title">Личные данные</string>
+    <string name="fragment_feature_user_settings_details_personal_data_last_name_empty_error">Введите отчество</string>
+    <string name="fragment_feature_user_settings_details_personal_data_name_empty_error">Введите имя</string>
+    <string name="fragment_feature_user_settings_details_personal_data_surname_empty_error">Введите фамилию</string>
+    <string name="fragment_feature_user_settings_details_personal_data_change_save_button_title">Сохранить</string>
+
+    <string name="fragment_feature_user_settings_password_change_title">Изменение пароля</string>
+    <string name="fragment_feature_user_settings_password_change_old_password_hint">Старый пароль</string>
+    <string name="fragment_feature_user_settings_password_change_new_password_hint">Новый пароль</string>
+    <string name="fragment_feature_user_settings_password_change_old_password_error">Введите верно старый пароль</string>
+    <string name="fragment_feature_user_settings_password_change_new_password_error">Введите верно новый пароль</string>
+    <string name="fragment_feature_user_settings_password_change_error_incorrect_password">Неверный пароль</string>
+
+    <string name="fragment_feature_user_settings_phone_number_change_title">Изменение номера телефона</string>
+    <string name="fragment_feature_user_settings_phone_number_change_error">Пожалуйста, введите верно номер телефона</string>
+    <string name="fragment_feature_user_settings_phone_number_change_error_cause_user_exists">Пользователь с этим номером уже существует</string>
+
+</resources>

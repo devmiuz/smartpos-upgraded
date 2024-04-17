@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_title">Ixtiyoriy chegirma</string>
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_admission_disclaimer_text">Ixtiyoriy chegirmani belgilash uchun filial ma\'murining paroli talab qilinadi</string>
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_admission_admin_password_input_hint">Ma\'mur paroli</string>
+
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_amount_title">So\'mda</string>
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_percent_title">Foizlarda</string>
+
+    <string name="fragment_feature_helper_payment_discount_selection_card_title">Karta</string>
+    <string name="fragment_feature_helper_payment_discount_selection_card_disclaimer_text">Kartani yaqinlashtiring yoki qo\'lda kiriting</string>
+    <string name="fragment_feature_helper_payment_discount_selection_card_number_input_hint">Karta raqami</string>
+    <string name="fragment_feature_helper_payment_discount_selection_card_number_error_not_found">Karta topilmadi</string>
+    <string name="fragment_feature_helper_payment_discount_selection_card_number_error_not_discount">Karta chegirmali emas</string>
+
+    <string name="fragment_feature_helper_payment_discount_arbitrary_amount_title">Chegirma summasi</string>
+    <string name="fragment_feature_helper_payment_discount_arbitrary_amount_error_message">Chegirma summasini kiriting</string>
+    <string name="fragment_feature_helper_payment_discount_arbitrary_percent_title">Chegirma foizi</string>
+    <string name="fragment_feature_helper_payment_discount_arbitrary_percent_error_message">Chegirma foizini kiriting</string>
+
+    <string name="fragment_feature_helper_payment_discount_title">Chegirma</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_account_auth_login_title">Login</string>
+    <string name="fragment_feature_account_auth_login_phone_number_input_hint">Phone number</string>
+    <string name="fragment_feature_account_auth_login_password_input_hint">Password</string>
+    <string name="fragment_feature_account_auth_login_password_recovery_button_title">Forgot password?</string>
+    <string name="fragment_feature_account_auth_login_proceed_title">Login</string>
+    <string name="fragment_feature_account_auth_login_error_unauthorized_message">Неверные данные для входа</string>
+</resources>

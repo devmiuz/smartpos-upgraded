@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycler_view"
+    style="@style/Presentation.Widget.RecyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:itemCount="4"
+    tools:listitem="@layout/view_holder_feature_user_cashier_sale_main_service" />

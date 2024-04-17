@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_saving_required_fields_title">Required fields</string>
+    <string name="fragment_feature_user_saving_surname_title">Surname</string>
+    <string name="fragment_feature_user_saving_name_title">Name</string>
+    <string name="fragment_feature_user_saving_middle_name_title">Middle Name</string>
+    <string name="fragment_feature_user_saving_branch_title">Branch</string>
+    <string name="fragment_feature_user_saving_user_role_title">User Role</string>
+    <string name="fragment_feature_user_saving_phone_number_title">Employer phone number</string>
+    <string name="fragment_feature_user_saving_email_title">Employer e-mail</string>
+    <string name="fragment_feature_user_saving_personal_data_title">Personal data</string>
+    <string name="fragment_feature_user_saving_passport_number_title">Passport number</string>
+    <string name="fragment_feature_user_saving_employment_start_date_title">Employment start date</string>
+
+    <string name="fragment_feature_user_saving_error_user_already_exists">User with inputted phone number already exists</string>
+    <string name="fragment_feature_user_saving_error_user_surname_not_inputted">Surname not inputted</string>
+    <string name="fragment_feature_user_saving_error_user_name_not_inputted">Name not inputted</string>
+    <string name="fragment_feature_user_saving_error_user_middle_name_not_inputted">Middle name not inputted</string>
+    <string name="fragment_feature_user_saving_error_user_branch_not_selected">Branch not selected</string>
+    <string name="fragment_feature_user_saving_error_user_role_not_selected">User role not selected</string>
+    <string name="fragment_feature_user_saving_error_user_phone_number_not_selected">Phone number not inputted</string>
+    <string name="fragment_feature_user_saving_error_user_start_date_not_selected">Start date not selected</string>
+    <string name="fragment_feature_user_saving_error_user_probation_end_not_selected">Start date not selected</string>
+
+    <string name="fragment_feature_user_saving_creation_title">New employer</string>
+    <string name="fragment_feature_user_saving_update_title">Update employer</string>
+</resources>

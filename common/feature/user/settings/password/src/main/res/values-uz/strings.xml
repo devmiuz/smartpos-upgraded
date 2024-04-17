@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_settings_password_change_button_title">O\'zgartirish</string>
+    <string name="fragment_feature_user_settings_password_change_title">Parolni o\'zgartirish</string>
+    <string name="fragment_feature_user_settings_password_change_old_password_hint">Eski parol</string>
+    <string name="fragment_feature_user_settings_password_change_new_password_hint">Yangi parol</string>
+    <string name="fragment_feature_user_settings_password_change_old_password_error">Eski parolni kiriting</string>
+    <string name="fragment_feature_user_settings_password_change_new_password_error">Yangi parolni kiriting</string>
+    <string name="fragment_feature_user_settings_password_change_error_incorrect_password">Noto\'g\'ri parol</string>
+</resources>

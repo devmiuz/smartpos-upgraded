@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_launcher_account_auth_title">Личный кабинет</string>
+    <string name="fragment_feature_launcher_account_auth_login_button_title">Вход</string>
+    <string name="fragment_feature_launcher_account_auth_registration_button_title">Регистрация</string>
+
+    <string name="fragment_feature_launcher_account_auth_logout_message">Действительно хотите очистить данные приложения и выйти из системы?</string>
+    <string name="fragment_feature_launcher_account_auth_clear_app_data_and_logout_title">Очистить данные приложения и выйти</string>
+    <string name="fragment_feature_launcher_account_auth_clear_app_data_failed_message">Произошла ошибка при очистке данных приложения</string>
+
+    <string name="fragment_feature_launcher_account_auth_undelivered_receipts_title">Проверить недоставленные чеки</string>
+    <string name="fragment_feature_launcher_account_auth_undelivered_receipts_message">Есть чеки, которые еще не отправлены. Пожалуйста, попробуйте позже</string>
+    <string name="fragment_feature_launcher_account_auth_undelivered_receipts_failed_message">Ошибка при загрузке недоставленных чеков</string>
+
+    <string name="fragment_feature_account_auth_registration_complete_text">Поздравляем с успешной регистрацией!</string>
+    <string name="fragment_feature_account_auth_registration_complete_continue_button_title">Продолжить</string>
+    <string name="fragment_feature_account_auth_registration_complete_print_data_button_title">Распечатать данные</string>
+
+    <string name="fragment_feature_launcher_branch_creation_text">Компания добавлена!\n\nСозданная компания - это точка продаж?</string>
+    <string name="fragment_feature_launcher_user_creation_text">У этой торговой точки есть другие сотрудники?</string>
+
+    <string name="fragment_feature_launcher_product_catalog_setup_text">Вы уже у цели, осталось только добавить товары!</string>
+    <string name="fragment_feature_launcher_product_catalog_setup_add_products_button_title">Добавить товары</string>
+
+    <string name="fragment_feature_launcher_sync_loading_text">Пожалуйста, подождите…</string>
+    <string name="fragment_feature_launcher_sync_error_text">Произошла ошибка</string>
+
+    <string name="fragment_feature_launcher_user_auth_owner_login_as_title">Войти как %1$s</string>
+
+    <string name="view_holder_feature_launcher_user_supervisor_in_development_title">В разработке</string>
+</resources>

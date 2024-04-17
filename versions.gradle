@@ -1,0 +1,96 @@
+ext.versions = [
+
+        kotlin           : [
+                coroutines   : '1.3.6',
+                serialization: '0.20.0',
+                stdlib       : '1.3.72'
+        ],
+
+        android          : [
+                compileSdk        : 34,
+                minSdk            : 24,
+                targetSdk         : 34,
+
+                tools_build_gradle: '8.3.0'
+        ],
+
+        androidx         : [
+                activity               : '1.2.0-alpha06',
+                appcompat              : '1.3.0-alpha01',
+                cardView               : '1.0.0',
+                constraintlayout       : '2.0.0-beta7',
+                core_ktx               : '1.5.0-alpha01',
+                datastore              : '1.0.0-alpha01',
+                fragment               : '1.3.0-alpha06',
+                lifecycle_extensions   : '2.3.0-alpha05',
+                lifecycle_livedata_ktx : '2.3.0-alpha05',
+                lifecycle_viewmodel_ktx: '2.3.0-alpha05',
+                multidex               : '2.0.1',
+                recyclerview           : '1.2.0-alpha04',
+                room                   : '2.3.0-alpha02',
+                swiperefreshlayout     : '1.1.0',
+                testEspresso           : '3.3.0',
+                testExtJunit           : '1.1.2',
+                testRunner             : '1.3.0',
+                webkit                 : '1.3.0-rc01',
+                work                   : '2.4.0-rc01'
+        ],
+
+        beigirad         : [zigzagview: '1.0.7'],
+
+        brandongogetap   : [stickyheaders: '0.6.1'],
+
+        google           : [
+                android_material: '1.3.0-alpha01',
+                dagger          : '2.28.1',
+                gms             : [
+                        location: '16.0.0',
+                        maps    : '16.1.0',
+                        places  : '16.0.0'
+                ],
+                gson            : '2.8.5',
+                zxing           : [core: '3.3.0']
+        ],
+
+        hotchemi         : [permissionsdispatcher: '4.7.0'],
+
+        intuit           : [sdp: '1.0.6'],
+
+        jake_wharton     : [
+                retrofit2_kotlinx_serialization_converter: '0.5.0',
+                timber                                   : '4.7.1'
+        ],
+
+        journeyapps      : [zxing: '4.1.0'],
+
+        junit            : [junit: '4.13'],
+
+        kirich1409       : [viewbindingpropertydelegate: '0.3'],
+
+        hildan           : [krossbow: '0.42.0'],
+
+        moxy_community   : [moxy: '2.1.2'],
+
+        reactivex        : [rxjava: '2.2.12'],
+
+        redmadrobot      : [inputmask: '4.1.0'],
+
+        square           : [
+                leakcanary: '2.4',
+                okhttp    : '4.2.1',
+                okio      : '2.6.0',
+                picasso   : '2.71828',
+
+                retrofit  : '2.7.2'
+        ],
+
+        terrakok         : [cicerone: '5.1.0'],
+
+        tinder           : [scarlet: '0.2.4'],
+
+        tiper            : [materialspinner: '1.4.1'],
+
+        valeryponomarenko: [componentsmanager: '2.1.0'],
+
+        zhanghai         : [materialprogressbar: '1.6.1']
+]

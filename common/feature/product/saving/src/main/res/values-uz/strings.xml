@@ -1,0 +1,28 @@
+<resources>
+    <string name="fragment_feature_product_create_title">Mahsulot qo`shish</string>
+
+    <string name="fragment_feature_product_saving_category_input_hint">Kategoriya</string>
+    <string name="fragment_feature_product_saving_product_name_input_hint">Nomi</string>
+    <string name="fragment_feature_product_saving_product_barcode_input_hint">Shtrix kod</string>
+    <string name="fragment_feature_product_saving_product_type_input_hint">Turi/model</string>
+    <string name="fragment_feature_product_saving_product_value_input_hint">Hajm/o`lcham</string>
+    <string name="fragment_feature_product_saving_product_weight_input_hint">Og`irligi</string>
+    <string name="fragment_feature_product_saving_product_unit_input_hint">O`lchov birligi</string>
+    <string name="fragment_feature_product_saving_product_size_input_hint">Hajmi</string>
+    <string name="fragment_feature_product_saving_product_package_type_input_hint">Qadoqlash turi</string>
+    <string name="fragment_feature_product_saving_product_price_input_hint">Sotish narxi</string>
+    <string name="fragment_feature_company_saving_vat_title">QQS</string>
+    <string name="fragment_feature_product_saving_vat_rate_value">QQS solig\'i: %1$s%%</string>
+    <string name="fragment_feature_product_saving_vat_rate_change_button_title">O\'zgartirish</string>
+
+    <string name="fragment_feature_product_saving_error_category_not_defined">Kategoriyani tanlang</string>
+    <string name="fragment_feature_product_saving_error_product_barcode_not_defined">Mahsulotning shtrix kodini kiriting</string>
+    <string name="fragment_feature_product_saving_error_product_name_not_defined">Mahsulot nomini kiriting</string>
+    <string name="fragment_feature_product_saving_error_product_price_not_defined">Mahsulot narxini kiriting</string>
+    <string name="fragment_feature_product_saving_error_product_unit_not_defined">Mahsulot o`lchovini tanlang </string>
+
+    <string name="fragment_feature_product_saving_product_select">Tanlang</string>
+    <string name="fragment_feature_product_saving_mark">Markirovka</string>
+    <string name="fragment_feature_product_saving_product_vat_barcode_input_hint">MXIK</string>
+    <string name="fragment_feature_product_saving_product_commintent_tin_input_hint">ИНН Комиссионера</string>
+</resources>

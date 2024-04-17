@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_branch_saving_creation_title">Yangi filial</string>
+
+    <string name="fragment_feature_branch_saving_required_data_title">Majburiy ma\'lumotlar</string>
+    <string name="fragment_feature_branch_saving_activity_type_selection_title">Filial turini tanlash</string>
+    <string name="fragment_feature_branch_saving_activity_type_change_selection_title">Filial turini o\'zgartirish</string>
+    <string name="fragment_feature_branch_saving_branch_name_input_hint">Filial nomi</string>
+    <string name="fragment_feature_branch_saving_additional_title">Qo\'shimcha ma\'lumotlar</string>
+    <string name="fragment_feature_branch_saving_address_input_hint">Manzil</string>
+
+    <string name="fragment_feature_branch_saving_error_activity_type_selection">Iltimos, filial turini tanlang</string>
+    <string name="fragment_feature_branch_saving_error_branch_name_input">Filial nomini kiriting</string>
+    <string name="fragment_feature_branch_saving_error_region_selection">Sohani tanlang</string>
+    <string name="fragment_feature_branch_saving_error_city_selection">Shaharni tanlang</string>
+    <string name="fragment_feature_branch_saving_error_address_input">Manzilni kiriting</string>
+</resources>

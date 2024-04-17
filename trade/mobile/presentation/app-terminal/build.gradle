@@ -1,0 +1,202 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+    namespace "uz.uzkassa.smartpos.trade"
+    compileSdk versions.android.compileSdk
+
+    defaultConfig {
+        applicationId "uz.uzkassa.smartpos.trade"
+        minSdk versions.android.minSdk
+        targetSdk versions.android.targetSdk
+        versionCode 34
+        versionName "3.0"
+
+        consumerProguardFiles 'consumer-rules.pro'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "long", "BUILD_DATE", System.currentTimeMillis() + "L"
+
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation": "$projectDir/schemas".toString()]
+
+            }
+        }
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("keystore/release-keystore.jks")
+            keyAlias 'smartpos-trade-keystore-alias'
+            storePassword '77uzkassa77'
+            keyPassword 'uzkassa77'
+        }
+    }
+
+    buildTypes {
+        debug { applicationVariants.all { variant -> renameBuildApk(variant) } }
+        release {
+            applicationVariants.all { variant -> renameBuildApk(variant) }
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dexOptions {
+        preDexLibraries = false
+    }
+
+    packagingOptions {
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/INDEX.LIST'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude("META-INF/*.kotlin_module")
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/io.netty.versions.properties'
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_19
+        targetCompatibility = JavaVersion.VERSION_19
+    }
+
+    kotlinOptions { jvmTarget = "19" }
+
+    buildFeatures {
+        viewBinding = true
+        buildConfig = true
+    }
+}
+
+def renameBuildApk(variant) {
+    variant.outputs.all { output ->
+        def versionName = variant.versionName.replace(".", "-")
+        def variantName = variant.name
+        outputFileName = 'smart-pos-trade-' + variantName + '-v' + versionName + '.apk'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    implementation project(path: ':trade:mobile:feature:user:cashier:apay')
+    implementation project(path: ':trade:mobile:feature:user:autoprint')
+    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.androidx.testEspresso"
+    androidTestImplementation "androidx.test.ext:junit:$versions.androidx.testExtJunit"
+    androidTestImplementation "androidx.test:runner:$versions.androidx.testRunner"
+    testImplementation "junit:junit:$versions.junit.junit"
+
+    api project(':common:core:data:manager:printer')
+    api project(':common:core:data:manager:scanner')
+    api project(':common:core:data:source:gtpos')
+    api project(':common:core:data:source:resources:auth:refresh')
+
+    api project(':common:feature:account:auth')
+    api project(':common:feature:account:auth')
+    api project(':common:feature:account:recovery-password')
+    api project(':common:feature:account:registration')
+    api project(':common:feature:activity-type:selection')
+    api project(':common:feature:branch:delete')
+    api project(':common:feature:branch:list')
+    api project(':common:feature:branch:saving')
+    api project(':common:feature:branch:selection-setup')
+    api project(':common:feature:browser')
+    api project(':common:feature:category:list')
+    api project(':common:feature:category:main')
+    api project(':common:feature:category:saving')
+    api project(':common:feature:category:selection')
+    api project(':common:feature:category:selection-setup')
+    api project(':common:feature:category:type')
+    api project(':common:feature:company:saving')
+    api project(':common:feature:company:vat-selection')
+    api project(':common:feature:helper:payment:amount')
+    api project(':common:feature:helper:payment:discount')
+    api project(':common:feature:helper:product:quantity')
+    api project(':common:feature:product:list')
+    api project(':common:feature:product:saving')
+    api project(':common:feature:product:unit:creation')
+    api project(':common:feature:receipt:sync')
+    api project(':common:feature:region-city:selection')
+    api project(':common:feature:user:auth')
+    api project(':common:feature:user:confirmation')
+    api project(':common:feature:user:list')
+    api project(':common:feature:user:saving')
+    api project(':common:feature:user:settings:data')
+    api project(':common:feature:user:settings:language')
+    api project(':common:feature:user:settings:password')
+    api project(':common:feature:user:settings:phone-number')
+    api project(':common:feature:users:setup')
+    api project(':common:feature:confirm-receipt')
+
+    api project(':trade:mobile:feature:launcher')
+    api project(':trade:mobile:feature:receipt:remote')
+    api project(':trade:mobile:feature:sync:worker')
+    api project(':trade:mobile:feature:product-marking')
+//    api project(':trade:mobile:feature:user:cashier:apay:qrcode')
+    api project(':trade:mobile:feature:user:cashier:cash-transaction:operation')
+    api project(':trade:mobile:feature:user:cashier:cash-transaction:sync')
+    api project(':trade:mobile:feature:user:cashier:sale')
+    api project(':trade:mobile:feature:user:cashier:refund')
+    api project(':trade:mobile:feature:user:settings')
+    api project(':trade:mobile:feature:user:supervisor:dashboard')
+
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-reactive:$versions.kotlin.coroutines"
+
+    implementation "androidx.multidex:multidex:$versions.androidx.multidex"
+
+    implementation "androidx.room:room-runtime:$versions.androidx.room"
+    implementation "androidx.room:room-ktx:$versions.androidx.room"
+    kapt "androidx.room:room-compiler:$versions.androidx.room"
+
+    implementation "com.google.dagger:dagger:$versions.google.dagger"
+    kapt "com.google.dagger:dagger-compiler:$versions.google.dagger"
+
+    implementation "com.github.moxy-community:moxy:$versions.moxy_community.moxy"
+    implementation "com.github.moxy-community:moxy-androidx:$versions.moxy_community.moxy"
+    implementation "com.github.moxy-community:moxy-ktx:$versions.moxy_community.moxy"
+    kapt "com.github.moxy-community:moxy-compiler:$versions.moxy_community.moxy"
+
+    implementation("com.github.Tinder.Scarlet:scarlet:$versions.tinder.scarlet") {
+        exclude group: "com.github.tinder.scarlet", module: "scarlet-message-adapter-builtin"
+        exclude group: "com.github.tinder.scarlet", module: "scarlet-stream-adapter-builtin"
+        exclude group: "org.jetbrains.kotlin", module: "scarlet-stream-adapter-rxjava2"
+        exclude group: "com.github.tinder.scarlet", module: "scarlet-test-utils"
+        exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-jdk7"
+    }
+
+    implementation("com.github.Tinder.Scarlet:scarlet-core:$versions.tinder.scarlet") {
+        exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-jdk7"
+    }
+
+    implementation("com.github.tinder.scarlet:scarlet-lifecycle-android:$versions.tinder.scarlet") {
+        exclude group: "androidx.appcompat", module: "appcompat"
+        exclude group: "androidx.lifecycle", module: "lifecycle-extensions"
+        exclude group: "io.reactivex.rxjava2", module: "rxkotlin"
+        exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-jdk7"
+        exclude group: "org.json", module: "json"
+    }
+
+    implementation("com.github.Tinder.Scarlet:scarlet-protocol-websocket-okhttp:$versions.tinder.scarlet") {
+        exclude group: "com.github.tinder.scarlet", module: "scarlet-test-utils"
+        exclude group: "com.squareup.okhttp3", module: "okhttp"
+        exclude group: "org.jetbrains.kotlin", module: "kotlin-stdlib-jdk7"
+        transitive = false
+    }
+
+    implementation "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:$versions.jake_wharton.retrofit2_kotlinx_serialization_converter"
+
+    debugImplementation "com.squareup.leakcanary:leakcanary-android:$versions.square.leakcanary"
+    implementation "com.squareup.okhttp3:logging-interceptor:$versions.square.okhttp"
+    implementation "com.squareup.okio:okio:$versions.square.okio"
+    implementation "com.squareup.retrofit2:retrofit:$versions.square.retrofit"
+
+    implementation "ru.terrakok.cicerone:cicerone:$versions.terrakok.cicerone"
+}

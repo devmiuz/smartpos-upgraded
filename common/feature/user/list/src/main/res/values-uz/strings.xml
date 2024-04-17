@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_list_title">Xodimlar</string>
+
+    <string name="fragment_feature_user_list_delete_alert_title">Xodimni bo`shatish</string>
+    <string name="fragment_feature_user_list_delete_alert_message">Haqiqatan ham %1$sni bo`shatmoqchimisiz?</string>
+
+    <string name="menu_feature_user_list_creation_title">Yangi xodim</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/cart_select_all_menu_item"
+        android:icon="@drawable/drawable_feature_user_cashier_refund_vector_drawable_cart_select_all"
+        android:title="@string/menu_feature_user_cashier_refund_cart_select_all_menu_item"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/cart_clear_all_menu_item"
+        android:icon="@drawable/drawable_feature_user_cashier_refund_vector_drawable_cart_clear_all"
+        android:title="@string/menu_feature_user_cashier_refund_cart_clear_all_menu_item"
+        android:visible="true"
+        app:showAsAction="always" />
+
+</menu>

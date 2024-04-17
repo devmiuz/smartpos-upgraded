@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_account_registration_new_password_title">Пароль</string>
+    <string name="fragment_feature_account_registration_new_password_hint_contains_uppercase_title">Заглавные\nбуквы</string>
+    <string name="fragment_feature_account_registration_new_password_hint_contains_lowercase_title">Строчные\nбуквы</string>
+    <string name="fragment_feature_account_registration_new_password_hint_contains_eight_length_title">Больше\n8 символов</string>
+    <string name="fragment_feature_account_registration_new_password_input_hint">Пароль</string>
+    <string name="fragment_feature_account_registration_new_password_input_confirmation_hint">Подтверждение пароля</string>
+    <string name="fragment_feature_account_registration_new_password_error_password_not_inputted_title">Введите пароль</string>
+    <string name="fragment_feature_account_registration_new_password_error_password_not_confirmed_title">Пароли не совпадают</string>
+
+    <string name="fragment_feature_account_registration_terms_of_use_input_hint">Номер телефона</string>
+    <string name="fragment_feature_account_registration_terms_of_use_alert_title">Я ознакомлен и согласен с Условиями Использования</string>
+
+    <string name="fragment_feature_account_registration_confirmation_code_title">Регистрация</string>
+    <string name="fragment_feature_account_registration_confirmation_code_disclaimer_text">На указанный номер %1$s отправили СМС с кодом подтверждения.</string>
+    <string name="fragment_feature_account_registration_confirmation_code_input_hint">Код аутентификации</string>
+    <string name="fragment_feature_account_registration_confirmation_code_resend_title">Отправить код еще раз</string>
+    <string name="fragment_feature_account_registration_confirmation_code_error_user_is_already_registered_message">Пользователь с этим номером телефона уже зарегистрирован</string>
+    <string name="fragment_feature_account_registration_confirmation_code_available_resend_count_text">Вы сможете получить новый код еще %1$d раза</string>
+    <string name="fragment_feature_account_registration_confirmation_code_error_wrong_confirmation_code_title">Неверный код активации</string>
+
+    <string name="fragment_feature_account_registration_terms_of_use_title">Регистрация</string>
+    <string name="fragment_feature_account_registration_terms_of_use_confirmation_alert_title">Внимание!</string>
+    <string name="fragment_feature_account_registration_terms_of_use_confirmation_alert_message">На указанный вами номер будет отправлено СМС сообщение с кодом аутентификации</string>
+    <string name="fragment_feature_account_registration_terms_of_use_confirmation_alert_positive_button_title">Выслать</string>
+</resources>

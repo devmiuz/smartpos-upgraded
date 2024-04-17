@@ -1,0 +1,7 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="feauture_autoprint_waiting_receipt_text">Ожидание</string>
+    <string name="feauture_autoprint_received_receipt_text">Принято</string>
+    <string name="feauture_autoprint_error_receipt_text">Ошибка</string>
+</resources>

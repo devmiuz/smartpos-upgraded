@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_helper_product_quantity_main_change_count_title">Miqdor o\'zgarishi</string>
+    <string name="fragment_feature_helper_product_quantity_main_change_count_amount_description_title">Summa</string>
+    <string name="fragment_feature_helper_product_quantity_main_change_count_description_title">Miqdori</string>
+    <string name="fragment_feature_helper_product_quantity_main_change_count_error_not_inputted">Iltimos, miqdorni kiriting</string>
+
+</resources>

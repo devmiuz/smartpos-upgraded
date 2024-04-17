@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_settings_password_change_button_title">Изменить</string>
+    <string name="fragment_feature_user_settings_password_change_title">Изменение пароля</string>
+    <string name="fragment_feature_user_settings_password_change_old_password_hint">Старый пароль</string>
+    <string name="fragment_feature_user_settings_password_change_new_password_hint">Новый пароль</string>
+    <string name="fragment_feature_user_settings_password_change_old_password_error">Введите верно старый пароль</string>
+    <string name="fragment_feature_user_settings_password_change_new_password_error">Введите верно новый пароль</string>
+    <string name="fragment_feature_user_settings_password_change_error_incorrect_password">Неверный пароль</string>
+</resources>

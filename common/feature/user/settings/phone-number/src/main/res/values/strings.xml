@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_settings_phone_number_change_button_title">Change</string>
+    <string name="fragment_feature_user_settings_phone_number_change_title">Phone number changing</string>
+    <string name="fragment_feature_user_settings_phone_number_change_hint">Phone number</string>
+    <string name="fragment_feature_user_settings_phone_number_change_error">Please input a valid phone number</string>
+    <string name="fragment_feature_user_settings_phone_number_change_error_cause_user_exists">User with inputted phone number already exists</string>
+</resources>

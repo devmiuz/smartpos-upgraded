@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_users_setup_title">Users</string>
+
+    <string name="menu_feature_users_setup_user_creation_title">New employer</string>
+</resources>

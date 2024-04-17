@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_company_saving_title">Company</string>
+    <string name="fragment_feature_company_saving_greetings_title">Welcome to \n%1$s</string>
+    <string name="fragment_feature_company_saving_greetings_message">Please fill in your company details.</string>
+    <string name="fragment_feature_company_saving_required_data_title">Mandatory information</string>
+    <string name="fragment_feature_company_saving_activity_type_selection_title">+ Add line of business</string>
+    <string name="fragment_feature_company_saving_surname_input_hint">Surname</string>
+    <string name="fragment_feature_company_saving_name_input_hint">Name</string>
+    <string name="fragment_feature_company_saving_middle_name_input_hint">Middle name</string>
+    <string name="fragment_feature_company_saving_company_business_type_hint">Type of</string>
+    <string name="fragment_feature_company_saving_company_name_input_hint">Company name</string>
+    <string name="fragment_feature_company_saving_additional_title">Additional Information</string>
+    <string name="fragment_feature_company_saving_address_input_hint">Address</string>
+    <string name="fragment_feature_company_saving_tin_input_hint">INN</string>
+
+    <string name="fragment_feature_company_saving_vat_title">VAT</string>
+    <string name="fragment_feature_company_saving_vat_percent_title">Is pays VAT</string>
+    <string name="fragment_feature_company_saving_vat_percent_value">VAT is %1$s%%</string>
+    <string name="fragment_feature_company_saving_vat_percent_change_button_title">Change</string>
+
+    <string name="fragment_feature_company_saving_error_activity_type_selection">Please select a business line</string>
+    <string name="fragment_feature_company_saving_error_surname_input">Enter last name</string>
+    <string name="fragment_feature_company_saving_error_name_input">Enter your name</string>
+    <string name="fragment_feature_company_saving_error_middle_name_input">Enter middle name</string>
+    <string name="fragment_feature_company_saving_error_business_type_input">Select business type</string>
+    <string name="fragment_feature_company_saving_error_company_name_input">Enter company name</string>
+    <string name="fragment_feature_company_saving_error_region_selection">Choose region</string>
+    <string name="fragment_feature_company_saving_error_city_selection">Choose a city</string>
+    <string name="fragment_feature_company_saving_error_address_input">Enter address</string>
+</resources>

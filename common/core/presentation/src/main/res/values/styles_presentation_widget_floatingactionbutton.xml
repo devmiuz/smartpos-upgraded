@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Presentation.Widget.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="elevation">@dimen/_4sdp</item>
+        <item name="backgroundTint">?colorAccent</item>
+        <item name="iconTint">@android:color/white</item>
+        <item name="tint">@android:color/white</item>
+    </style>
+
+</resources>

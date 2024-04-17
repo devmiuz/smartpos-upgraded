@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_branch_list_title">Branches</string>
+    <string name="fragment_feature_branch_list_delete_alert_title">Deleting branch</string>
+    <string name="fragment_feature_branch_list_delete_alert_message">Are you sure you want to remove the \"%1$s\" branch?</string>
+
+    <string name="menu_feature_branch_list_create_branch_title">Create branch</string>
+</resources>

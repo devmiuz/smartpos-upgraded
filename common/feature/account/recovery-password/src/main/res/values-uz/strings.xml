@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_account_recovery_confirmation_code_title">Parolni tiklash</string>
+    <string name="fragment_feature_account_recovery_confirmation_code_disclaimer_text">Ko\'rsatilgan raqamga %1$s vaqtinchalik parol SMS orqali yuborildi</string>
+    <string name="fragment_feature_account_recovery_confirmation_code_input_hint">Vaqtinchalik parol</string>
+    <string name="fragment_feature_account_recovery_confirmation_code_not_received_button_title">Vaqtinchalik parolni olmadingizmi?</string>
+
+    <string name="fragment_feature_account_recovery_password_new_password_title">Parol</string>
+    <string name="fragment_feature_account_recovery_password_new_password_hint_contains_uppercase_title">Bosh\nharflar</string>
+    <string name="fragment_feature_account_recovery_password_new_password_hint_contains_lowercase_title">Kichik\nharflar</string>
+    <string name="fragment_feature_account_recovery_password_new_password_hint_contains_eight_length_title">Ko\'proq\n8 belgilar</string>
+    <string name="fragment_feature_account_recovery_password_new_password_input_hint">Parol</string>
+    <string name="fragment_feature_account_recovery_password_new_password_input_confirmation_hint">Parolni tasdiqlash</string>
+    <string name="fragment_feature_account_recovery_password_new_password_error_password_not_confirmed_title">Parollar mos kelmayapti</string>
+    <string name="fragment_feature_account_recovery_password_new_password_error_password_not_inputted_title">Parolni kiriting</string>
+    <string name="fragment_feature_account_recovery_password_new_password_error_wrong_activation_code_title">Noto\'g\'ri faollashtirish kodi</string>
+</resources>

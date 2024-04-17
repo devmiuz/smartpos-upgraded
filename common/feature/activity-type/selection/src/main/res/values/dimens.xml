@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="viewholder_feature_activity_type_selection_vertical_margin">0dp</dimen>
+    <dimen name="viewholder_feature_activity_type_selection_horizontal_margin">22dp</dimen>
+</resources>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_launcher_account_auth_title">Shaxsiy kabinet</string>
+    <string name="fragment_feature_launcher_account_auth_login_button_title">Kirish</string>
+    <string name="fragment_feature_launcher_account_auth_registration_button_title">Ro\'yxatdan o\'tish</string>
+
+
+    <string name="fragment_feature_launcher_account_auth_logout_message">Haqiqatan ham, ilova ma\'lumotlarini tozalash va tizimdan chiqishni xohlaysizmi?</string>
+    <string name="fragment_feature_launcher_account_auth_clear_app_data_and_logout_title">Ilova ma\'lumotlarini o\'chirish va tizimdan chiqish</string>
+    <string name="fragment_feature_launcher_account_auth_clear_app_data_failed_message">Ilova ma\'lumotlarini tozalashda xatolik yuz berdi</string>
+
+    <string name="fragment_feature_launcher_account_auth_undelivered_receipts_title">Jo\'natilmagan cheklar mavjudligini tekshirish</string>
+    <string name="fragment_feature_launcher_account_auth_undelivered_receipts_message">Hali jo\'natilmagan cheklar bor. Iltimos keyinroq urinib ko\'ring</string>
+    <string name="fragment_feature_launcher_account_auth_undelivered_receipts_failed_message">Jo\'natilmagan cheklarni yuklashda xatolik yuz berdi</string>
+
+
+    <string name="fragment_feature_account_auth_registration_complete_text">Ro\'yxatdan o\'tganingiz bilan tabriklaymiz!</string>
+    <string name="fragment_feature_account_auth_registration_complete_continue_button_title">Davom ettirish</string>
+    <string name="fragment_feature_account_auth_registration_complete_print_data_button_title">Ma\'lumotlarni chop etish</string>
+
+    <string name="fragment_feature_launcher_branch_creation_text">Kompaniya qo\'shildi!\n\nYaratilgan kompaniya - bu savdo nuqtasimi?</string>
+    <string name="fragment_feature_launcher_user_creation_text">Bu savdo nuqtasining boshqa xodimlari bormi?</string>
+
+    <string name="fragment_feature_launcher_product_catalog_setup_text">Deyarli maqsadingizga yetdingiz, faqat tovarlarni qo\'shish qoldi xolos!</string>
+    <string name="fragment_feature_launcher_product_catalog_setup_add_products_button_title">Mahsulotlarni qo\'shish</string>
+
+    <string name="fragment_feature_launcher_sync_loading_text">Iltimos, kuting…</string>
+    <string name="fragment_feature_launcher_sync_error_text">Xato ro\'y berdi</string>
+
+    <string name="fragment_feature_launcher_user_auth_owner_login_as_title">%1$s sifatida kirish</string>
+
+    <string name="view_holder_feature_launcher_user_supervisor_in_development_title">Rivojlanishdagi xususiyat</string>
+</resources>

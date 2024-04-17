@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_source_gtpos_error_app_not_defined">GTPOS не установлен, пожалуйста, свяжитесь с нашей службой поддержки, чтобы получить приложение</string>
+    <string name="data_source_gtpos_error_unknown">Неизвестная ошибка произошла во время работы GTPOS</string>
+    <string name="data_source_gtpos_error_update_required">Пожалуйста, свяжитесь с нашей службой поддержки, чтобы получить обновление приложения GTPOS</string>
+    <string name="data_source_gtpos_error_gtpos_result_error">Произошла ошибка: "%1$s" (код: %2$s)</string>
+</resources>

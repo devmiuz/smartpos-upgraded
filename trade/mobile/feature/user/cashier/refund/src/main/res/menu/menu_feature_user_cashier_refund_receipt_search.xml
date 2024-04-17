@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/barcode_scanner_menu_item"
+        android:title="@string/menu_feature_user_cashier_refund_main_barcode_scanner_menuitem_title"
+        android:icon="@drawable/drawable_feature_user_cashier_refund_vector_drawable_barcode_scanner"
+        app:showAsAction="always" />
+
+</menu>

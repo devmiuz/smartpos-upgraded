@@ -1,0 +1,4 @@
+<resources>
+    <string name="fragment_feature_region_city_city_selection_title">Select city/district</string>
+    <string name="fragment_feature_region_city_region_selection_title">Select region</string>
+</resources>

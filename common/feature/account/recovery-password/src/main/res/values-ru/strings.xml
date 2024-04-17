@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_account_recovery_confirmation_code_title">Восстановление пароля</string>
+    <string name="fragment_feature_account_recovery_confirmation_code_disclaimer_text">На указанный номер %1$s отправили СМС с временным паролем</string>
+    <string name="fragment_feature_account_recovery_confirmation_code_input_hint">Временный пароль</string>
+    <string name="fragment_feature_account_recovery_confirmation_code_not_received_button_title">Не получили временный пароль?</string>
+
+    <string name="fragment_feature_account_recovery_password_new_password_title">Пароль</string>
+    <string name="fragment_feature_account_recovery_password_new_password_hint_contains_uppercase_title">Заглавные\nбуквы</string>
+    <string name="fragment_feature_account_recovery_password_new_password_hint_contains_lowercase_title">Строчные\nбуквы</string>
+    <string name="fragment_feature_account_recovery_password_new_password_hint_contains_eight_length_title">Больше\n8 символов</string>
+    <string name="fragment_feature_account_recovery_password_new_password_input_hint">Пароль</string>
+    <string name="fragment_feature_account_recovery_password_new_password_input_confirmation_hint">Подтверждение пароля</string>
+    <string name="fragment_feature_account_recovery_password_new_password_error_password_not_confirmed_title">Пароли не совпадают</string>
+    <string name="fragment_feature_account_recovery_password_new_password_error_password_not_inputted_title">Введите пароль</string>
+    <string name="fragment_feature_account_recovery_password_new_password_error_wrong_activation_code_title">Неверный код активации</string>
+</resources>

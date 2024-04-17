@@ -1,0 +1,3 @@
+apply from: "$rootProject.projectDir/trade/tablet/feature/settings.gradle"
+
+include 'trade:tablet:presentation:app-companion'

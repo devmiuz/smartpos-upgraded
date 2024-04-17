@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_settings_password_change_button_title">Change</string>
+    <string name="fragment_feature_user_settings_password_change_title">Password changing</string>
+    <string name="fragment_feature_user_settings_password_change_old_password_hint">Old password</string>
+    <string name="fragment_feature_user_settings_password_change_new_password_hint">New password</string>
+    <string name="fragment_feature_user_settings_password_change_old_password_error">Please input a valid old password</string>
+    <string name="fragment_feature_user_settings_password_change_new_password_error">Please input a valid new password</string>
+    <string name="fragment_feature_user_settings_password_change_error_incorrect_password">Incorrect password</string>
+</resources>

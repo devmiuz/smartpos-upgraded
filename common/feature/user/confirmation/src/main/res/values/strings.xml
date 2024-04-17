@@ -1,0 +1,10 @@
+<resources>
+    <string name="fragment_feature_user_confirmation_common_title">Confirmation</string>
+    <string name="fragment_feature_user_confirmation_error_password_not_inputted">Please, input password</string>
+    <string name="fragment_feature_user_confirmation_error_password_not_valid">Please, check the password is correct</string>
+    <string name="fragment_feature_user_confirmation_error_authentication">Invalid authentication details</string>
+
+    <string name="fragment_feature_user_confirmation_branch_admin_disclaimer_message">Please input branch admin password</string>
+    <string name="fragment_feature_user_confirmation_disclaimer_message">Please input password</string>
+    <string name="fragment_feature_user_confirmation_owner_disclaimer_message">Please input owner password</string>
+</resources>

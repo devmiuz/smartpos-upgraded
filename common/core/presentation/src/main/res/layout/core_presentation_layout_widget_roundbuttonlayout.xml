@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <uz.uzkassa.smartpos.core.presentation.widget.roundframelayout.RoundFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/core_presentation_widget_roundbuttonlayout_height"
+        android:duplicateParentState="true"
+        app:leftTopRound="@dimen/core_presentation_widget_roundbuttonlayout_round"
+        app:rightTopRound="@dimen/core_presentation_widget_roundbuttonlayout_round">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?colorAccent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:duplicateParentState="true"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/Presentation.TextAppearance.Title"
+            android:background="?selectableItemBackground" />
+
+    </uz.uzkassa.smartpos.core.presentation.widget.roundframelayout.RoundFrameLayout>
+
+
+</merge>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_helper_payment_discount_title">Discount</string>
+
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_title">Arbitrary</string>
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_admission_disclaimer_text">To assign an arbitrary discount, the branch administrator password is required</string>
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_admission_admin_password_input_hint">Admin number</string>
+
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_amount_title">In sum</string>
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_amount_description_text" translatable="false">%1$s - %2$s = %3$s</string>
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_percent_title">In percent</string>
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_percent_description_text" translatable="false">%1$s - %2$s%% = %3$s</string>
+    <string name="fragment_feature_helper_payment_discount_selection_card_title">Card</string>
+    <string name="fragment_feature_helper_payment_discount_selection_card_disclaimer_text">Use a customer loyalty card to fill in the fields automatically or fill in the card number manually</string>
+    <string name="fragment_feature_helper_payment_discount_selection_card_number_input_hint">Card number</string>
+
+    <string name="fragment_feature_helper_payment_discount_selection_card_number_error_not_found">Card not found</string>
+    <string name="fragment_feature_helper_payment_discount_selection_card_number_error_not_discount">The card is not discount</string>
+
+    <string name="fragment_feature_helper_payment_discount_arbitrary_amount_title">Discount amount</string>
+    <string name="fragment_feature_helper_payment_discount_arbitrary_amount_error_message">Please, input discount amount</string>
+    <string name="fragment_feature_helper_payment_discount_arbitrary_percent_title">Please, input discount percent</string>
+    <string name="fragment_feature_helper_payment_discount_arbitrary_percent_error_message">Введите процент скидки</string>
+
+</resources>

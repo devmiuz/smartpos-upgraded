@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_source_http_error_bad_request">Sintaktik xato tufayli so\'rovni bajarib bo\'lmadi</string>
+    <string name="data_source_http_error_connection">Internetda muammo yuz berdi. Qaytadan urining</string>
+    <string name="data_source_http_error_forbidden">Resursga kirish huquqi etarli emas</string>
+    <string name="data_source_http_error_internal_server_error">Server tomonidan istisno yuzaga keldi</string>
+    <string name="data_source_http_error_not_found">Hech qanday manbalar topilmadi</string>
+    <string name="data_source_http_error_payment_required">Ushbu kod kelajakda foydalanish uchun zahiralangan.</string>
+    <string name="data_source_http_error_service_unavailable">Vaqtinchalik yuk yoki texnik ish tufayli server so\'rovni bajara olmaydi</string>
+    <string name="data_source_http_error_unauthorized">So‘rov foydalanuvchi autentifikatsiyasini talab qiladi</string>
+    <string name="data_source_http_error_unknown">Неизвестная сетевая ошибка</string>
+</resources>

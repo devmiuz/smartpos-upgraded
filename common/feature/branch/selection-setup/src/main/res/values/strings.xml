@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_branch_selection_setup_title">Branch selection</string>
+    <string name="fragment_feature_branch_selection_setup_branch_creation_button_title">Create</string>
+    <string name="fragment_feature_branch_selection_setup_error_branch_not_selected">Please, select a branch</string>
+    <string name="fragment_feature_branch_selection_setup_error_terminal_not_associated">Terminal is not associated with the selected branch</string>
+</resources>

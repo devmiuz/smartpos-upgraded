@@ -1,0 +1,3 @@
+package uz.uzkassa.smartpos.feature.user.settings.password.dependencies
+
+interface UserPasswordChangeFeatureArgs

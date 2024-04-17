@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Presentation.Widget.MaterialTextField" parent="Presentation.TextInputLayout.OutlinedBox" />
+
+    <style name="Presentation.Widget.MaterialTextField.Transparent" parent="Presentation.Widget.MaterialTextField">
+        <item name="boxBackgroundColor">
+            @color/presentation_widget_material_text_field_color_selector_transparent_border_color
+        </item>
+        <item name="boxStrokeColor">
+            @color/presentation_widget_material_text_field_color_selector_transparent_border_color
+        </item>
+    </style>
+
+</resources>

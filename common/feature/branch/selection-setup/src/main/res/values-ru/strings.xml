@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_branch_selection_setup_title">Выбор филиала</string>
+    <string name="fragment_feature_branch_selection_setup_branch_creation_button_title">Создать</string>
+    <string name="fragment_feature_branch_selection_setup_error_branch_not_selected">Пожалуйста, выберите филиал</string>
+    <string name="fragment_feature_branch_selection_setup_error_terminal_not_associated">Терминал не связан с выбранным филиалом</string>
+</resources>

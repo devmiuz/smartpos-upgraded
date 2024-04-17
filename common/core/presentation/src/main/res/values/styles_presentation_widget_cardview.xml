@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Presentation.Widget.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/_6sdp</item>
+        <item name="cardElevation">@dimen/_4sdp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+</resources>

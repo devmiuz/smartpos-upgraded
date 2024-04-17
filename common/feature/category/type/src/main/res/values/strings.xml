@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_category_type_title">Catalog</string>
+
+    <string name="view_holder_feature_category_type_list_title">My catalog</string>
+    <string name="view_holder_feature_category_type_main_title">Common catalog</string>
+</resources>

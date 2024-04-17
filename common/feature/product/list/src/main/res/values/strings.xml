@@ -1,0 +1,15 @@
+<resources>
+    <string name="fragment_feature_product_list_delete_alert_title">Delete product</string>
+    <string name="fragment_feature_product_list_delete_alert_message">Are you sure you want to delete the product \"%1$s\"?</string>
+
+    <string name="menu_feature_product_list_title">Products</string>
+    <string name="menu_feature_product_list_add_product_title">Add a product</string>
+    <string name="menu_feature_product_list_update_products_title">Update products</string>
+
+    <string name="view_holder_feature_product_list_price_input_hint">Price</string>
+    <string name="view_holder_feature_product_pagination_prev_page_title">Prev.</string>
+    <string name="view_holder_feature_product_pagination_next_page_title">Next</string>
+
+    <string name="warning_message">Согласно ПКМ 255 каждая позиция в онлайн-ККМ должна иметь свой ИКПУ. В данный момент мы проводим интеграцию с базой tasnif.soliq.uz
+Добавление новых товаров временно возможно только через персональный кабинет. Обратитесь в call - center +99871 200-30-50 и воспользуйтесь услугой  SmartHelp</string>
+</resources>

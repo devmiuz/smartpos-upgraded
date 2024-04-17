@@ -1,0 +1,2 @@
+apply from: 'feature/settings.gradle'
+apply from: 'presentation/settings.gradle'

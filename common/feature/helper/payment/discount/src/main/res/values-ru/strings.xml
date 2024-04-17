@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_title">Произвольная скидка</string>
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_admission_disclaimer_text">Чтобы назначить произвольную скидку необходим пароль администратора филиала</string>
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_admission_admin_password_input_hint">Пароль администратора</string>
+
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_amount_title">В сумах</string>
+    <string name="fragment_feature_helper_payment_discount_selection_arbitrary_percent_title">В процентах</string>
+
+    <string name="fragment_feature_helper_payment_discount_selection_card_title">Карта</string>
+    <string name="fragment_feature_helper_payment_discount_selection_card_disclaimer_text">Приложите карту или введите вручную</string>
+    <string name="fragment_feature_helper_payment_discount_selection_card_number_input_hint">Номер карты</string>
+    <string name="fragment_feature_helper_payment_discount_selection_card_number_error_not_found">Карта не найдена</string>
+    <string name="fragment_feature_helper_payment_discount_selection_card_number_error_not_discount">Карта не является скидочной</string>
+
+    <string name="fragment_feature_helper_payment_discount_arbitrary_amount_title">Сумма скидки</string>
+    <string name="fragment_feature_helper_payment_discount_arbitrary_amount_error_message">Введите сумму скидки</string>
+    <string name="fragment_feature_helper_payment_discount_arbitrary_percent_title">Процент скидки</string>
+    <string name="fragment_feature_helper_payment_discount_arbitrary_percent_error_message">Введите процент скидки</string>
+
+    <string name="fragment_feature_helper_payment_discount_title">Скидка</string>
+
+</resources>

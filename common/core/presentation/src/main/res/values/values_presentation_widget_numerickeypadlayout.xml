@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumericKeypadLayout">
+        <attr name="android:backgroundTint" format="reference" />
+        <attr name="android:maxLength" format="integer" />
+        <attr name="android:textColor" format="reference" />
+        <attr name="defaultValue" format="integer" />
+        <attr name="enableDefaultValue" format="boolean" />
+        <attr name="firstTextButton" format="string" />
+        <attr name="fourthTextButton" format="string" />
+        <attr name="maxDecimalLength" format="integer" />
+        <attr name="secondTextButton" format="string" />
+        <attr name="thirdTextButton" format="string" />
+    </declare-styleable>
+</resources>

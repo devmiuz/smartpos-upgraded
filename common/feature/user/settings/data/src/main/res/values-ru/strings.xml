@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_data_change_title">Личные данные</string>
+    <string name="fragment_feature_user_data_change_surname_hint">Фамилия</string>
+    <string name="fragment_feature_user_data_change_name_hint">Имя</string>
+    <string name="fragment_feature_user_data_change_last_name_hint">Отчество</string>
+    <string name="fragment_feature_user_data_change_last_name_empty_error">Введите отчество</string>
+    <string name="fragment_feature_user_data_change_name_empty_error">Введите имя</string>
+    <string name="fragment_feature_user_data_change_surname_empty_error">Введите фамилию</string>
+    <string name="fragment_feature_user_data_change_save_button_title">Сохранить</string>
+</resources>

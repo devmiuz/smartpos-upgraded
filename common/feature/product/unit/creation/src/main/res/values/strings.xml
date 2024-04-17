@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_product_unit_creation_unit_input_hint">Select Unit</string>
+    <string name="fragment_feature_product_unit_creation_product_count_input_hint">Count</string>
+    <string name="fragment_feature_product_unit_creation_product_units">Units</string>
+    <string name="fragment_feature_product_unit_creation_product_units_first_item">Main units of measure - %1$s</string>
+    <string name="fragment_feature_product_unit_creation_error_unit_count_not_defined">Please, input unit count</string>
+    <string name="fragment_feature_product_unit_creation_error_unit_not_selected">Please, select unit</string>
+</resources>

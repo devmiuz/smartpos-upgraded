@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uz.uzkassa.smartpos.feature.launcher.presentation.widget.LauncherBackgroundLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/launcher_background_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:use_layout_hierarchy="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingLeft="@dimen/_14sdp"
+        android:paddingRight="@dimen/_14sdp">
+
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="@dimen/_42sdp"
+            android:layout_height="@dimen/_42sdp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:visibility="gone"
+            app:mpb_indeterminateTint="@android:color/white" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/retry_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/core_presentation_common_retry"
+            android:visibility="gone"
+            style="@style/Presentation.Launcher.Widget.RoundedButton" />
+
+    </LinearLayout>
+
+</uz.uzkassa.smartpos.feature.launcher.presentation.widget.LauncherBackgroundLayout>

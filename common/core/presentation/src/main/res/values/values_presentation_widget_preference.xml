@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PreferenceCategoryLayout">
+        <attr name="preference_category_title" format="string" />
+        <attr name="preference_category_title_padding" format="dimension" />
+        <attr name="preference_category_title_padding_horizontal" format="dimension" />
+        <attr name="preference_category_title_padding_vertical" format="dimension" />
+        <attr name="preference_category_title_tint" format="reference" />
+        <attr name="preference_category_use_theme_title_tint" format="enum">
+            <enum name="colorAccent" value="0" />
+            <enum name="colorPrimary" value="1" />
+            <enum name="colorPrimaryDark" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PreferenceLayout">
+        <attr name="preference_title" format="string" />
+        <attr name="preference_subtitle" format="string" />
+        <attr name="preference_src" format="reference" />
+        <attr name="preference_icon_tint" format="reference" />
+        <attr name="preference_use_theme_icon_tint" format="enum">
+            <enum name="colorAccent" value="0" />
+            <enum name="colorPrimary" value="1" />
+            <enum name="colorPrimaryDark" value="2" />
+        </attr>
+        <attr name="preference_show_switch" format="boolean" />
+        <attr name="preference_show_checkbox" format="boolean" />
+
+    </declare-styleable>
+
+</resources>

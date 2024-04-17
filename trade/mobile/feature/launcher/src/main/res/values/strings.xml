@@ -1,0 +1,30 @@
+<resources>
+    <string name="fragment_feature_launcher_account_auth_title">Account</string>
+    <string name="fragment_feature_launcher_account_auth_login_button_title">Login</string>
+    <string name="fragment_feature_launcher_account_auth_registration_button_title">Registration</string>
+
+    <string name="fragment_feature_launcher_account_auth_logout_message">Are you sure you want to clear the app data and log out?</string>
+    <string name="fragment_feature_launcher_account_auth_clear_app_data_and_logout_title">Clear app data and logout</string>
+    <string name="fragment_feature_launcher_account_auth_clear_app_data_failed_message">An error occurred while clearing app data</string>
+
+    <string name="fragment_feature_launcher_account_auth_undelivered_receipts_title">Check for undelivered checks</string>
+    <string name="fragment_feature_launcher_account_auth_undelivered_receipts_message">There are checks that have not been shipped yet. Please try again later</string>
+    <string name="fragment_feature_launcher_account_auth_undelivered_receipts_failed_message">An error occurred while loading undelivered checks</string>
+
+    <string name="fragment_feature_account_auth_registration_complete_text">Congratulations on successful registration!</string>
+    <string name="fragment_feature_account_auth_registration_complete_continue_button_title">Continue</string>
+    <string name="fragment_feature_account_auth_registration_complete_print_data_button_title">Print data</string>
+
+    <string name="fragment_feature_launcher_branch_creation_text">Company added!\n\nCreated company is a point of sale?</string>
+    <string name="fragment_feature_launcher_user_creation_text">Does this branch have other employees?</string>
+
+    <string name="fragment_feature_launcher_product_catalog_setup_text">You are already at the goal, it remains only to add products!</string>
+    <string name="fragment_feature_launcher_product_catalog_setup_add_products_button_title">Add Products</string>
+
+    <string name="fragment_feature_launcher_sync_loading_text">Please, wait…</string>
+    <string name="fragment_feature_launcher_sync_error_text">An error has occurred</string>
+
+    <string name="fragment_feature_launcher_user_auth_owner_login_as_title">Login as %1$s</string>
+
+    <string name="view_holder_feature_launcher_user_supervisor_in_development_title">Feature in development</string>
+</resources>

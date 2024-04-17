@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Presentation.Widget.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:minHeight">@dimen/core_presentation_widget_materialbutton_height</item>
+    </style>
+
+    <style name="Presentation.Widget.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:minHeight">@dimen/core_presentation_widget_materialbutton_height</item>
+        <item name="strokeColor">?colorAccent</item>
+    </style>
+
+    <style name="Presentation.Widget.Button.OutlinedRoundedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:minHeight">@dimen/core_presentation_widget_materialbutton_height</item>
+        <item name="cornerRadius">@dimen/_30sdp</item>
+        <item name="strokeWidth">@dimen/_2sdp</item>
+        <item name="strokeColor">?colorAccent</item>
+    </style>
+
+    <style name="Presentation.Widget.Button.RoundedButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:minHeight">@dimen/core_presentation_widget_materialbutton_height</item>
+        <item name="cornerRadius">@dimen/_30sdp</item>
+    </style>
+
+    <style name="Presentation.Widget.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:minHeight">@dimen/core_presentation_widget_materialbutton_height</item>
+        <item name="android:textColor">?colorAccent</item>
+    </style>
+
+</resources>

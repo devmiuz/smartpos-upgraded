@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Presentation.TextInputEditText.FilledBox" parent="Widget.MaterialComponents.TextInputEditText.FilledBox">
+
+    </style>
+
+    <style name="Presentation.TextInputEditText.FilledBox.Dense" parent="Widget.MaterialComponents.TextInputEditText.FilledBox.Dense">
+
+    </style>
+
+    <style name="Presentation.TextInputLayout.OutlinedBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@android:color/black</item>
+        <item name="hintTextAppearance">@style/Presentation.TextAppearance.Small</item>
+        <item name="hintTextColor">@android:color/black</item>
+        <item name="passwordToggleTint">?colorAccent</item>
+    </style>
+
+    <style name="Presentation.TextInputLayout.OutlinedBox.Dense" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@android:color/black</item>
+        <item name="hintTextAppearance">@style/Presentation.TextAppearance.Small</item>
+        <item name="hintTextColor">@android:color/black</item>
+        <item name="passwordToggleTint">?colorAccent</item>
+    </style>
+
+</resources>

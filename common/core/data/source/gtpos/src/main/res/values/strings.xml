@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="data_source_gtpos_error_app_not_defined">GTPOS not installed. Please contact our support team to install the application</string>
+    <string name="data_source_gtpos_error_unknown">Unknown error occurred during work GTPOS</string>
+    <string name="data_source_gtpos_error_update_required">Please contact our support team to get an update of the GTPOS app</string>
+    <string name="data_source_gtpos_error_gtpos_result_error">Error occurred: "%1$s" (code: %2$s)</string>
+</resources>

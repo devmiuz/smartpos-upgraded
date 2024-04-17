@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_helper_payment_amount_type_input_total_payable_title">Total payable</string>
+    <string name="fragment_feature_helper_payment_amount_type_input_left_to_pay_title">Left to pay</string>
+    <string name="fragment_feature_helper_payment_amount_type_input_change_title">Change</string>
+    <string name="fragment_feature_helper_payment_amount_type_input_accepted_title">Accepted</string>
+    <string name="fragment_feature_helper_payment_amount_type_input_error_not_inputted">Please, input amount</string>
+    <string name="menu_feature_helper_payment_amount_with_no_change_title">No change</string>
+    <string name="core_presentation_common_currency_error">Incorrect amount entered</string>
+
+</resources>

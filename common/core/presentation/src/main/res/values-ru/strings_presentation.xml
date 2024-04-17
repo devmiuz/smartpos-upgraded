@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="core_presentation_common_cancel">Отмена</string>
+    <string name="core_presentation_common_close">Закрыть</string>
+    <string name="core_presentation_common_continue">Продолжить</string>
+    <string name="core_presentation_common_loading">Подождите…</string>
+    <string name="core_presentation_common_save">Сохранить</string>
+    <string name="core_presentation_common_warning">Внимание!</string>
+
+    <string name="core_presentation_common_answer_no">Нет</string>
+    <string name="core_presentation_common_answer_yes">Да</string>
+
+    <string name="core_presentation_common_location_address">Адрес</string>
+    <string name="core_presentation_common_location_city">Город/Район</string>
+    <string name="core_presentation_common_location_region">Область</string>
+
+    <string name="core_presentation_common_user_logout">Выход</string>
+    <string name="core_presentation_common_user_notifications">Уведомления</string>
+    <string name="core_presentation_common_user_settings">Настройки</string>
+    <string name="core_presentation_common_user_sync">Синхронизация</string>
+
+    <string name="core_presentation_common_payment_type_card">QR - чек</string>
+    <string name="core_presentation_common_payment_type_cash">Наличные</string>
+    <string name="core_presentation_common_payment_type_other">Другая</string>
+
+    <string name="core_presentation_common_password">Пароль</string>
+
+    <string name="core_presentation_common_user_role_auditor">Аудитор</string>
+    <string name="core_presentation_common_user_role_branch_admin">Админ Филиала</string>
+    <string name="core_presentation_common_user_role_cashier">Кассир</string>
+    <string name="core_presentation_common_user_role_intern">Стажер</string>
+    <string name="core_presentation_common_user_role_owner">Владелец</string>
+    <string name="core_presentation_common_user_role_warehouse_manager">Менеджер склада</string>
+
+    <string name="core_presentation_common_alert">Оповещение</string>
+    <string name="core_presentation_common_error">Ошибка</string>
+    <string name="core_presentation_common_error_connection_message">Произошла проблема с интернетом. Пожалуйста, повторите еще раз.</string>
+    <string name="core_presentation_common_error_unknown_message">Произошла неизвестная ошибка. Пожалуйста, повторите позже.</string>
+    <string name="core_presentation_common_retry">Повторить</string>
+
+    <string name="core_presentation_common_amount_currency_uzs">%1$s сум</string>
+    <string name="core_presentation_common_vat_amount_currency_uzs">НДС: %1$s сум</string>
+    <string name="core_presentation_common_amount_currency_none"> </string>
+
+    <string name="core_presentation_layout_error_dialog_type">Тип: %1$s</string>
+    <string name="core_presentation_layout_error_dialog_details">Детали: %1$s</string>
+    <string name="core_presentation_layout_error_dialog_code">Код: %1$s</string>
+
+    <string name="core_presentation_crm_app_version">Онлайн ККМ версия %1$s</string>
+    <string name="core_presentation_app_version">Версия: %1$s</string>
+    <string name="core_presentation_os_version">Система: %1$s</string>
+
+    <string name="data_source_unknown_error">Произошла неизвестная ошибка. Пожалуйста, повторите позже</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_category_manage_category_main_title">Common catalog</string>
+    <string name="fragment_feature_category_manage_category_selection_title">Catalog</string>
+
+    <string name="fragment_feature_product_manage_category_create_title">Creating category</string>
+    <string name="fragment_feature_product_manage_category_create_category_name_input_hint">Category name</string>
+    <string name="fragment_feature_product_manage_category_create_category_name_error_hint">Please, input a category name</string>
+
+    <string-array name="fragment_feature_product_manage_category_list_alert_menu_items">
+        <item>@string/fragment_feature_product_manage_category_list_alert_menu_item_add_child_category</item>
+        <item>@string/fragment_feature_product_manage_category_list_alert_menu_item_delete_category</item>
+    </string-array>
+
+    <string name="fragment_feature_product_manage_category_list_title">My catalog</string>
+    <string name="fragment_feature_product_manage_category_list_alert_delete_category_title">Delete category</string>
+    <string name="fragment_feature_product_manage_category_list_alert_delete_category_message">Are you sure you want to delete the category \"%1$s\"? \n\ n- All products in the category will become inaccessible after deletion \n- Return the category and goods assigned to it can be returned on the screen of the \"Common Catalog\"</string>
+    <string name="fragment_feature_product_manage_category_list_alert_menu_item_add_child_category">Add a child category</string>
+    <string name="fragment_feature_product_manage_category_list_alert_menu_item_delete_category">Delete the category</string>
+
+    <string name="menu_category_manage_category_list_add_category_title">Add a category</string>
+
+    <string name="view_holder_feature_product_manage_category_selection_category_type_name_list_title">My catalog</string>
+    <string name="view_holder_feature_product_manage_category_selection_category_type_name_main_title">Common catalog</string>
+</resources>

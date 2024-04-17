@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_branch_delete_title">Удаление филиала</string>
+
+    <string name="fragment_feature_branch_delete_confirmation_code">Код подтверждения</string>
+    <string name="fragment_feature_branch_delete_confirmation_code_sent_to_your_phone">На Ваш номер отправлено СМС сообщение с кодом подтверждения</string>
+    <string name="fragment_feature_branch_delete_delete_reason">Причина удаления филиала</string>
+    <string name="fragment_feature_branch_delete_delete_info">Филиал и все настройки по филиалу будут удалены</string>
+
+    <string name="fragment_feature_branch_delete_error_confirmation_code_not_valid">Введите код подтверждения</string>
+    <string name="fragment_feature_branch_delete_error_delete_reason_not_inputted">Введите причину удаления филиала</string>
+    <string name="fragment_feature_branch_delete_error_wrong_confirmation_code">Неверный код подтверждения</string>
+</resources>

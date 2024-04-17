@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_company_vat_selection_title">Процент НДС</string>
+    <string name="fragment_feature_company_vat_selection_value">%1$s процентов</string>
+    <string name="fragment_feature_company_vat_selection_manual_value">Вручную…</string>
+    <string name="fragment_feature_company_vat_selection_input_hint">От 0 до 100</string>
+</resources>

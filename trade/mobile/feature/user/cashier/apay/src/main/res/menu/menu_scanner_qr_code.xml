@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/qr_scan"
+        android:icon="@drawable/drawable_feature_user_cashier_sale_vector_drawable_barcode_scanner"
+        android:title=""
+        app:showAsAction="always" />
+</menu>

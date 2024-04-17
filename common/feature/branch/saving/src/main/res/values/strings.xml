@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_branch_saving_creation_title">Branch creation</string>
+
+    <string name="fragment_feature_branch_saving_required_data_title">Mandatory information</string>
+    <string name="fragment_feature_branch_saving_activity_type_selection_title">Specify branch type</string>
+    <string name="fragment_feature_branch_saving_activity_type_change_selection_title">Change branch</string>
+    <string name="fragment_feature_branch_saving_branch_name_input_hint">Branch name</string>
+    <string name="fragment_feature_branch_saving_additional_title">Additional Information</string>
+    <string name="fragment_feature_branch_saving_address_input_hint">Address</string>
+
+    <string name="fragment_feature_branch_saving_error_activity_type_selection">Please select branch type</string>
+    <string name="fragment_feature_branch_saving_error_branch_name_input">Enter branch name</string>
+    <string name="fragment_feature_branch_saving_error_region_selection">Select region</string>
+    <string name="fragment_feature_branch_saving_error_city_selection">Choose a city</string>
+    <string name="fragment_feature_branch_saving_error_address_input">Enter address</string>
+</resources>

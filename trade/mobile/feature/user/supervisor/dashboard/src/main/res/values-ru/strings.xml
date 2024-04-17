@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="layout_supervisor_drawer_layout_user_branch_manage_title">Филиалы</string>
+    <string name="layout_supervisor_drawer_layout_user_manage_list_title">Сотрудники</string>
+    <string name="layout_supervisor_drawer_layout_product_manage_category_selection_title">Каталог</string>
+
+    <string name="fragment_dynamics_filter_by_days">Дни</string>
+    <string name="fragment_dynamics_filter_by_weeks">Недели</string>
+    <string name="fragment_dynamics_filter_by_months">Месяцы</string>
+    <string name="fragment_dynamics_screen_title">Продажа</string>
+    <string name="fragment_dynamics_title_vat">НДС</string>
+    <string name="fragment_dynamics_title_discounts">Скидки</string>
+    <string name="fragment_dynamics_title_card">Карта</string>
+    <string name="fragment_dynamics_title_cash">Наличные</string>
+    <string name="fragment_dynamics_title_receipts">Чеки</string>
+    <string name="fragment_dynamics_title_refunds">Возвраты</string>
+    <string name="fragment_dynamics_title_sales">Продажа</string>
+
+    <string name="fragment_feature_supervisor_dashboard_sync_successfully_finished">Синхронизация успешно завершена</string>
+    <string name="kassa_chekini_chiqarish">Выдача кассового чека</string>
+</resources>

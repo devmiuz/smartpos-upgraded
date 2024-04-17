@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RoundButtonLayout">
+        <attr name="android:text" format="string" />
+        <attr name="android:background" format="reference" />
+    </declare-styleable>
+
+    <dimen name="core_presentation_widget_roundbuttonlayout_height">72dp</dimen>
+    <dimen name="core_presentation_widget_roundbuttonlayout_round">8dp</dimen>
+
+</resources>

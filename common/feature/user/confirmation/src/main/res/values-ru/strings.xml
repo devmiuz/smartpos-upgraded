@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_confirmation_common_title">Подтверждение</string>
+    <string name="fragment_feature_user_confirmation_error_password_not_inputted">Пожалуйста, введите пароль</string>
+    <string name="fragment_feature_user_confirmation_error_password_not_valid">Пожалуйста, проверьте правильность пароля</string>
+    <string name="fragment_feature_user_confirmation_error_authentication">Неверные данные для входа</string>
+
+    <string name="fragment_feature_user_confirmation_branch_admin_disclaimer_message">Пожалуйста, введите пароль администратора</string>
+    <string name="fragment_feature_user_confirmation_disclaimer_message">Пожалуйста, введите пароль</string>
+    <string name="fragment_feature_user_confirmation_owner_disclaimer_message">Пожалуйста, введите пароль владельца</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_auth_common_title">Вход</string>
+
+    <string name="fragment_feature_user_auth_admin_disclaimer_message">Пожалуйста, введите ваш пароль</string>
+    <string name="fragment_feature_user_auth_admin_password_input_hint">Пароль</string>
+    <string name="fragment_feature_user_auth_admin_password_recovery_button_title">Забыли пароль?</string>
+    <string name="fragment_feature_user_auth_admin_login_button_title">Войти</string>
+    <string name="fragment_feature_user_auth_supervisor_error_password_not_inputted_message">Пожалуйста, введите ваш пароль</string>
+    <string name="fragment_feature_user_auth_supervisor_error_incorrect_password_message">Неверный пароль</string>
+
+    <string name="fragment_feature_user_auth_cashier_disclaimer_message">Пожалуйста, введите свой ПИН-код</string>
+    <string name="fragment_feature_user_auth_cashier_request_new_pin_code_button_title">Выслать ПИН-код еще раз?</string>
+    <string name="fragment_feature_user_auth_cashier_request_new_pin_code_alert_message_title">На ваш номер будет выслано СМС сообщение с новым ПИН кодом</string>
+    <string name="fragment_feature_user_auth_cashier_error_incorrect_pin_code_message">Неверный ПИН-код</string>
+</resources>

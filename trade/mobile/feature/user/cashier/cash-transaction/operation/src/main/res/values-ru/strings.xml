@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_cashier_cash_operations_creation_title">Кассовые операции</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_title">Отчёт</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_details_last_encashment">5. Итого инкассация</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_cash">6. Текущее количество \n наличных в кассе</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_cash_info">В кассе на начало смены</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_cash_title">1. Итого наличных</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_refund_title">Возвраты итого</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_refund_cash">Наличными</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_sale_title">2. Итого продаж</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_sale_cash">Наличные</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_adding_cash">3. Итого внесение\n наличности</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_returned_adding_cash">Возврат внесения</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_expense">4. Итого расходов</string>
+    <string name="fragment_feature_user_cashier_cash_operations_details_total_returned_expense">Возврат расхода</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_allowed_amount">Допустимая сумма %1$s</string>
+    <string name="fragment_feature_user_cashier_cash_operations_having_cash">Имеющие наличности %1$s</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_amount_input_hint">Сумма</string>
+    <string name="fragment_feature_user_cashier_cash_operations_info_input_hint">Инфо</string>
+    <string name="fragment_feature_user_cashier_cash_operations_operation_input_hint">Выберите операцию</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_error_amount_not_valid">Введите правильную сумму</string>
+    <string name="fragment_feature_user_cashier_cash_operations_error_operation_not_defined">Выберите операцию</string>
+
+    <string name="fragment_feature_user_cashier_cash_operations_process_allowed_amount">Допустимая сумма</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_having_cash">Имеющие наличности</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_cash_amount_disclaimer_text">Сумма кассовой операция от имеющие наличности\n%1$s</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_cash_amount">Сумма операция</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_print_check_description_text">Печать кассового чека</string>
+    <string name="fragment_feature_user_cashier_cash_operations_process_total_amount">Осталось</string>
+</resources>

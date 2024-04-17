@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fragment_feature_user_cashier_sale_space_in">4dp</dimen>
+    <dimen name="fragment_feature_user_cashier_sale_space_out">8dp</dimen>
+</resources>

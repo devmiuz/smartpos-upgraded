@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Presentation.Widget.RecyclerView" parent="Presentation">
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:overScrollMode">never</item>
+        <item name="android:scrollbars">vertical|horizontal</item>
+    </style>
+
+</resources>

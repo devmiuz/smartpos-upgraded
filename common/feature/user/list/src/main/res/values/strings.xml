@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_list_title">Users</string>
+
+    <string name="fragment_feature_user_list_delete_alert_message">Are you sure you want to delete %1$s?</string>
+    <string name="fragment_feature_user_list_delete_alert_title">Employee deletions</string>
+
+    <string name="menu_feature_user_list_creation_title">New employer</string>
+</resources>

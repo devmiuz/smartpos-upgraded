@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_branch_delete_title">Filialni o\'chirish</string>
+
+    <string name="fragment_feature_branch_delete_confirmation_code">Tasdiqlash kodi</string>
+    <string name="fragment_feature_branch_delete_confirmation_code_sent_to_your_phone">Sizni telefon raqamingizga tasdiqlash kodi bilan SMS-xabar yuborildi</string>
+    <string name="fragment_feature_branch_delete_delete_reason">Filialni o`chirish sababi</string>
+    <string name="fragment_feature_branch_delete_delete_info">Filial va uning barcha sozlamalari o`chiriladi</string>
+
+    <string name="fragment_feature_branch_delete_error_confirmation_code_not_valid">Tasdiqlash kodini kiriting</string>
+    <string name="fragment_feature_branch_delete_error_delete_reason_not_inputted">Filialni o\'chirish sababini kiriting</string>
+    <string name="fragment_feature_branch_delete_error_wrong_confirmation_code">Noto\'g\'ri tasdiqlash kodi</string>
+</resources>

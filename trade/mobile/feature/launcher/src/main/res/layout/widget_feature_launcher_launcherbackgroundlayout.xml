@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_feature_launcher_launcherbackgroundlayout_relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorAccent"
+    android:orientation="vertical"
+    tools:background="#4CAF50">
+
+    <LinearLayout
+        android:id="@+id/widget_feature_launcher_launcherbackgroundlayout_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/_24sdp"
+        android:paddingTop="@dimen/_48sdp"
+        android:paddingEnd="@dimen/_24sdp"
+        android:paddingBottom="@dimen/_24sdp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@android:id/icon"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_42sdp"
+            app:srcCompat="@drawable/drawable_feature_launcher_logo" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@android:id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:gravity="end"
+            android:paddingEnd="@dimen/_32sdp"
+            android:textAppearance="@style/Presentation.TextAppearance.Small"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_10sdp"
+            tools:text="Онлайн ККМ версия 2.2.1" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@android:id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:gravity="center"
+            android:textAppearance="@style/Presentation.TextAppearance.Title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_14sdp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/widget_feature_launcher_launcherbackgroundlayout_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/widget_feature_launcher_launcherbackgroundlayout_linearlayout"
+        android:foregroundGravity="center" />
+
+</RelativeLayout>

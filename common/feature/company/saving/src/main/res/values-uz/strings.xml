@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_company_saving_title">Kompaniya</string>
+    <string name="fragment_feature_company_saving_greetings_title">\n%1$sga hush kelibsiz</string>
+    <string name="fragment_feature_company_saving_greetings_message">Iltimos, kompaniyangiz haqida ma\'lumotlarni to\'ldiring</string>
+    <string name="fragment_feature_company_saving_required_data_title">Majburiy ma\'lumotlar</string>
+    <string name="fragment_feature_company_saving_activity_type_selection_title">+ Faoliyat sohasini qo\'shish</string>
+    <string name="fragment_feature_company_saving_surname_input_hint">Familiya</string>
+    <string name="fragment_feature_company_saving_name_input_hint">Ismi</string>
+    <string name="fragment_feature_company_saving_middle_name_input_hint">Sharifi</string>
+    <string name="fragment_feature_company_saving_company_business_type_hint">Turi</string>
+    <string name="fragment_feature_company_saving_company_name_input_hint">Kompaniya nomi</string>
+    <string name="fragment_feature_company_saving_additional_title">Qo\'shimcha ma\'lumotlar</string>
+    <string name="fragment_feature_company_saving_address_input_hint">Manzil</string>
+    <string name="fragment_feature_company_saving_tin_input_hint">STIR</string>
+
+    <string name="fragment_feature_company_saving_vat_title">QQS</string>
+    <string name="fragment_feature_company_saving_vat_percent_title">Soliq to\'lovchi hisoblanadi</string>
+    <string name="fragment_feature_company_saving_vat_percent_value">QQS solig\'i: %1$s%%</string>
+    <string name="fragment_feature_company_saving_vat_percent_change_button_title">O\'zgartirish</string>
+
+    <string name="fragment_feature_company_saving_error_activity_type_selection">Iltimos, faoliyat sohasini tanlang</string>
+    <string name="fragment_feature_company_saving_error_surname_input">Familiyani kiriting</string>
+    <string name="fragment_feature_company_saving_error_name_input">Ismini kiriting</string>
+    <string name="fragment_feature_company_saving_error_middle_name_input">Sharifini kiriting</string>
+    <string name="fragment_feature_company_saving_error_business_type_input">Turini tanlang</string>
+    <string name="fragment_feature_company_saving_error_company_name_input">Kompaniya nomini kiriting</string>
+    <string name="fragment_feature_company_saving_error_region_selection">Sohani tanlang</string>
+    <string name="fragment_feature_company_saving_error_city_selection">Shaharni tanlang</string>
+    <string name="fragment_feature_company_saving_error_address_input">Manzilni kiriting</string>
+</resources>

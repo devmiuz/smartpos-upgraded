@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StateLayout">
+        <attr name="icon_background_tint" format="color" />
+        <attr name="error_round_icon_background_tint" format="color" />
+        <attr name="empty_icon" format="reference" />
+        <attr name="error_icon" format="reference" />
+        <attr name="error_round_icon" format="reference" />
+        <attr name="empty_title" format="string" />
+        <attr name="error_title" format="string" />
+        <attr name="error_message" format="string" />
+        <attr name="error_button_title" format="string" />
+        <attr name="error_button_style" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="round" value="1" />
+        </attr>
+        <attr name="empty_icon_visible" format="boolean" />
+        <attr name="error_title_visible" format="boolean" />
+        <attr name="error_message_visible" format="boolean" />
+        <attr name="error_button_visible" format="boolean" />
+
+    </declare-styleable>
+
+    <string name="core_presentation_widget_state_layout_empty_message">Empty</string>
+
+</resources>

@@ -1,0 +1,7 @@
+package uz.uzkassa.smartpos.feature.product_marking.presentation.camera_scanner.di
+
+import javax.inject.Scope
+
+@Scope
+@Retention
+internal annotation class MarkingCameraScannerScope

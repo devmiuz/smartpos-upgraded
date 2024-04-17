@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_branch_saving_creation_title">Новый филиал</string>
+
+    <string name="fragment_feature_branch_saving_required_data_title">Обязательная информация</string>
+    <string name="fragment_feature_branch_saving_activity_type_selection_title">Выбрать тип филиала</string>
+    <string name="fragment_feature_branch_saving_activity_type_change_selection_title">Изменить тип филиала</string>
+    <string name="fragment_feature_branch_saving_branch_name_input_hint">Название филиала</string>
+    <string name="fragment_feature_branch_saving_additional_title">Дополнительная информация</string>
+    <string name="fragment_feature_branch_saving_address_input_hint">Адрес</string>
+
+    <string name="fragment_feature_branch_saving_error_activity_type_selection">Пожалуйста, выберите тип филиала</string>
+    <string name="fragment_feature_branch_saving_error_branch_name_input">Введите название филиала</string>
+    <string name="fragment_feature_branch_saving_error_region_selection">Выберите область</string>
+    <string name="fragment_feature_branch_saving_error_city_selection">Выберите город</string>
+    <string name="fragment_feature_branch_saving_error_address_input">Введите адрес</string>
+</resources>

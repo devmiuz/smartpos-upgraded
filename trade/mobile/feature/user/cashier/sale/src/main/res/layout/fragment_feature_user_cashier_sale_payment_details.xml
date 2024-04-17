@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:theme="@style/Presentation.Theme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:navigationIcon="@drawable/core_presentation_vector_drawable_arrow_left"
+            app:popupTheme="@style/Presentation.Theme.PopupOverlay"
+            app:title="@string/fragment_feature_user_cashier_sale_payment_details_title" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/actions_recycler_view"
+            style="@style/Presentation.Widget.RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="true"
+            android:fadeScrollbars="true"
+            android:maxHeight="@dimen/_170sdp"
+            android:paddingHorizontal="@dimen/_8sdp"
+            android:requiresFadingEdge="horizontal"
+            android:scrollbarDefaultDelayBeforeFade="200"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:itemCount="1"
+            tools:listitem="@layout/view_holder_feature_user_cashier_sale_payment_details_actions" />
+
+        <androidx.core.widget.NestedScrollView
+            style="@style/Presentation.Widget.NestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/payment_types_linear_layout"
+            app:layout_constraintTop_toBottomOf="@id/actions_recycler_view">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:nestedScrollingEnabled="false"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/_22sdp"
+                android:paddingRight="@dimen/_22sdp"
+                app:layout_constraintBottom_toTopOf="@id/payment_types_linear_layout"
+                app:layout_constraintTop_toBottomOf="@id/actions_recycler_view">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/amount_recycler_view"
+                    style="@style/Presentation.Widget.RecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:overScrollMode="never"
+                    android:fadeScrollbars="true"
+                    android:requiresFadingEdge="horizontal"
+                    android:scrollbars="none"
+                    tools:itemCount="3"
+                    tools:listitem="@layout/view_holder_feature_user_cashier_sale_payment_details_payment_amount" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:layout_marginBottom="@dimen/_4sdp"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="marquee"
+                        android:singleLine="true"
+                        android:text="@string/fragment_feature_user_cashier_sale_payment_details_to_pay_title"
+                        android:textAppearance="@style/Presentation.TextAppearance.Title" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/actual_amount_text_view"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:ellipsize="marquee"
+                        android:gravity="end"
+                        android:singleLine="true"
+                        android:textAppearance="@style/Presentation.TextAppearance.Title" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="marquee"
+                        android:singleLine="true"
+                        android:text="@string/fragment_feature_user_cashier_sale_payment_details_left_to_pay_title"
+                        android:textAppearance="@style/Presentation.TextAppearance.Title" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/left_amountext_view"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:ellipsize="marquee"
+                        android:gravity="end"
+                        android:singleLine="true"
+                        android:textAppearance="@style/Presentation.TextAppearance.Title" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:id="@+id/payment_types_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_12sdp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/sale_proceed_button"
+                    style="@style/Presentation.Widget.Button.RoundedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:text="@string/core_presentation_common_continue"
+                    android:textSize="@dimen/_10sdp"
+                    android:visibility="gone" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/cash_payment_type_btn"
+                    style="@style/Presentation.Widget.Button.RoundedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:text="@string/fragment_feature_user_cashier_sale_payment_details_pay_via_cash_button_title"
+                    android:textSize="@dimen/_9sdp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/humo_payment_btn"
+                    style="@style/Presentation.Widget.Button.RoundedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HUMO"
+                    android:textSize="@dimen/_9sdp" />
+
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/uzcard_btn"
+                    style="@style/Presentation.Widget.Button.RoundedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:text="Uzcard"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/_9sdp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/apay_payment_btn"
+                    style="@style/Presentation.Widget.Button.RoundedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#00BCD4"
+                    android:text="Apay"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/_9sdp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

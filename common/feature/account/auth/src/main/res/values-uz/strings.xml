@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_account_auth_login_title">Kirish</string>
+    <string name="fragment_feature_account_auth_login_phone_number_input_hint">Telefon raqami</string>
+    <string name="fragment_feature_account_auth_login_password_input_hint">Parol</string>
+    <string name="fragment_feature_account_auth_login_password_recovery_button_title">Parolni unutdingizmi?</string>
+    <string name="fragment_feature_account_auth_login_proceed_title">Kirish</string>
+    <string name="fragment_feature_account_auth_login_error_unauthorized_message">Noto\'g\'ri kirish ma\'lumotlari</string>
+</resources>

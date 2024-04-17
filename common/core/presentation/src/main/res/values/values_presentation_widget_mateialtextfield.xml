@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MaterialTextField">
+        <attr name="android:hint" format="string" />
+        <attr name="android:text" format="string" />
+        <attr name="boxBackgroundColor" format="color" />
+        <attr name="boxStrokeColor" format="color" />
+    </declare-styleable>
+
+</resources>

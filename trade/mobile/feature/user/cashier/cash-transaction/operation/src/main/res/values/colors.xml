@@ -1,0 +1,5 @@
+<resources>
+
+    <color name="color_feature_user_cashier_cash_operations_divider">#AAAAAA</color>
+    <color name="color_feature_user_cashier_cash_operations_receipt_background">#F5F5F5</color>
+</resources>

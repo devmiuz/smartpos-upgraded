@@ -1,0 +1,89 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlinx-serialization'
+
+android {
+    compileSdkVersion versions.android.compileSdk
+    namespace "uz.uzkassa.smartpos.feature.user.autoprint"
+
+    defaultConfig {
+        minSdkVersion versions.android.minSdk
+        targetSdkVersion versions.android.targetSdk
+        versionCode 1
+        versionName "1.0"
+
+        consumerProguardFiles 'consumer-rules.pro'
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [
+                        disableEmptyStrategyCheck: 'true',
+                        enableEmptyStrategyHelper: 'true',
+                        defaultMoxyStrategy      : 'moxy.viewstate.strategy.AddToEndSingleStrategy'
+                ]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    kotlinOptions { jvmTarget = "1.8" }
+
+    buildFeatures { viewBinding = true }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(path: ':common:core:data:manager:device')
+    implementation project(path: ':common:core:data:manager:printer')
+    implementation project(path: ':common:core:data:source:resources:receipt:receipt')
+    implementation project(path: ':common:core:data:source:fiscal')
+    implementation project(path: ':common:core:data:source:resources:branch')
+    implementation project(path: ':common:core:data:source:resources:company:company')
+    implementation project(path: ':common:core:data:source:resources:receipt:template')
+    implementation project(path: ':common:core:data:source:resources:shift:report')
+    implementation project(path: ':common:core:data:source:resources:receipt:cash-transaction')
+    implementation project(path: ':trade:mobile:feature:user:cashier:sale')
+    implementation project(path: ':trade:mobile:feature:user:cashier:refund')
+    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.androidx.testEspresso"
+    androidTestImplementation "androidx.test.ext:junit:$versions.androidx.testExtJunit"
+    androidTestImplementation "androidx.test:runner:$versions.androidx.testRunner"
+    testImplementation "junit:junit:$versions.junit.junit"
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$versions.kotlin.stdlib"
+
+    api project(':common:core:data:manager:coroutine')
+    api project(':common:core:data:source:resources:auth:user')
+    api project(':common:core:data:source:resources:user:user')
+    api project(":common:core:presentation")
+
+    implementation "com.google.dagger:dagger:$versions.google.dagger"
+    kapt "com.google.dagger:dagger-compiler:$versions.google.dagger"
+
+    implementation "com.github.moxy-community:moxy:$versions.moxy_community.moxy"
+    implementation "com.github.moxy-community:moxy-androidx:$versions.moxy_community.moxy"
+    implementation "com.github.moxy-community:moxy-ktx:$versions.moxy_community.moxy"
+    kapt "com.github.moxy-community:moxy-compiler:$versions.moxy_community.moxy"
+
+    implementation "com.github.valeryponomarenko.componentsmanager:androidx:$versions.valeryponomarenko.componentsmanager"
+
+    implementation "ru.terrakok.cicerone:cicerone:$versions.terrakok.cicerone"
+
+    implementation 'com.github.NaikSoftware:StompProtocolAndroid:1.6.6'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.5'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
+
+    implementation 'com.google.code.gson:gson:2.9.0'
+}

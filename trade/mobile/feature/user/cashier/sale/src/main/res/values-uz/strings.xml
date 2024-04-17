@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_user_cashier_sale_main_pause_shift_alert_title">Smena tanaffusi</string>
+    <string name="fragment_feature_user_cashier_sale_main_pause_shift_alert_message">Smenani to\'xtatmoqchi ekaningizga ishonchingiz komilmi?</string>
+    <string name="fragment_feature_user_cashier_sale_main_user_logout_alert_title">Chiqish</string>
+    <string name="fragment_feature_user_cashier_sale_main_user_logout_alert_message">Smenani yopib, undan chiqmoqchi ekaningizga ishonchingiz komilmi?</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_free_price_title">Erkin narx</string>
+    <string name="fragment_feature_user_cashier_sale_main_free_price_description_input">Narx</string>
+    <string name="fragment_feature_user_cashier_sale_main_free_price_error_not_inputted">Iltimos, summani kiriting</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_scanner_error_product_by_barcode_not_found">Tovar topilmadi</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_shopping_bag_title">Savdo</string>
+
+    <string name="fragment_feature_user_cashier_sale_payment_confirmation_alert_title">Tasdiqlash</string>
+    <string name="fragment_feature_user_cashier_sale_payment_confirmation_alert_message">To\'lovni rostdan tasdiqlaysizmi?</string>
+    <string name="fragment_feature_user_cashier_sale_payment_clear_credit_advance_dialog_message">Oldingi oynaga qaytilganda, birinchi to\'lov bekor qilinadi. Bunga rozimisiz?</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_title">Kechiktirilgan cheklar</string>
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_restore_with_creation_message">Joriy tovarlar cheklarini kechiktirmoqchimisiz?</string>
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_delete_title">Chekni o\'chirish</string>
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_delete_message">Quyidagi chekni o\'chirmoqchi ekaningizga ishonchingiz komilmi \"%1$s\"?</string>
+
+    <string name="fragment_feature_user_cashier_sale_cart_product_change_alert_title">Savdo o`zgartirish</string>
+    <string name="fragment_feature_user_cashier_sale_cart_product_change_alert_update_message">Mahsulotlarning umumiy summasi qabul qilingan to`lov miqdoridan kam bo`lmasligi kerak</string>
+    <string name="fragment_feature_user_cashier_sale_cart_product_change_alert_delete_message">Mahsulotlarning umumiy summasi qabul qilingan to`lov miqdoridan kam bo`lmasligi kerak</string>
+
+    <string name="credit_advance_payment_dialog_title">Kiritish</string>
+
+    <string name="credit_advance_payment_amount_text">To\'lov miqdori</string>
+    <string name="credit_advance_confirm_text">Tasdiqlash</string>
+    <string name="credit_advance_cancel_text">Bekor qilish</string>
+
+    <string name="credit_advance_receipt_type_dialog_title">Chek turini tanlang</string>
+    <string name="credit_advance_receipt_type_dialog_positive_button_text">Avans</string>
+    <string name="credit_advance_receipt_type_dialog_negative_button_text">Savdo</string>
+
+    <string name="credit_advance_receipt_receipt_verification_dialog_title">Xabar</string>
+    <string name="credit_advance_receipt_receipt_verification_dialog_message">Bu savdo allaqachon yakunlangan</string>
+
+    <string name="credit_advance_search_receipt_dialog_title">Qidirish</string>
+    <string name="credit_advance_customer_name_hint">Mijoz ismi</string>
+    <string name="credit_advance_customer_phone_hint">Mijoz telefon raqami</string>
+
+    <string name="credit_advance_first_payment_dialog_title">Boshlang\'ich to\'lov</string>
+
+    <string name="credit_advance_payment_amount_not_entered_error">To\'lov miqdori kiritilmagan</string>
+    <string name="credit_Advance_payment_amount_not_valid">Boshlang\'ich to\'lov mahsulotlar umumiy narxidan ko\'p bo\'lmasligi kerak</string>
+
+
+    <string name="fragment_feature_user_cashier_sale_cart_finish_shift_alert_title">Smenani yopish</string>
+    <string name="fragment_feature_user_cashier_sale_cart_finish_shift_alert_message">Iltimos, hozirgi smenani yoping</string>
+
+    <string name="fragment_feature_user_cashier_sale_cashier_card_type_title">Karta turi</string>
+
+    <string name="fragment_feature_user_cashier_sale_main_services_title">Xizmatlar</string>
+
+    <string name="fragment_feature_user_cashier_sale_payment_details_title">To\'lov</string>
+    <string name="fragment_feature_user_cashier_sale_payment_details_to_pay_title">To\'lovga</string>
+    <string name="fragment_feature_user_cashier_sale_payment_details_left_to_pay_title">Qoldiq</string>
+    <string name="fragment_feature_user_cashier_sale_payment_details_pay_via_cash_button_title">Naqd</string>
+    <string name="fragment_feature_user_cashier_sale_payment_details_pay_via_card_button_title">Karta</string>
+    <string name="fragment_feature_user_cashier_sale_payment_sale_finish_alert_message">Iltimos, hozirgi savdoni yakunlang</string>
+    <string name="fragment_feature_user_cashier_sale_payment_sale_finish_alert_title">Savdoni yakunlash</string>
+
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_title">Chekni kechiktirish</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_input_hint">Chekni nomi</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_name_template">Chek (%1$d ta mahsulot)</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_shopping_bag_items_count_description">Mahsulot soni: %1$d</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_payment_amount_description">Summa: %1$s</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_payment_proceed_button_title">Kechiktirish</string>
+
+    <string name="fragment_feature_user_cashier_sale_sale_payment_process_print_check_description_text">Kassa chekini chop etish</string>
+    <string name="fragment_feature_user_cashier_sale_sale_payment_process_change_amount_disclaimer_text">Qabul qilingan miqdordan qaytim\n%1$s</string>
+
+    <string name="fragment_feature_user_cashier_sale_sale_payment_process_credit_receipt">Kredit chek</string>
+    <string name="fragment_feature_user_cashier_sale_sale_payment_process_advance_receipt">Avans chek</string>
+
+
+    <string name="fragment_feature_user_cashier_sale_sync_successfully_finished">Sinxronlash muvaffaqiyatli yakunlandi</string>
+
+    <string name="layout_feature_user_cashier_sale_main_shopping_bag_payment_details_amount_description">To\'lov</string>
+
+    <string name="layout_feature_user_cashier_sale_drawerlayout_pause_shift_title">Smena tanaffusi</string>
+    <string name="layout_feature_user_cashier_sale_drawerlayout_close_shift_title">Chiqish va smenani yopish</string>
+
+    <string name="menu_feature_user_cashier_sale_main_barcode_scanner_menuitem_title">Shtrix-kodlarni skanerlash</string>
+    <string name="menu_feature_user_cashier_sale_receipt_draft_list_refresh_title">Yangilang</string>
+    <string name="menu_feature_user_cashier_sale_main_free_price_menuitem_title">Erkin narx</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_product_selection_empty_searched_products_message">So\'rovingiz bo\'yicha xech nima topilmadi</string>
+    <string name="viewholder_feature_user_cashier_sale_main_product_selection_empty_favorite_products_message">Tanlangan mahsulotlar yo\'q</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_shopping_bag_empty_state_title">Tovarni skanerlang yoki katalogdan qo\'shing</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_receipt_draft_items_count_value">%1$d mahsulotlar</string>
+    <string name="viewholder_feature_user_cashier_sale_main_receipt_draft_external_name">Чек от %1$s</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_services_apps">Ilovalar</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_calculator">Kalkulyator</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_receipt_draft">Kechiktirilgan cheklar</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_cash_operations">Kassa operatsiyalari</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_expense">Xarajatlar</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_gtpos">Terminal</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_refund">Qaytarish</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_phone">Telefon</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_product_search">Tovarlarni izlash</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_profit">Kirim</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_stocks">Aksiyalar</string>
+    <string name="viewholder_feature_user_cashier_sale_main_services_credit_advance">Kredit-avans</string>
+
+    <string name="viewholder_feature_user_cashier_sale_main_shopping_bag_item_free_price_title">Erkin narx</string>
+
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_app">Ilova</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_discount">Chegirma</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_receipt_check">Kechiktirish</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_send_check">Chekni yuborish</string>
+
+    <string name="viewholder_feature_user_cashier_sale_payment_details_payment_discount_title">Chegirma</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_payment_payment_title">To\'lov</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_input_hint_customer_name">Xaridor</string>
+    <string name="fragment_feature_user_cashier_sale_receipt_draft_creation_input_hint_customer_contact">Xaridor kontakti</string>
+    <string name="fragment_feature_user_cashier_sale_main_receipt_draft_list_search_hint">Поиск...</string>
+
+    <string name="fragment_feature_user_cashier_sale_payment_apay_request_message">To\'lov uchun Apay ilovasidan QR kodini skanerlang</string>
+    <string name="fragment_feature_user_cashier_sale_payment_apay_request_scan">Skanerlash</string>
+    <string name="fragment_feature_user_cashier_sale_payment_apay_request_title">APay orqali to\'lash</string>
+    <string name="fragment_feature_user_cashier_sale_main_synchronization">Fiskal ilovada majburiy sinxronlashni amalga oshiring</string>
+    <string name="fragment_feature_user_cashier_sale_main_sam_module_exception">SAM Module broken</string>
+    <string name="fragment_feature_user_cashier_sale_payment_apay_not_connect_alert_title">Siz A-pay tizimiga ulanmagansiz!</string>
+    <string name="fragment_feature_user_cashier_sale_payment_apay_not_connect_alert_message">A-pay tizimiga ulanish uchun +998(55) 500-11-10 telefon raqamiga murojaat qiling. Yoki tizimni Sinxronizatsiya qiling.</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_advance">Avans</string>
+    <string name="viewholder_feature_user_cashier_sale_payment_details_action_credit">Kredit</string>
+
+</resources>

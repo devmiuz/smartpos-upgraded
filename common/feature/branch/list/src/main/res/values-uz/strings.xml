@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_branch_list_title">Filiallar</string>
+    <string name="fragment_feature_branch_list_delete_alert_title">Filialni o\'chirish</string>
+    <string name="fragment_feature_branch_list_delete_alert_message">\"%1$s\" filialni o\'chirmoqchi ekaningizga ishonchingiz komilmi?</string>
+
+    <string name="menu_feature_branch_list_create_branch_title">Filialni yaratish</string>
+</resources>

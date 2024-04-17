@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_user_settings_common_surname_hint">Surname</string>
+    <string name="fragment_feature_user_settings_common_name_hint">Name</string>
+    <string name="fragment_feature_user_settings_common_last_name_hint">Last Name</string>
+    <string name="fragment_feature_user_settings_common_phone_number_hint">Phone number</string>
+
+    <string name="fragment_feature_user_settings_language_change_title">Change language</string>
+
+    <string name="fragment_feature_user_settings_details_title">Settings</string>
+    <string name="fragment_feature_user_settings_details_user_change_personal_data_button_title">Change personal data</string>
+    <string name="fragment_feature_user_settings_details_user_change_phone_number_button_title">Change phone number</string>
+    <string name="fragment_feature_user_settings_details_user_change_password_button_title">Change password</string>
+    <string name="fragment_feature_user_settings_details_user_change_pin_code_button_title">Change PIN code</string>
+    <string name="fragment_feature_user_settings_details_user_change_language_button_title">Change language</string>
+
+    <string name="fragment_feature_user_settings_details_personal_data_change_title">Personal data</string>
+    <string name="fragment_feature_user_settings_details_personal_data_last_name_empty_error">Last name is empty</string>
+    <string name="fragment_feature_user_settings_details_personal_data_name_empty_error">Name is empty</string>
+    <string name="fragment_feature_user_settings_details_personal_data_surname_empty_error">Surname is empty</string>
+    <string name="fragment_feature_user_settings_details_personal_data_change_save_button_title">Save</string>
+
+    <string name="fragment_feature_user_settings_password_change_title">Password changing</string>
+    <string name="fragment_feature_user_settings_password_change_old_password_hint">Old password</string>
+    <string name="fragment_feature_user_settings_password_change_new_password_hint">New password</string>
+    <string name="fragment_feature_user_settings_password_change_old_password_error">Please input a valid old password</string>
+    <string name="fragment_feature_user_settings_password_change_new_password_error">Please input a valid new password</string>
+    <string name="fragment_feature_user_settings_password_change_error_incorrect_password">Incorrect password</string>
+    <string name="fragment_feature_user_settings_common_change_title">Change</string>
+
+    <string name="fragment_feature_user_settings_phone_number_change_title">Phone number changing</string>
+    <string name="fragment_feature_user_settings_phone_number_change_error">Please input a valid phone number</string>
+    <string name="fragment_feature_user_settings_phone_number_change_error_cause_user_exists">User with inputted phone number already exists</string>
+
+</resources>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fragment_feature_user_saving_required_fields_title">Majburiy kataklar</string>
+    <string name="fragment_feature_user_saving_surname_title">Familiya</string>
+    <string name="fragment_feature_user_saving_name_title">Ismi</string>
+    <string name="fragment_feature_user_saving_middle_name_title">Sharifi</string>
+    <string name="fragment_feature_user_saving_branch_title">Filial</string>
+    <string name="fragment_feature_user_saving_user_role_title">Lavozim</string>
+    <string name="fragment_feature_user_saving_phone_number_title">Xodimning telefon raqami</string>
+    <string name="fragment_feature_user_saving_email_title">Xodimning e-maili</string>
+    <string name="fragment_feature_user_saving_personal_data_title">Shaxsiy ma\'lumotlar</string>
+    <string name="fragment_feature_user_saving_passport_number_title">Pasport seriyasi va raqami</string>
+    <string name="fragment_feature_user_saving_employment_start_date_title">Ishga qabul qilish sanasi</string>
+
+    <string name="fragment_feature_user_saving_error_user_already_exists">Kiritilgan telefon raqami foydalanuvchisi mavjud</string>
+    <string name="fragment_feature_user_saving_error_user_surname_not_inputted">Familiyani kiriting</string>
+    <string name="fragment_feature_user_saving_error_user_name_not_inputted">Ismini kiriting</string>
+    <string name="fragment_feature_user_saving_error_user_middle_name_not_inputted">Sharifini kiriting</string>
+    <string name="fragment_feature_user_saving_error_user_branch_not_selected">Filialni tanlang</string>
+    <string name="fragment_feature_user_saving_error_user_role_not_selected">Lavozimni tanlang</string>
+    <string name="fragment_feature_user_saving_error_user_phone_number_not_selected">Telefon raqamini kiriting</string>
+    <string name="fragment_feature_user_saving_error_user_start_date_not_selected">Ishga qabul qilish sanasini tanlang</string>
+    <string name="fragment_feature_user_saving_error_user_probation_end_not_selected">Sinov muddatining tugash sanasinu tanlang</string>
+
+    <string name="fragment_feature_user_saving_creation_title">Yangi xodim</string>
+    <string name="fragment_feature_user_saving_update_title">Ma\'lumotlarni tahrirlash</string>
+</resources>

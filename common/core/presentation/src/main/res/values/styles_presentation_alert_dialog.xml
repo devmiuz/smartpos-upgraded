@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Presentation.AlertDialog" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_4sdp</item>
+    </style>
+
+    <style name="Presentation.Dialog" parent="@style/ThemeOverlay.MaterialComponents.Dialog">
+        <item name="dialogCornerRadius">@dimen/_40sdp</item>
+    </style>
+
+</resources>

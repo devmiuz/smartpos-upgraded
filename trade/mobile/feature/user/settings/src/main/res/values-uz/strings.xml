@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="fragment_feature_user_settings_common_change_title">O\'zgartirish</string>
+    <string name="fragment_feature_user_settings_common_surname_hint">Familiya</string>
+    <string name="fragment_feature_user_settings_common_name_hint">Ismi</string>
+    <string name="fragment_feature_user_settings_common_last_name_hint">Sharifi</string>
+    <string name="fragment_feature_user_settings_common_phone_number_hint">Telefon raqami</string>
+
+    <string name="fragment_feature_user_settings_language_change_title">Tilni o\'zgartirish</string>
+
+    <string name="fragment_feature_user_settings_details_title">Sozlamalar</string>
+    <string name="fragment_feature_user_settings_details_user_change_personal_data_button_title">Shaxsiy ma\'lumotlarni o\'zgartirish</string>
+    <string name="fragment_feature_user_settings_details_user_change_phone_number_button_title">Telefon raqamini o\'zgartirish</string>
+    <string name="fragment_feature_user_settings_details_user_change_password_button_title">Parolni o\'zgartirish</string>
+    <string name="fragment_feature_user_settings_details_user_change_pin_code_button_title">PIN-kodni o\'zgartirish</string>
+    <string name="fragment_feature_user_settings_details_user_change_language_button_title">Tilni o\'zgartirish</string>
+
+    <string name="fragment_feature_user_settings_details_personal_data_change_title">Shaxsiy ma\'lumotlar</string>
+    <string name="fragment_feature_user_settings_details_personal_data_last_name_empty_error">Sharifini kiriting</string>
+    <string name="fragment_feature_user_settings_details_personal_data_name_empty_error">Ismini kiriting</string>
+    <string name="fragment_feature_user_settings_details_personal_data_surname_empty_error">Familiyani kiriting</string>
+    <string name="fragment_feature_user_settings_details_personal_data_change_save_button_title">Saqlash</string>
+
+    <string name="fragment_feature_user_settings_password_change_title">Parolni o\'zgartirish</string>
+    <string name="fragment_feature_user_settings_password_change_old_password_hint">Eski parol</string>
+    <string name="fragment_feature_user_settings_password_change_new_password_hint">Yangi parol</string>
+    <string name="fragment_feature_user_settings_password_change_old_password_error">Eski parolni kiriting</string>
+    <string name="fragment_feature_user_settings_password_change_new_password_error">Yangi parolni kiriting</string>
+    <string name="fragment_feature_user_settings_password_change_error_incorrect_password">Noto\'g\'ri parol</string>
+
+    <string name="fragment_feature_user_settings_phone_number_change_title">Telefon raqamining o\'zgarishi</string>
+    <string name="fragment_feature_user_settings_phone_number_change_error">Iltimos, telefon raqamini kiriting</string>
+    <string name="fragment_feature_user_settings_phone_number_change_error_cause_user_exists">Ushbu raqam foydalanuvchisi mavjud</string>
+
+</resources>
